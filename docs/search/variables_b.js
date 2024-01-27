@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['m_5factive_5fpointers_0',['m_active_pointers',['../classbave_1_1App.html#a7c6dcfcf3e81e124604e17805eeb8191',1,'bave::App']]],
+  ['m_5fbuffer_1',['m_buffer',['../classbave_1_1ImInputText.html#a3a0a3b796f4461bebd2b78375b340cf5',1,'bave::ImInputText']]],
+  ['m_5fgesture_5frecognizer_2',['m_gesture_recognizer',['../classbave_1_1App.html#aa7e10d14454aec611460b698b612c684',1,'bave::App']]],
+  ['m_5fimage_3',['m_image',['../classbave_1_1Texture.html#a25e3aabc8531213a4106f5fa72e38a12',1,'bave::Texture']]],
+  ['m_5flog_4',['m_log',['../classbave_1_1App.html#a05e2bfdf0c2cb09f087c30291324e168',1,'bave::App::m_log'],['../classbave_1_1DataStore.html#a1d73e7d765d2924468b4c43c85c2887f',1,'bave::DataStore::m_log']]],
+  ['m_5fmax_5fsize_5',['m_max_size',['../classbave_1_1Sprite.html#a4298a33b98abe5a9497d6f1e5d8f2917',1,'bave::Sprite']]],
+  ['m_5fprefix_6',['m_prefix',['../classbave_1_1DataStore.html#a50f8ce74d46ec6974522f5503b4dbc0b',1,'bave::DataStore']]],
+  ['m_5frender_5fdevice_7',['m_render_device',['../classbave_1_1Texture.html#a65c06ffb183d074d4e97e2368459d09f',1,'bave::Texture']]],
+  ['mag_8',['mag',['../structbave_1_1Texture_1_1Sampler.html#a135cba9da455efcb170e7489e8fd4b25',1,'bave::Texture::Sampler']]],
+  ['magenta_5fv_9',['magenta_v',['../namespacebave.html#a7f136adf33aacd2c124fb809bc63847b',1,'bave']]],
+  ['major_10',['major',['../structbave_1_1Version.html#a825d0a73fd1f4c0ecf354bc2a3eea620',1,'bave::Version']]],
+  ['max_5fsfxs_5fv_11',['max_sfxs_v',['../classbave_1_1AudioDevice.html#a85b0c2c7e8e3765591c11708c27313b8',1,'bave::AudioDevice']]],
+  ['max_5ftextures_5fv_12',['max_textures_v',['../classbave_1_1Shader.html#a9d1d18866fd0c61c30b4bb1dc37a2ac9',1,'bave::Shader']]],
+  ['max_5ftimeout_5fv_13',['max_timeout_v',['../classbave_1_1RenderDevice.html#a8f5fd2a240878f16278a390f60ec267b',1,'bave::RenderDevice']]],
+  ['max_5fv_14',['max_v',['../structbave_1_1Rgba.html#a13b8af9be2fa6fdd683c955f565f11af',1,'bave::Rgba']]],
+  ['min_15',['min',['../structbave_1_1Texture_1_1Sampler.html#a8877a23e0aca37c328b3da48ffb79ec0',1,'bave::Texture::Sampler']]],
+  ['min_5fwidth_5fv_16',['min_width_v',['../classbave_1_1Pixmap_1_1Builder.html#a52816b412c2ad5b5ce7633aa8433d584',1,'bave::Pixmap::Builder']]],
+  ['minor_17',['minor',['../structbave_1_1Version.html#a5fe7224bf5017d31e8ab2d30d107f4d6',1,'bave::Version']]],
+  ['mode_18',['mode',['../structbave_1_1DesktopApp_1_1CreateInfo.html#ae569119110e7c08751ebcd72039e115a',1,'bave::DesktopApp::CreateInfo']]],
+  ['modifiers_19',['modifiers',['../classbave_1_1ParticleEmitter.html#a6235b6c11c11fdf23a3be5d6b0730e16',1,'bave::ParticleEmitter']]],
+  ['mods_20',['mods',['../structbave_1_1KeyInput.html#ae7d34c24a2eae583244b4e68f1b293a9',1,'bave::KeyInput::mods'],['../structbave_1_1PointerTap.html#a4642a11b6e25e35a568386c068d8a092',1,'bave::PointerTap::mods']]]
+];
