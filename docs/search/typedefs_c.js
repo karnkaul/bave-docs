@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadshape_0',['QuadShape',['../namespacebave.html#a11dc060fbae2ae69bcd18201251c2ecc',1,'bave']]]
+  ['ptr_0',['Ptr',['../namespacebave.html#a43ebdec65de340b63bfa89a465ecfea0',1,'bave']]]
 ];

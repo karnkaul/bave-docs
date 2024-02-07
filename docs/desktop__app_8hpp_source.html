@@ -178,7 +178,7 @@ $(function(){initNavTree('desktop__app_8hpp_source.html',''); initResizable(); }
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> do_shutdown() final;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    [[nodiscard]] auto do_get_native_features() const -&gt; <a class="code hl_typedef" href="classbave_1_1App.html#ad0c034e8b1b1cbb1dfe2cbdbab6c0666">FeatureFlags</a> final;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    [[nodiscard]] auto do_get_native_features() const -&gt; <a class="code hl_class" href="classbave_1_1EnumFlags.html">FeatureFlags</a> final;</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    [[nodiscard]] auto do_get_window_size() const -&gt; glm::ivec2 final;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    [[nodiscard]] auto do_get_framebuffer_size() const -&gt; glm::ivec2 final;</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
@@ -199,25 +199,27 @@ $(function(){initNavTree('desktop__app_8hpp_source.html',''); initResizable(); }
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> make_window();</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> init_graphics();</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    CreateInfo m_create_info{};</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    ScopedResource&lt;LogFile, LogFile::Deleter&gt; m_log_file{};</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    ScopedResource&lt;Glfw, Glfw::Deleter&gt; m_glfw{};</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    std::unique_ptr&lt;GLFWwindow, Glfw::Deleter&gt; m_window{};</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    std::unique_ptr&lt;RenderDevice&gt; m_render_device{};</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    vk::UniqueSurfaceKHR m_surface{};</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    std::unique_ptr&lt;Renderer&gt; m_renderer{};</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    std::unique_ptr&lt;detail::DearImGui&gt; m_dear_imgui{};</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    std::unique_ptr&lt;Driver&gt; m_driver{};</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>};</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">void</span> update_gamepads();</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    CreateInfo m_create_info{};</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    ScopedResource&lt;LogFile, LogFile::Deleter&gt; m_log_file{};</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    ScopedResource&lt;Glfw, Glfw::Deleter&gt; m_glfw{};</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    std::unique_ptr&lt;GLFWwindow, Glfw::Deleter&gt; m_window{};</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    std::unique_ptr&lt;RenderDevice&gt; m_render_device{};</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    vk::UniqueSurfaceKHR m_surface{};</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    std::unique_ptr&lt;Renderer&gt; m_renderer{};</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    std::unique_ptr&lt;detail::DearImGui&gt; m_dear_imgui{};</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    std::unique_ptr&lt;Driver&gt; m_driver{};</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>};</div>
 </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>} <span class="comment">// namespace bave</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>} <span class="comment">// namespace bave</span></div>
 <div class="ttc" id="aapp_8hpp_html"><div class="ttname"><a href="app_8hpp.html">app.hpp</a></div></div>
-<div class="ttc" id="aclassbave_1_1App_html"><div class="ttname"><a href="classbave_1_1App.html">bave::App</a></div><div class="ttdoc">Application API and entrypoint.</div><div class="ttdef"><b>Definition</b> app.hpp:30</div></div>
-<div class="ttc" id="aclassbave_1_1App_html_ad0c034e8b1b1cbb1dfe2cbdbab6c0666"><div class="ttname"><a href="classbave_1_1App.html#ad0c034e8b1b1cbb1dfe2cbdbab6c0666">bave::App::FeatureFlags</a></div><div class="ttdeci">std::bitset&lt; Feature::count_v &gt; FeatureFlags</div><div class="ttdoc">Bitset of feature flags.</div><div class="ttdef"><b>Definition</b> app.hpp:42</div></div>
+<div class="ttc" id="aclassbave_1_1App_html"><div class="ttname"><a href="classbave_1_1App.html">bave::App</a></div><div class="ttdoc">Application API and entrypoint.</div><div class="ttdef"><b>Definition</b> app.hpp:32</div></div>
 <div class="ttc" id="aclassbave_1_1CString_html"><div class="ttname"><a href="classbave_1_1CString.html">bave::CString</a></div><div class="ttdoc">Wrapper over a C string (char const*).</div><div class="ttdef"><b>Definition</b> c_string.hpp:6</div></div>
 <div class="ttc" id="aclassbave_1_1DesktopApp_html"><div class="ttname"><a href="classbave_1_1DesktopApp.html">bave::DesktopApp</a></div><div class="ttdoc">Concrete App for desktop.</div><div class="ttdef"><b>Definition</b> desktop_app.hpp:29</div></div>
 <div class="ttc" id="aclassbave_1_1DesktopApp_html_a5c75084f897cb4f5695fff94a74c09e1"><div class="ttname"><a href="classbave_1_1DesktopApp.html#a5c75084f897cb4f5695fff94a74c09e1">bave::DesktopApp::DesktopApp</a></div><div class="ttdeci">DesktopApp(CreateInfo create_info)</div><div class="ttdoc">Constructor.</div></div>
 <div class="ttc" id="aclassbave_1_1Driver_html"><div class="ttname"><a href="classbave_1_1Driver.html">bave::Driver</a></div><div class="ttdoc">Customization point for user code.</div><div class="ttdef"><b>Definition</b> driver.hpp:13</div></div>
+<div class="ttc" id="aclassbave_1_1EnumFlags_html"><div class="ttname"><a href="classbave_1_1EnumFlags.html">bave::EnumFlags</a></div><div class="ttdoc">Enum-indexed wrapper around std::bitset.</div><div class="ttdef"><b>Definition</b> enum_flags.hpp:8</div></div>
 <div class="ttc" id="aclassbave_1_1RenderDevice_html"><div class="ttname"><a href="classbave_1_1RenderDevice.html">bave::RenderDevice</a></div><div class="ttdoc">Vulkan rendering device.</div><div class="ttdef"><b>Definition</b> render_device.hpp:31</div></div>
 <div class="ttc" id="aclassbave_1_1Renderer_html"><div class="ttname"><a href="classbave_1_1Renderer.html">bave::Renderer</a></div><div class="ttdef"><b>Definition</b> renderer.hpp:14</div></div>
 <div class="ttc" id="adriver_8hpp_html"><div class="ttname"><a href="driver_8hpp.html">driver.hpp</a></div></div>

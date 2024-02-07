@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['modifiers_0',['Modifiers',['../classbave_1_1ParticleEmitter.html#a8449e0fb3365aa78011dd8c28e68d62c',1,'bave::ParticleEmitter']]]
+  ['linerectshape_0',['LineRectShape',['../namespacebave.html#a6e3838a499289de6876eaf44ca4d11f0',1,'bave']]]
 ];

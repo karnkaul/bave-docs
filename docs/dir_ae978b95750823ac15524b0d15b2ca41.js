@@ -1,13 +1,15 @@
 var dir_ae978b95750823ac15524b0d15b2ca41 =
 [
     [ "c_string.hpp", "c__string_8hpp.html", "c__string_8hpp" ],
+    [ "enum_array.hpp", "enum__array_8hpp.html", "enum__array_8hpp" ],
+    [ "enum_flags.hpp", "enum__flags_8hpp.html", "enum__flags_8hpp" ],
+    [ "enum_t.hpp", "enum__t_8hpp.html", "enum__t_8hpp" ],
     [ "error.hpp", "error_8hpp.html", "error_8hpp" ],
     [ "fixed_string.hpp", "fixed__string_8hpp.html", "fixed__string_8hpp" ],
     [ "hash_combine.hpp", "hash__combine_8hpp.html", "hash__combine_8hpp" ],
     [ "inclusive_range.hpp", "inclusive__range_8hpp.html", "inclusive__range_8hpp" ],
     [ "index_2d.hpp", "index__2d_8hpp.html", "index__2d_8hpp" ],
     [ "is_positive.hpp", "is__positive_8hpp.html", "is__positive_8hpp" ],
-    [ "make_bitset.hpp", "make__bitset_8hpp.html", "make__bitset_8hpp" ],
     [ "not_null.hpp", "not__null_8hpp.html", "not__null_8hpp" ],
     [ "pinned.hpp", "pinned_8hpp.html", "pinned_8hpp" ],
     [ "polymorphic.hpp", "polymorphic_8hpp.html", "polymorphic_8hpp" ],

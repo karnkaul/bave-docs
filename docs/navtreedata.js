@@ -25,7 +25,13 @@
 var NAVTREE =
 [
   [ "bave", "index.html", [
-    [ "bave Reference", "index.html", null ],
+    [ "API Reference", "index.html", null ],
+    [ "Changelog", "md_lib_2docs_2changelog.html", [
+      [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md1", [
+        [ "Features", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
+        [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md3", null ]
+      ] ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -59,14 +65,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8hpp.html",
-"classbave_1_1DesktopApp.html#a5c75084f897cb4f5695fff94a74c09e1",
-"classbave_1_1Pinned.html#a1400d6e359213f795122a7418e69503f",
-"classbave_1_1SpriteAnim.html",
-"functions_func_s.html",
-"mods_8hpp.html#a2045fd4be3314dff2b557537a37defff",
-"namespacebave_1_1mod.html#a02d3418e12eb0d2cc732c0bbdedbf744",
-"structbave_1_1Index2D.html#a1bfcd07cc34a2ffc59f7673d49c9b06e",
-"structbave_1_1Rgba.html#a2c238f63cd2245d4c8b2763bdd8fd2da"
+"classbave_1_1DataStore.html#a1d73e7d765d2924468b4c43c85c2887f",
+"classbave_1_1Loader.html#a4550bc9b8d3e2d701a7b5a57d2812b4b",
+"classbave_1_1ScopedResource.html#a770ca881e5b8aff3d0db6edeca370d75",
+"conceptbave_1_1StringyT.html",
+"key_8hpp.html#a29a9523f73dfc64b112140481d5b554ca103185db2aa7fabb09672d4604d07281",
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca9b99cd9a69140a1d7c7d483df619ea02",
+"rgba_8hpp.html#a729fcca01775600d6e33741acef59e35",
+"structbave_1_1NineQuad_1_1Size.html",
+"structbave_1_1TileSheet.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

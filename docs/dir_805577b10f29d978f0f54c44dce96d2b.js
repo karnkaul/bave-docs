@@ -7,7 +7,7 @@ var dir_805577b10f29d978f0f54c44dce96d2b =
     [ "geometry.hpp", "geometry_8hpp.html", "geometry_8hpp" ],
     [ "gpu.hpp", "gpu_8hpp.html", "gpu_8hpp" ],
     [ "image_file.hpp", "image__file_8hpp.html", "image__file_8hpp" ],
-    [ "particle_emitter.hpp", "particle__emitter_8hpp.html", "particle__emitter_8hpp" ],
+    [ "particle_system.hpp", "particle__system_8hpp.html", "particle__system_8hpp" ],
     [ "pixmap.hpp", "pixmap_8hpp.html", "pixmap_8hpp" ],
     [ "projector.hpp", "projector_8hpp.html", "projector_8hpp" ],
     [ "rect.hpp", "rect_8hpp.html", "rect_8hpp" ],
@@ -26,5 +26,6 @@ var dir_805577b10f29d978f0f54c44dce96d2b =
     [ "texture_9slice.hpp", "texture__9slice_8hpp.html", "texture__9slice_8hpp" ],
     [ "texture_atlas.hpp", "texture__atlas_8hpp.html", "texture__atlas_8hpp" ],
     [ "tile_sheet.hpp", "tile__sheet_8hpp.html", "tile__sheet_8hpp" ],
+    [ "topology.hpp", "topology_8hpp.html", "topology_8hpp" ],
     [ "transform.hpp", "transform_8hpp.html", "transform_8hpp" ]
 ];

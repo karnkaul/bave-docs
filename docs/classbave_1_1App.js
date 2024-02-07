@@ -1,8 +1,14 @@
 var classbave_1_1App =
 [
-    [ "Feature", "structbave_1_1App_1_1Feature.html", null ],
     [ "Bootloader", "classbave_1_1App.html#abd9137beca1b0192ee1f20e8efc9b800", null ],
-    [ "FeatureFlags", "classbave_1_1App.html#ad0c034e8b1b1cbb1dfe2cbdbab6c0666", null ],
+    [ "FeatureFlags", "classbave_1_1App.html#ab94c9be12de76c7dab24b82ec5ad64d0", null ],
+    [ "Feature", "classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19e", [
+      [ "eResizeable", "classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19eac550d58a386910770a3ffd0daccf6bc7", null ],
+      [ "eHasTitle", "classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19ea42b0231cfffbea320b071a842c617b5d", null ],
+      [ "eHasIcon", "classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19eabb5099af8413e2f36e24aaa14a855f27", null ],
+      [ "eValidationLayers", "classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19eae891e8fd587f73fceb550b8eb29e851e", null ],
+      [ "eCOUNT_", "classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19ea98ce873df53900dd5454baba574ecb06", null ]
+    ] ],
     [ "App", "classbave_1_1App.html#a0ab6f62fb46df6265d9830335c75764c", null ],
     [ "boot_driver", "classbave_1_1App.html#a0018238d10113a63a9a8794b1134a4b7", null ],
     [ "change_mount_point", "classbave_1_1App.html#a0da0269a6b5cbec778cbc31e567b4b0c", null ],
@@ -17,7 +23,11 @@ var classbave_1_1App =
     [ "get_features", "classbave_1_1App.html#aa018879254ee052db120875165474906", null ],
     [ "get_file_drops", "classbave_1_1App.html#a5c3f3c52d68986384f46e04aaaa4590e", null ],
     [ "get_framebuffer_size", "classbave_1_1App.html#a56957b5166a64ec9a854421465e311b0", null ],
+    [ "get_gamepad", "classbave_1_1App.html#ae9b67dc031e00b3f2c14090dbe6ab211", null ],
+    [ "get_gamepads", "classbave_1_1App.html#a6ef631a833bdc4fc24a883a2889b4cae", null ],
     [ "get_gesture_recognizer", "classbave_1_1App.html#ae328781c62b5dac6f362a0ae6fe7b080", null ],
+    [ "get_key_state", "classbave_1_1App.html#a3e9f3bb2996e2649cc735859a261615f", null ],
+    [ "get_most_recent_gamepad", "classbave_1_1App.html#afa925bac6152d6a35200c5a4c96fe863", null ],
     [ "get_pipeline_cache", "classbave_1_1App.html#a88ce9f288f67b7b56e40788ea577921e", null ],
     [ "get_render_device", "classbave_1_1App.html#aee234d1039f4985f12548721372c778f", null ],
     [ "get_renderer", "classbave_1_1App.html#afadce2faec9476874a97a2615e4b4c4a", null ],
@@ -38,6 +48,9 @@ var classbave_1_1App =
     [ "shutdown", "classbave_1_1App.html#aeb0aff66175a0faaa1c272dfa3513b45", null ],
     [ "start_next_frame", "classbave_1_1App.html#a79576c9af42ee590d3f09eeb3fe2f1cf", null ],
     [ "m_active_pointers", "classbave_1_1App.html#a7c6dcfcf3e81e124604e17805eeb8191", null ],
+    [ "m_gamepads", "classbave_1_1App.html#a7c7b57d3cd5adc196ecf451a19933ef3", null ],
     [ "m_gesture_recognizer", "classbave_1_1App.html#aa7e10d14454aec611460b698b612c684", null ],
-    [ "m_log", "classbave_1_1App.html#a05e2bfdf0c2cb09f087c30291324e168", null ]
+    [ "m_key_state", "classbave_1_1App.html#a65d9b6fe56973cc8e3f18dba19f0eac1", null ],
+    [ "m_log", "classbave_1_1App.html#a05e2bfdf0c2cb09f087c30291324e168", null ],
+    [ "m_most_recent_gamepad", "classbave_1_1App.html#aac579d240a7884a2d396418bbca75154", null ]
 ];

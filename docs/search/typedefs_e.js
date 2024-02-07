@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['seconds_0',['Seconds',['../namespacebave.html#a2b3fb78c91469a4a24bd72440e6a7921',1,'bave']]],
-  ['seed_5ftype_1',['seed_type',['../classbave_1_1BasicRandom.html#ac383d2f72fa99350567b57b390c5631c',1,'bave::BasicRandom']]],
-  ['soundsource_2',['SoundSource',['../namespacebave.html#a4fa12b89082354f145c73cd00d810e0d',1,'bave']]],
-  ['state_3',['State',['../classbave_1_1GestureRecognizer.html#a7277039d3a3af1e2c9ab5dc5f1967c09',1,'bave::GestureRecognizer']]],
-  ['streamsource_4',['StreamSource',['../namespacebave.html#a7eb095c11f16412de55a1a7995b424a1',1,'bave']]]
+  ['random_0',['Random',['../namespacebave.html#a5dab68f56885b23d7b9137e6a89294b5',1,'bave']]],
+  ['real_1',['Real',['../structbave_1_1RandomPolicyUniform.html#a4d7f69227b890603b425791ec7b60198',1,'bave::RandomPolicyUniform']]],
+  ['real_5ftype_2',['real_type',['../classbave_1_1BasicRandom.html#af544d22f0a4271e53dd24905a9b36063',1,'bave::BasicRandom']]],
+  ['roundedquadshape_3',['RoundedQuadShape',['../namespacebave.html#a70f8322fb6c58d62b9280167b87edac4',1,'bave']]]
 ];

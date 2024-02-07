@@ -5,6 +5,7 @@ var concepts =
         [ "ParseableT", "conceptbave_1_1clap_1_1ParseableT.html", null ],
         [ "BindableT", "conceptbave_1_1clap_1_1BindableT.html", null ]
       ] ],
+      [ "EnumT", "conceptbave_1_1EnumT.html", null ],
       [ "PointerLike", "conceptbave_1_1PointerLike.html", null ],
       [ "NumericT", "conceptbave_1_1NumericT.html", null ],
       [ "StringyT", "conceptbave_1_1StringyT.html", null ]

@@ -93,7 +93,6 @@ $(function(){initNavTree('structbave_1_1Geometry.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structbave_1_1Geometry-members.html">List of all members</a>  </div>
@@ -101,150 +100,29 @@ $(function(){initNavTree('structbave_1_1Geometry.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 
-<p>Collection of vertices and indices representing a graphics draw primitive.  
+<p><a class="el" href="structbave_1_1VertexArray.html" title="Collection of vertices and indices representing a graphics draw primitive.">VertexArray</a> and its Topology.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ac13b8e8a877e53b968486aee27cc03ac" id="r_ac13b8e8a877e53b968486aee27cc03ac"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac13b8e8a877e53b968486aee27cc03ac">append</a> (std::span&lt; <a class="el" href="structbave_1_1Vertex.html">Vertex</a> const &gt; vs, std::span&lt; std::uint32_t const &gt; is) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td></tr>
-<tr class="separator:ac13b8e8a877e53b968486aee27cc03ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac88ad6b58fb2f088c09a770af85b41d7" id="r_ac88ad6b58fb2f088c09a770af85b41d7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac88ad6b58fb2f088c09a770af85b41d7">append</a> (<a class="el" href="structbave_1_1Quad.html">Quad</a> const &amp;quad) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td></tr>
-<tr class="separator:ac88ad6b58fb2f088c09a770af85b41d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c49b8aa5ebe3c2035ddba46de936143" id="r_a3c49b8aa5ebe3c2035ddba46de936143"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c49b8aa5ebe3c2035ddba46de936143">append</a> (<a class="el" href="structbave_1_1Circle.html">Circle</a> const &amp;circle) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td></tr>
-<tr class="separator:a3c49b8aa5ebe3c2035ddba46de936143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8f7e88a66ee5999db4fbb8b0aa43e22" id="r_ae8f7e88a66ee5999db4fbb8b0aa43e22"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8f7e88a66ee5999db4fbb8b0aa43e22">append</a> (<a class="el" href="structbave_1_1RoundedQuad.html">RoundedQuad</a> const &amp;rounded_quad) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td></tr>
-<tr class="separator:ae8f7e88a66ee5999db4fbb8b0aa43e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb86c77359bda3817331489fc3966e07" id="r_abb86c77359bda3817331489fc3966e07"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb86c77359bda3817331489fc3966e07">append</a> (<a class="el" href="structbave_1_1NineQuad.html">NineQuad</a> const &amp;nine_quad) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td></tr>
-<tr class="separator:abb86c77359bda3817331489fc3966e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2adbe6ae1d95a7ec059c2c00286ff5d8" id="r_a2adbe6ae1d95a7ec059c2c00286ff5d8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2adbe6ae1d95a7ec059c2c00286ff5d8">append</a> (<a class="el" href="structbave_1_1LineRect.html">LineRect</a> const &amp;rect) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td></tr>
-<tr class="separator:a2adbe6ae1d95a7ec059c2c00286ff5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a84117e778b56656e8f4ab2d410b67102" id="r_a84117e778b56656e8f4ab2d410b67102"><td class="memTemplParams" colspan="2">template&lt;typename ShapeT &gt; </td></tr>
-<tr class="memitem:a84117e778b56656e8f4ab2d410b67102"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a84117e778b56656e8f4ab2d410b67102">from</a> (ShapeT const &amp;shape) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a></td></tr>
-<tr class="separator:a84117e778b56656e8f4ab2d410b67102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f4a95b7bdfe7bb79679ca50192bb86a" id="r_a3f4a95b7bdfe7bb79679ca50192bb86a"><td class="memTemplParams" colspan="2">template&lt;typename ShapeT &gt; </td></tr>
+<tr class="memitem:a3f4a95b7bdfe7bb79679ca50192bb86a"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a3f4a95b7bdfe7bb79679ca50192bb86a">from</a> (ShapeT const &amp;shape, <a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8f">Topology</a> const toplogy=<a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8fa80654072020daeb5e86f3e24e409a7d3">Topology::eTriangleList</a>) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a></td></tr>
+<tr class="separator:a3f4a95b7bdfe7bb79679ca50192bb86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a425fda26ca45298d04f621b13c7dd31d" id="r_a425fda26ca45298d04f621b13c7dd31d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structbave_1_1Vertex.html">Vertex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425fda26ca45298d04f621b13c7dd31d">vertices</a> {}</td></tr>
-<tr class="separator:a425fda26ca45298d04f621b13c7dd31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae15252d897010847cc8556f717a3ef4b" id="r_ae15252d897010847cc8556f717a3ef4b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae15252d897010847cc8556f717a3ef4b">indices</a> {}</td></tr>
-<tr class="separator:ae15252d897010847cc8556f717a3ef4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a768faeaa2d75911dd5c6ba26a68e993f" id="r_a768faeaa2d75911dd5c6ba26a68e993f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbave_1_1VertexArray.html">VertexArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a768faeaa2d75911dd5c6ba26a68e993f">vertex_array</a> {}</td></tr>
+<tr class="separator:a768faeaa2d75911dd5c6ba26a68e993f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70ef02688a54e118e290e0fe2e58601" id="r_ab70ef02688a54e118e290e0fe2e58601"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8f">Topology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab70ef02688a54e118e290e0fe2e58601">topology</a> {<a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8fa80654072020daeb5e86f3e24e409a7d3">Topology::eTriangleList</a>}</td></tr>
+<tr class="separator:ab70ef02688a54e118e290e0fe2e58601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Collection of vertices and indices representing a graphics draw primitive. </p>
+<div class="textblock"><p><a class="el" href="structbave_1_1VertexArray.html" title="Collection of vertices and indices representing a graphics draw primitive.">VertexArray</a> and its Topology. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3c49b8aa5ebe3c2035ddba46de936143" name="a3c49b8aa5ebe3c2035ddba46de936143"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c49b8aa5ebe3c2035ddba46de936143">&#9670;&#160;</a></span>append() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::Geometry::append </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structbave_1_1Circle.html">Circle</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>circle</em></span></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2adbe6ae1d95a7ec059c2c00286ff5d8" name="a2adbe6ae1d95a7ec059c2c00286ff5d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2adbe6ae1d95a7ec059c2c00286ff5d8">&#9670;&#160;</a></span>append() <span class="overload">[2/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::Geometry::append </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structbave_1_1LineRect.html">LineRect</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>rect</em></span></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abb86c77359bda3817331489fc3966e07" name="abb86c77359bda3817331489fc3966e07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb86c77359bda3817331489fc3966e07">&#9670;&#160;</a></span>append() <span class="overload">[3/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::Geometry::append </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structbave_1_1NineQuad.html">NineQuad</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>nine_quad</em></span></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac88ad6b58fb2f088c09a770af85b41d7" name="ac88ad6b58fb2f088c09a770af85b41d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac88ad6b58fb2f088c09a770af85b41d7">&#9670;&#160;</a></span>append() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::Geometry::append </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structbave_1_1Quad.html">Quad</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>quad</em></span></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae8f7e88a66ee5999db4fbb8b0aa43e22" name="ae8f7e88a66ee5999db4fbb8b0aa43e22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8f7e88a66ee5999db4fbb8b0aa43e22">&#9670;&#160;</a></span>append() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::Geometry::append </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structbave_1_1RoundedQuad.html">RoundedQuad</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>rounded_quad</em></span></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac13b8e8a877e53b968486aee27cc03ac" name="ac13b8e8a877e53b968486aee27cc03ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac13b8e8a877e53b968486aee27cc03ac">&#9670;&#160;</a></span>append() <span class="overload">[6/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::Geometry::append </td>
-          <td>(</td>
-          <td class="paramtype">std::span&lt; <a class="el" href="structbave_1_1Vertex.html">Vertex</a> const &gt;</td>          <td class="paramname"><span class="paramname"><em>vs</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::span&lt; std::uint32_t const &gt;</td>          <td class="paramname"><span class="paramname"><em>is</em></span>&#160;) -&gt;  <a class="el" href="structbave_1_1Geometry.html">Geometry</a> &amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a84117e778b56656e8f4ab2d410b67102" name="a84117e778b56656e8f4ab2d410b67102"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84117e778b56656e8f4ab2d410b67102">&#9670;&#160;</a></span>from()</h2>
+<a id="a3f4a95b7bdfe7bb79679ca50192bb86a" name="a3f4a95b7bdfe7bb79679ca50192bb86a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f4a95b7bdfe7bb79679ca50192bb86a">&#9670;&#160;</a></span>from()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -257,8 +135,12 @@ template&lt;typename ShapeT &gt; </div>
         <tr>
           <td class="memname">static auto bave::Geometry::from </td>
           <td>(</td>
-          <td class="paramtype">ShapeT const &amp;</td>          <td class="paramname"><span class="paramname"><em>shape</em></span></td><td>)</td>
-          <td> -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> </td>
+          <td class="paramtype">ShapeT const &amp;</td>          <td class="paramname"><span class="paramname"><em>shape</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8f">Topology</a> const</td>          <td class="paramname"><span class="paramname"><em>toplogy</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8fa80654072020daeb5e86f3e24e409a7d3">Topology::eTriangleList</a></span></span>&#160;) -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> </td>
         </tr>
       </table>
   </td>
@@ -271,28 +153,28 @@ template&lt;typename ShapeT &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae15252d897010847cc8556f717a3ef4b" name="ae15252d897010847cc8556f717a3ef4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae15252d897010847cc8556f717a3ef4b">&#9670;&#160;</a></span>indices</h2>
+<a id="ab70ef02688a54e118e290e0fe2e58601" name="ab70ef02688a54e118e290e0fe2e58601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70ef02688a54e118e290e0fe2e58601">&#9670;&#160;</a></span>topology</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::uint32_t&gt; bave::Geometry::indices {}</td>
+          <td class="memname"><a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8f">Topology</a> bave::Geometry::topology {<a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8fa80654072020daeb5e86f3e24e409a7d3">Topology::eTriangleList</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a425fda26ca45298d04f621b13c7dd31d" name="a425fda26ca45298d04f621b13c7dd31d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a425fda26ca45298d04f621b13c7dd31d">&#9670;&#160;</a></span>vertices</h2>
+<a id="a768faeaa2d75911dd5c6ba26a68e993f" name="a768faeaa2d75911dd5c6ba26a68e993f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a768faeaa2d75911dd5c6ba26a68e993f">&#9670;&#160;</a></span>vertex_array</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structbave_1_1Vertex.html">Vertex</a>&gt; bave::Geometry::vertices {}</td>
+          <td class="memname"><a class="el" href="structbave_1_1VertexArray.html">VertexArray</a> bave::Geometry::vertex_array {}</td>
         </tr>
       </table>
 </div><div class="memdoc">

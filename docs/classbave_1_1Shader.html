@@ -107,10 +107,6 @@ $(function(){initNavTree('classbave_1_1Shader.html',''); initResizable(); });
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad21a84d0f6cc05cb429f254b92a54695" id="r_ad21a84d0f6cc05cb429f254b92a54695"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21a84d0f6cc05cb429f254b92a54695">Shader</a> (<a class="el" href="classbave_1_1NotNull.html">NotNull</a>&lt; class <a class="el" href="classbave_1_1Renderer.html">Renderer</a> const * &gt; renderer, vk::ShaderModule vertex, vk::ShaderModule fragment)</td></tr>
 <tr class="separator:ad21a84d0f6cc05cb429f254b92a54695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d152ece76a6e6a7fa4e34c04687859d" id="r_a7d152ece76a6e6a7fa4e34c04687859d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d152ece76a6e6a7fa4e34c04687859d">set_line_strip</a> (float <a class="el" href="#a027a8646970905ea6945c50d21660e2a">line_width</a>)</td></tr>
-<tr class="separator:a7d152ece76a6e6a7fa4e34c04687859d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a454c21214637efe27c9c74b337262c3c" id="r_a454c21214637efe27c9c74b337262c3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a454c21214637efe27c9c74b337262c3c">set_tri_strip</a> ()</td></tr>
-<tr class="separator:a454c21214637efe27c9c74b337262c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac15fb576b1c03aaa2460e8050992da93" id="r_ac15fb576b1c03aaa2460e8050992da93"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac15fb576b1c03aaa2460e8050992da93">update_texture</a> (<a class="el" href="structbave_1_1CombinedImageSampler.html">CombinedImageSampler</a> cis, std::uint32_t binding=0) -&gt; bool</td></tr>
 <tr class="separator:ac15fb576b1c03aaa2460e8050992da93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b0eb84229d2b5f598bbf32ec58f928" id="r_a97b0eb84229d2b5f598bbf32ec58f928"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97b0eb84229d2b5f598bbf32ec58f928">update_textures</a> (std::span&lt; <a class="el" href="structbave_1_1CombinedImageSampler.html">CombinedImageSampler</a> const, <a class="el" href="#a9d1d18866fd0c61c30b4bb1dc37a2ac9">max_textures_v</a> &gt; cis)</td></tr>
@@ -120,21 +116,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67f4f17ef83573a49e3ff6b824bec773" id="r_a67f4f17ef83573a49e3ff6b824bec773"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f4f17ef83573a49e3ff6b824bec773">write_ssbo</a> (void const *data, vk::DeviceSize size) -&gt; bool</td></tr>
 <tr class="separator:a67f4f17ef83573a49e3ff6b824bec773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f6fafd22ca266bd4cb8b29362a84cd4" id="r_a1f6fafd22ca266bd4cb8b29362a84cd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6fafd22ca266bd4cb8b29362a84cd4">draw</a> (<a class="el" href="structbave_1_1RenderPrimitive.html">RenderPrimitive</a> const &amp;primitive, std::span&lt; <a class="el" href="structbave_1_1RenderInstance_1_1Baked.html">RenderInstance::Baked</a> const &gt; instances)</td></tr>
+<tr class="memdesc:a1f6fafd22ca266bd4cb8b29362a84cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw intsances of a primitive.  <br /></td></tr>
 <tr class="separator:a1f6fafd22ca266bd4cb8b29362a84cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a027a8646970905ea6945c50d21660e2a" id="r_a027a8646970905ea6945c50d21660e2a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027a8646970905ea6945c50d21660e2a">line_width</a> {1.0f}</td></tr>
+<tr class="memitem:a027a8646970905ea6945c50d21660e2a" id="r_a027a8646970905ea6945c50d21660e2a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027a8646970905ea6945c50d21660e2a">line_width</a> {<a class="el" href="#a944ce6dff7e10c692333dcf15f3f4a33">default_line_width</a>}</td></tr>
+<tr class="memdesc:a027a8646970905ea6945c50d21660e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line width (only relevant for vk::PolygonMode::eLine and/or <a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8fa25b9004dd2e64825b47621206c8966b2">Topology::eLineStrip</a>).  <br /></td></tr>
 <tr class="separator:a027a8646970905ea6945c50d21660e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1439234f0d215fd76692a3c20be3d06f" id="r_a1439234f0d215fd76692a3c20be3d06f"><td class="memItemLeft" align="right" valign="top">vk::PrimitiveTopology&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1439234f0d215fd76692a3c20be3d06f">topology</a> {vk::PrimitiveTopology::eTriangleList}</td></tr>
-<tr class="separator:a1439234f0d215fd76692a3c20be3d06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2b19aa6c7e8ecd336580e0f363dc972" id="r_ac2b19aa6c7e8ecd336580e0f363dc972"><td class="memItemLeft" align="right" valign="top">vk::PolygonMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b19aa6c7e8ecd336580e0f363dc972">polygon_mode</a> {vk::PolygonMode::eFill}</td></tr>
+<tr class="memitem:ac2b19aa6c7e8ecd336580e0f363dc972" id="r_ac2b19aa6c7e8ecd336580e0f363dc972"><td class="memItemLeft" align="right" valign="top">vk::PolygonMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b19aa6c7e8ecd336580e0f363dc972">polygon_mode</a> {<a class="el" href="#ae786c53f72c095f88021f9c153d97236">default_polygon_mode</a>}</td></tr>
+<tr class="memdesc:ac2b19aa6c7e8ecd336580e0f363dc972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polygon mode.  <br /></td></tr>
 <tr class="separator:ac2b19aa6c7e8ecd336580e0f363dc972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a9d1d18866fd0c61c30b4bb1dc37a2ac9" id="r_a9d1d18866fd0c61c30b4bb1dc37a2ac9"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1d18866fd0c61c30b4bb1dc37a2ac9">max_textures_v</a> = detail::SetLayout::max_textures_v</td></tr>
 <tr class="separator:a9d1d18866fd0c61c30b4bb1dc37a2ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944ce6dff7e10c692333dcf15f3f4a33" id="r_a944ce6dff7e10c692333dcf15f3f4a33"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a944ce6dff7e10c692333dcf15f3f4a33">default_line_width</a> {1.0f}</td></tr>
+<tr class="memdesc:a944ce6dff7e10c692333dcf15f3f4a33"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default value for line_width.  <br /></td></tr>
+<tr class="separator:a944ce6dff7e10c692333dcf15f3f4a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae786c53f72c095f88021f9c153d97236" id="r_ae786c53f72c095f88021f9c153d97236"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae786c53f72c095f88021f9c153d97236">default_polygon_mode</a> {vk::PolygonMode::eFill}</td></tr>
+<tr class="memdesc:ae786c53f72c095f88021f9c153d97236"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default value for polygon_mode.  <br /></td></tr>
+<tr class="separator:ae786c53f72c095f88021f9c153d97236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad21a84d0f6cc05cb429f254b92a54695" name="ad21a84d0f6cc05cb429f254b92a54695"></a>
@@ -191,39 +194,14 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a7d152ece76a6e6a7fa4e34c04687859d" name="a7d152ece76a6e6a7fa4e34c04687859d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d152ece76a6e6a7fa4e34c04687859d">&#9670;&#160;</a></span>set_line_strip()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void bave::Shader::set_line_strip </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>line_width</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a454c21214637efe27c9c74b337262c3c" name="a454c21214637efe27c9c74b337262c3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a454c21214637efe27c9c74b337262c3c">&#9670;&#160;</a></span>set_tri_strip()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void bave::Shader::set_tri_strip </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Draw intsances of a primitive. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">primitive</td><td>Primitive to draw. </td></tr>
+    <tr><td class="paramname">instances</td><td>Instances to draw. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -308,6 +286,54 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a944ce6dff7e10c692333dcf15f3f4a33" name="a944ce6dff7e10c692333dcf15f3f4a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944ce6dff7e10c692333dcf15f3f4a33">&#9670;&#160;</a></span>default_line_width</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::Shader::default_line_width {1.0f}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The default value for line_width. </p>
+
+</div>
+</div>
+<a id="ae786c53f72c095f88021f9c153d97236" name="ae786c53f72c095f88021f9c153d97236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae786c53f72c095f88021f9c153d97236">&#9670;&#160;</a></span>default_polygon_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::Shader::default_polygon_mode {vk::PolygonMode::eFill}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The default value for polygon_mode. </p>
+
+</div>
+</div>
 <a id="a027a8646970905ea6945c50d21660e2a" name="a027a8646970905ea6945c50d21660e2a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a027a8646970905ea6945c50d21660e2a">&#9670;&#160;</a></span>line_width</h2>
 
@@ -315,10 +341,13 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float bave::Shader::line_width {1.0f}</td>
+          <td class="memname">float bave::Shader::line_width {<a class="el" href="#a944ce6dff7e10c692333dcf15f3f4a33">default_line_width</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Line width (only relevant for vk::PolygonMode::eLine and/or <a class="el" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8fa25b9004dd2e64825b47621206c8966b2">Topology::eLineStrip</a>). </p>
+<p>Actual line width will be clamped to render device limits during draw. </p>
 
 </div>
 </div>
@@ -351,24 +380,13 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vk::PolygonMode bave::Shader::polygon_mode {vk::PolygonMode::eFill}</td>
+          <td class="memname">vk::PolygonMode bave::Shader::polygon_mode {<a class="el" href="#ae786c53f72c095f88021f9c153d97236">default_polygon_mode</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a1439234f0d215fd76692a3c20be3d06f" name="a1439234f0d215fd76692a3c20be3d06f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1439234f0d215fd76692a3c20be3d06f">&#9670;&#160;</a></span>topology</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">vk::PrimitiveTopology bave::Shader::topology {vk::PrimitiveTopology::eTriangleList}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Polygon mode. </p>
+<p>Set to vk::PolygonMode::eLine for wireframe mode. </p>
 
 </div>
 </div>

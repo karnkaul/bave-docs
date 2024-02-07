@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ninequadshape_0',['NineQuadShape',['../namespacebave.html#afdbe7190bd93436ae05a90901ee84a63',1,'bave']]]
+  ['modifiers_0',['Modifiers',['../classbave_1_1ParticleEmitter.html#a27b3b8d43aeff1e038e4e5bc7aee098e',1,'bave::ParticleEmitter']]]
 ];

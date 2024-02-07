@@ -93,7 +93,6 @@ $(function(){initNavTree('classbave_1_1ParticleEmitter.html',''); initResizable(
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -106,29 +105,36 @@ $(function(){initNavTree('classbave_1_1ParticleEmitter.html',''); initResizable(
 <p>Particle Emitter.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="particle__emitter_8hpp_source.html">particle_emitter.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="particle__system_8hpp_source.html">particle_system.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bave::ParticleEmitter:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classbave_1_1ParticleEmitter.png" usemap="#bave::ParticleEmitter_map" alt=""/>
   <map id="bave::ParticleEmitter_map" name="bave::ParticleEmitter_map">
-<area href="classbave_1_1Shape.html" title="Class template for all shape specs." alt="bave::Shape&lt; ShapeT &gt;" shape="rect" coords="0,168,137,192"/>
-<area href="classbave_1_1BasicShape.html" title="Base class for Drawable shapes." alt="bave::BasicShape" shape="rect" coords="0,112,137,136"/>
-<area href="classbave_1_1Drawable.html" title="Base class for drawable objects." alt="bave::Drawable" shape="rect" coords="0,56,137,80"/>
+<area href="classbave_1_1Sprite.html" title="Drawable sprite." alt="bave::Sprite" shape="rect" coords="0,280,137,304"/>
+<area href="classbave_1_1Shape.html" title="Class template for all shapes." alt="bave::Shape&lt; ShapeT &gt;" shape="rect" coords="0,224,137,248"/>
+<area href="classbave_1_1BasicShape.html" title="Base class for Drawable shapes." alt="bave::BasicShape" shape="rect" coords="0,168,137,192"/>
+<area href="classbave_1_1Drawable.html" title="Base class for drawable objects." alt="bave::Drawable" shape="rect" coords="0,112,137,136"/>
+<area href="classbave_1_1IDrawable.html" title="Interface for all drawable types." alt="bave::IDrawable" shape="rect" coords="0,56,137,80"/>
 <area href="classbave_1_1Polymorphic.html" title="Base class for polymorphic types." alt="bave::Polymorphic" shape="rect" coords="0,0,137,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html">Modifier</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8449e0fb3365aa78011dd8c28e68d62c" id="r_a8449e0fb3365aa78011dd8c28e68d62c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8449e0fb3365aa78011dd8c28e68d62c">Modifiers</a> = std::bitset&lt;<a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#a28499a8911ba5a7571703439330ae7a0">Modifier::count_v</a>&gt;</td></tr>
-<tr class="separator:a8449e0fb3365aa78011dd8c28e68d62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f10787bb9b980a7d8fc2cbe72de5dc" id="r_ae9f10787bb9b980a7d8fc2cbe72de5dc"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dc">Modifier</a> : int { <br />
+&#160;&#160;<a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca6c737256a280c72676a2c436e0e2e9f7">eTranslate</a>
+, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca9528fe158fdb457f895c60048e8e0649">eRotate</a>
+, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca243d3a4018bf3ab4add4d2a5a37d6a88">eScale</a>
+, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dcada3a95eb86e7c32aa475b4aee825115f">eTint</a>
+, <br />
+&#160;&#160;<a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca98ce873df53900dd5454baba574ecb06">eCOUNT_</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae9f10787bb9b980a7d8fc2cbe72de5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b3b8d43aeff1e038e4e5bc7aee098e" id="r_a27b3b8d43aeff1e038e4e5bc7aee098e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27b3b8d43aeff1e038e4e5bc7aee098e">Modifiers</a> = <a class="el" href="classbave_1_1EnumFlags.html">EnumFlags</a>&lt;<a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dc">Modifier</a>&gt;</td></tr>
+<tr class="separator:a27b3b8d43aeff1e038e4e5bc7aee098e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a715347f22e993a3a7c65ddf7fa19dd44" id="r_a715347f22e993a3a7c65ddf7fa19dd44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a715347f22e993a3a7c65ddf7fa19dd44">Config</a> = <a class="el" href="structbave_1_1ParticleConfig.html">ParticleConfig</a></td></tr>
 <tr class="separator:a715347f22e993a3a7c65ddf7fa19dd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -140,6 +146,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a923e3486221102d991d85372a6a822ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43b004527c72a6b48e750ebb22124b36" id="r_a43b004527c72a6b48e750ebb22124b36"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43b004527c72a6b48e750ebb22124b36">active_particles</a> () const -&gt; std::size_t</td></tr>
 <tr class="separator:a43b004527c72a6b48e750ebb22124b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classbave_1_1Sprite"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1Sprite')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1Sprite.html">bave::Sprite</a></td></tr>
+<tr class="memitem:aa2738dd49f829366ff312bb2c937fdcf inherit pub_methods_classbave_1_1Sprite" id="r_aa2738dd49f829366ff312bb2c937fdcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#aa2738dd49f829366ff312bb2c937fdcf">set_size</a> (glm::vec2 size)</td></tr>
+<tr class="memdesc:aa2738dd49f829366ff312bb2c937fdcf inherit pub_methods_classbave_1_1Sprite"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the exact size of the sprite.  <br /></td></tr>
+<tr class="separator:aa2738dd49f829366ff312bb2c937fdcf inherit pub_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4201a10f2c39fd956316a5c79d8380c8 inherit pub_methods_classbave_1_1Sprite" id="r_a4201a10f2c39fd956316a5c79d8380c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#a4201a10f2c39fd956316a5c79d8380c8">set_auto_size</a> (glm::vec2 max_size)</td></tr>
+<tr class="memdesc:a4201a10f2c39fd956316a5c79d8380c8 inherit pub_methods_classbave_1_1Sprite"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the max size of the sprite.  <br /></td></tr>
+<tr class="separator:a4201a10f2c39fd956316a5c79d8380c8 inherit pub_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75eca805e410a26f81c0d7f6d4de9550 inherit pub_methods_classbave_1_1Sprite" id="r_a75eca805e410a26f81c0d7f6d4de9550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#a75eca805e410a26f81c0d7f6d4de9550">set_uv</a> (<a class="el" href="namespacebave.html#aeadce6fc5f9877c440d99bace8660557">UvRect</a> uv)</td></tr>
+<tr class="memdesc:a75eca805e410a26f81c0d7f6d4de9550 inherit pub_methods_classbave_1_1Sprite"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the UV rect.  <br /></td></tr>
+<tr class="separator:a75eca805e410a26f81c0d7f6d4de9550 inherit pub_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4faaf1f654bce4d0059e66c9d63591 inherit pub_methods_classbave_1_1Sprite" id="r_a2e4faaf1f654bce4d0059e66c9d63591"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#a2e4faaf1f654bce4d0059e66c9d63591">reset_uv</a> ()</td></tr>
+<tr class="memdesc:a2e4faaf1f654bce4d0059e66c9d63591 inherit pub_methods_classbave_1_1Sprite"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the UV rect.  <br /></td></tr>
+<tr class="separator:a2e4faaf1f654bce4d0059e66c9d63591 inherit pub_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4bc338e9f33bfe3ff6ccc9da98e05f3 inherit pub_methods_classbave_1_1Sprite" id="r_aa4bc338e9f33bfe3ff6ccc9da98e05f3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#aa4bc338e9f33bfe3ff6ccc9da98e05f3">get_size</a> () const -&gt; glm::vec2</td></tr>
+<tr class="separator:aa4bc338e9f33bfe3ff6ccc9da98e05f3 inherit pub_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f6543b15033e854e8f92dfc46c0556 inherit pub_methods_classbave_1_1Sprite" id="r_a40f6543b15033e854e8f92dfc46c0556"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#a40f6543b15033e854e8f92dfc46c0556">get_uv</a> () const -&gt; <a class="el" href="namespacebave.html#aeadce6fc5f9877c440d99bace8660557">UvRect</a> const &amp;</td></tr>
+<tr class="separator:a40f6543b15033e854e8f92dfc46c0556 inherit pub_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233aed223ec4efaf6272201b186a1b76 inherit pub_methods_classbave_1_1Sprite" id="r_a233aed223ec4efaf6272201b186a1b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#a233aed223ec4efaf6272201b186a1b76">set_tile</a> (<a class="el" href="structbave_1_1TileSheet_1_1Tile.html">TileSheet::Tile</a> const &amp;tile)</td></tr>
+<tr class="memdesc:a233aed223ec4efaf6272201b186a1b76 inherit pub_methods_classbave_1_1Sprite"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match Tile.  <br /></td></tr>
+<tr class="separator:a233aed223ec4efaf6272201b186a1b76 inherit pub_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbave_1_1Shape"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1Shape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1Shape.html">bave::Shape&lt; ShapeT &gt;</a></td></tr>
 <tr class="memitem:ac26a9ac49b93dfc9271769da36d78764 inherit pub_methods_classbave_1_1Shape" id="r_ac26a9ac49b93dfc9271769da36d78764"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Shape.html#ac26a9ac49b93dfc9271769da36d78764">set_shape</a> (ShapeT const &amp;shape)</td></tr>
 <tr class="separator:ac26a9ac49b93dfc9271769da36d78764 inherit pub_methods_classbave_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,14 +181,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a11de33ec1d3350a56b02296dce043b inherit pub_methods_classbave_1_1BasicShape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the primary texture.  <br /></td></tr>
 <tr class="separator:a5a11de33ec1d3350a56b02296dce043b inherit pub_methods_classbave_1_1BasicShape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbave_1_1Drawable"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1Drawable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1Drawable.html">bave::Drawable</a></td></tr>
-<tr class="memitem:a168c4182ce2e2d9fc37f6bc72d4ee41e inherit pub_methods_classbave_1_1Drawable" id="r_a168c4182ce2e2d9fc37f6bc72d4ee41e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a168c4182ce2e2d9fc37f6bc72d4ee41e">draw</a> (<a class="el" href="classbave_1_1Shader.html">Shader</a> &amp;shader) const</td></tr>
-<tr class="memdesc:a168c4182ce2e2d9fc37f6bc72d4ee41e inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw this object using a given shader.  <br /></td></tr>
-<tr class="separator:a168c4182ce2e2d9fc37f6bc72d4ee41e inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8396b018dbe89e04523c52af5a689620 inherit pub_methods_classbave_1_1Drawable" id="r_a8396b018dbe89e04523c52af5a689620"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a8396b018dbe89e04523c52af5a689620">draw</a> (<a class="el" href="classbave_1_1Shader.html">Shader</a> &amp;shader) const final</td></tr>
+<tr class="memdesc:a8396b018dbe89e04523c52af5a689620 inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw this object using a given shader.  <br /></td></tr>
+<tr class="separator:a8396b018dbe89e04523c52af5a689620 inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9a59a09c82b8c989add42eac513aee inherit pub_methods_classbave_1_1Drawable" id="r_a6b9a59a09c82b8c989add42eac513aee"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a6b9a59a09c82b8c989add42eac513aee">get_bounds</a> () const -&gt; <a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt;</td></tr>
 <tr class="memdesc:a6b9a59a09c82b8c989add42eac513aee inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bounding rectangle of this instance.  <br /></td></tr>
 <tr class="separator:a6b9a59a09c82b8c989add42eac513aee inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable" id="r_ad1c99d7325315faf44823bec47a00d0c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#ad1c99d7325315faf44823bec47a00d0c">get_geometry</a> () const -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> const &amp;</td></tr>
-<tr class="memdesc:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="structbave_1_1Geometry.html" title="Collection of vertices and indices representing a graphics draw primitive.">Geometry</a> of this instance.  <br /></td></tr>
+<tr class="memdesc:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="structbave_1_1Geometry.html" title="VertexArray and its Topology.">Geometry</a> of this instance.  <br /></td></tr>
 <tr class="separator:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbave_1_1Polymorphic"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1Polymorphic')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1Polymorphic.html">bave::Polymorphic</a></td></tr>
 <tr class="memitem:a1eac285efd7d71fd3160961c4bfe27d6 inherit pub_methods_classbave_1_1Polymorphic" id="r_a1eac285efd7d71fd3160961c4bfe27d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#a1eac285efd7d71fd3160961c4bfe27d6">Polymorphic</a> (<a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> const &amp;)=default</td></tr>
@@ -182,7 +208,7 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a424a7a242ec26ad18a5af1e645a0c869" id="r_a424a7a242ec26ad18a5af1e645a0c869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a715347f22e993a3a7c65ddf7fa19dd44">Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424a7a242ec26ad18a5af1e645a0c869">config</a> {}</td></tr>
 <tr class="separator:a424a7a242ec26ad18a5af1e645a0c869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6235b6c11c11fdf23a3be5d6b0730e16" id="r_a6235b6c11c11fdf23a3be5d6b0730e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a8449e0fb3365aa78011dd8c28e68d62c">Modifiers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6235b6c11c11fdf23a3be5d6b0730e16">modifiers</a> {<a class="el" href="#a4a23f7b501629c48831cc71fb9f71820">all_modifiers_v</a>}</td></tr>
+<tr class="memitem:a6235b6c11c11fdf23a3be5d6b0730e16" id="r_a6235b6c11c11fdf23a3be5d6b0730e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a27b3b8d43aeff1e038e4e5bc7aee098e">Modifiers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6235b6c11c11fdf23a3be5d6b0730e16">modifiers</a> {<a class="el" href="#a4a23f7b501629c48831cc71fb9f71820">all_modifiers_v</a>}</td></tr>
 <tr class="separator:a6235b6c11c11fdf23a3be5d6b0730e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classbave_1_1Drawable"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classbave_1_1Drawable')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classbave_1_1Drawable.html">bave::Drawable</a></td></tr>
 <tr class="memitem:a21cac1b910dcbd0d11da6ab6e6a65807 inherit pub_attribs_classbave_1_1Drawable" id="r_a21cac1b910dcbd0d11da6ab6e6a65807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbave_1_1Transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a21cac1b910dcbd0d11da6ab6e6a65807">transform</a> {}</td></tr>
@@ -200,16 +226,22 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a4a23f7b501629c48831cc71fb9f71820" id="r_a4a23f7b501629c48831cc71fb9f71820"><td class="memItemLeft" align="right" valign="top">static auto const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a23f7b501629c48831cc71fb9f71820">all_modifiers_v</a> = <a class="el" href="namespacebave.html#a264f1766610c663b0e05dd6eb47f9284">make_bitset</a>&lt;<a class="el" href="#a8449e0fb3365aa78011dd8c28e68d62c">Modifiers</a>&gt;(<a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#ac7229459577d5b78964e0b24584f3762">Modifier::translate</a>, <a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#add652761110f40960fba3d45ad4542b9">Modifier::rotate</a>, <a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#a4852d748c654f0276cc6e59b688c5568">Modifier::scale</a>, <a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#a46f7192aa9073e05ecd8d5bf4cf3b716">Modifier::tint</a>)</td></tr>
+<tr class="memitem:a4a23f7b501629c48831cc71fb9f71820" id="r_a4a23f7b501629c48831cc71fb9f71820"><td class="memItemLeft" align="right" valign="top">static auto const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a23f7b501629c48831cc71fb9f71820">all_modifiers_v</a> = <a class="el" href="#a27b3b8d43aeff1e038e4e5bc7aee098e">Modifiers</a>{<a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca6c737256a280c72676a2c436e0e2e9f7">Modifier::eTranslate</a>, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca9528fe158fdb457f895c60048e8e0649">Modifier::eRotate</a>, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca243d3a4018bf3ab4add4d2a5a37d6a88">Modifier::eScale</a>, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dcada3a95eb86e7c32aa475b4aee825115f">Modifier::eTint</a>}</td></tr>
 <tr class="separator:a4a23f7b501629c48831cc71fb9f71820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classbave_1_1Sprite"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classbave_1_1Sprite')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classbave_1_1Sprite.html">bave::Sprite</a></td></tr>
+<tr class="memitem:a18f773ab3ad7c014ecc4bdfc347840f5 inherit pro_methods_classbave_1_1Sprite" id="r_a18f773ab3ad7c014ecc4bdfc347840f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#a18f773ab3ad7c014ecc4bdfc347840f5">set_tile</a> (<a class="el" href="structbave_1_1TileSheet_1_1Tile.html">TileSheet::Tile</a> const &amp;tile, glm::ivec2 total_size)</td></tr>
+<tr class="separator:a18f773ab3ad7c014ecc4bdfc347840f5 inherit pro_methods_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classbave_1_1Drawable"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classbave_1_1Drawable')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classbave_1_1Drawable.html">bave::Drawable</a></td></tr>
 <tr class="memitem:a02060c007c0184d3f161dd2b6396d896 inherit pro_methods_classbave_1_1Drawable" id="r_a02060c007c0184d3f161dd2b6396d896"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a02060c007c0184d3f161dd2b6396d896">set_geometry</a> (<a class="el" href="structbave_1_1Geometry.html">Geometry</a> geometry)</td></tr>
 <tr class="separator:a02060c007c0184d3f161dd2b6396d896 inherit pro_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c51c68a0f33b7b17049dfe901ed0eb inherit pro_methods_classbave_1_1Drawable" id="r_af2c51c68a0f33b7b17049dfe901ed0eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb">set_texture</a> (std::shared_ptr&lt; <a class="el" href="classbave_1_1Texture.html">Texture</a> const &gt; texture)</td></tr>
 <tr class="separator:af2c51c68a0f33b7b17049dfe901ed0eb inherit pro_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classbave_1_1Sprite"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classbave_1_1Sprite')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classbave_1_1Sprite.html">bave::Sprite</a></td></tr>
+<tr class="memitem:a4298a33b98abe5a9497d6f1e5d8f2917 inherit pro_attribs_classbave_1_1Sprite" id="r_a4298a33b98abe5a9497d6f1e5d8f2917"><td class="memItemLeft" align="right" valign="top">std::optional&lt; glm::vec2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Sprite.html#a4298a33b98abe5a9497d6f1e5d8f2917">m_max_size</a> {}</td></tr>
+<tr class="separator:a4298a33b98abe5a9497d6f1e5d8f2917 inherit pro_attribs_classbave_1_1Sprite"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Particle Emitter. </p>
@@ -228,17 +260,47 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8449e0fb3365aa78011dd8c28e68d62c" name="a8449e0fb3365aa78011dd8c28e68d62c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8449e0fb3365aa78011dd8c28e68d62c">&#9670;&#160;</a></span>Modifiers</h2>
+<a id="a27b3b8d43aeff1e038e4e5bc7aee098e" name="a27b3b8d43aeff1e038e4e5bc7aee098e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27b3b8d43aeff1e038e4e5bc7aee098e">&#9670;&#160;</a></span>Modifiers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a8449e0fb3365aa78011dd8c28e68d62c">bave::ParticleEmitter::Modifiers</a> = std::bitset&lt;<a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#a28499a8911ba5a7571703439330ae7a0">Modifier::count_v</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a27b3b8d43aeff1e038e4e5bc7aee098e">bave::ParticleEmitter::Modifiers</a> = <a class="el" href="classbave_1_1EnumFlags.html">EnumFlags</a>&lt;<a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dc">Modifier</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ae9f10787bb9b980a7d8fc2cbe72de5dc" name="ae9f10787bb9b980a7d8fc2cbe72de5dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9f10787bb9b980a7d8fc2cbe72de5dc">&#9670;&#160;</a></span>Modifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dc">bave::ParticleEmitter::Modifier</a> : int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae9f10787bb9b980a7d8fc2cbe72de5dca6c737256a280c72676a2c436e0e2e9f7" name="ae9f10787bb9b980a7d8fc2cbe72de5dca6c737256a280c72676a2c436e0e2e9f7"></a>eTranslate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9f10787bb9b980a7d8fc2cbe72de5dca9528fe158fdb457f895c60048e8e0649" name="ae9f10787bb9b980a7d8fc2cbe72de5dca9528fe158fdb457f895c60048e8e0649"></a>eRotate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9f10787bb9b980a7d8fc2cbe72de5dca243d3a4018bf3ab4add4d2a5a37d6a88" name="ae9f10787bb9b980a7d8fc2cbe72de5dca243d3a4018bf3ab4add4d2a5a37d6a88"></a>eScale&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9f10787bb9b980a7d8fc2cbe72de5dcada3a95eb86e7c32aa475b4aee825115f" name="ae9f10787bb9b980a7d8fc2cbe72de5dcada3a95eb86e7c32aa475b4aee825115f"></a>eTint&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9f10787bb9b980a7d8fc2cbe72de5dca98ce873df53900dd5454baba574ecb06" name="ae9f10787bb9b980a7d8fc2cbe72de5dca98ce873df53900dd5454baba574ecb06"></a>eCOUNT_&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -313,7 +375,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto const bave::ParticleEmitter::all_modifiers_v = <a class="el" href="namespacebave.html#a264f1766610c663b0e05dd6eb47f9284">make_bitset</a>&lt;<a class="el" href="#a8449e0fb3365aa78011dd8c28e68d62c">Modifiers</a>&gt;(<a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#ac7229459577d5b78964e0b24584f3762">Modifier::translate</a>, <a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#add652761110f40960fba3d45ad4542b9">Modifier::rotate</a>, <a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#a4852d748c654f0276cc6e59b688c5568">Modifier::scale</a>, <a class="el" href="structbave_1_1ParticleEmitter_1_1Modifier.html#a46f7192aa9073e05ecd8d5bf4cf3b716">Modifier::tint</a>)</td>
+          <td class="memname">auto const bave::ParticleEmitter::all_modifiers_v = <a class="el" href="#a27b3b8d43aeff1e038e4e5bc7aee098e">Modifiers</a>{<a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca6c737256a280c72676a2c436e0e2e9f7">Modifier::eTranslate</a>, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca9528fe158fdb457f895c60048e8e0649">Modifier::eRotate</a>, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dca243d3a4018bf3ab4add4d2a5a37d6a88">Modifier::eScale</a>, <a class="el" href="#ae9f10787bb9b980a7d8fc2cbe72de5dcada3a95eb86e7c32aa475b4aee825115f">Modifier::eTint</a>}</td>
         </tr>
       </table>
   </td>
@@ -346,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a8449e0fb3365aa78011dd8c28e68d62c">Modifiers</a> bave::ParticleEmitter::modifiers {<a class="el" href="#a4a23f7b501629c48831cc71fb9f71820">all_modifiers_v</a>}</td>
+          <td class="memname"><a class="el" href="#a27b3b8d43aeff1e038e4e5bc7aee098e">Modifiers</a> bave::ParticleEmitter::modifiers {<a class="el" href="#a4a23f7b501629c48831cc71fb9f71820">all_modifiers_v</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -354,7 +416,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/include/bave/graphics/<a class="el" href="particle__emitter_8hpp_source.html">particle_emitter.hpp</a></li>
+<li>lib/include/bave/graphics/<a class="el" href="particle__system_8hpp_source.html">particle_system.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

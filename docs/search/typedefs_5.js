@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['featureflags_0',['FeatureFlags',['../classbave_1_1App.html#ad0c034e8b1b1cbb1dfe2cbdbab6c0666',1,'bave::App']]]
+  ['featureflags_0',['FeatureFlags',['../classbave_1_1App.html#ab94c9be12de76c7dab24b82ec5ad64d0',1,'bave::App']]]
 ];

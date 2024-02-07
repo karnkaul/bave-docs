@@ -95,12 +95,11 @@ $(function(){initNavTree('mods_8hpp.html',''); initResizable(); });
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">mods.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="make__bitset_8hpp_source.html">bave/core/make_bitset.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="enum__flags_8hpp_source.html">bave/core/enum_flags.hpp</a>&gt;</code><br />
 </div>
 <p><a href="mods_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -108,40 +107,27 @@ $(function(){initNavTree('mods_8hpp.html',''); initResizable(); });
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacebave" id="r_namespacebave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html">bave</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacebave_1_1mod" id="r_namespacebave_1_1mod"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html">bave::mod</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a2045fd4be3314dff2b557537a37defff" id="r_a2045fd4be3314dff2b557537a37defff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html#a2045fd4be3314dff2b557537a37defff">bave::KeyMods</a> = std::bitset&lt;<a class="el" href="namespacebave_1_1mod.html#a02d3418e12eb0d2cc732c0bbdedbf744">mod::count_v</a>&gt;</td></tr>
-<tr class="memdesc:a2045fd4be3314dff2b557537a37defff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit flags for modifier keys.  <br /></td></tr>
-<tr class="separator:a2045fd4be3314dff2b557537a37defff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c4b9ff30dc5af9e5ec550e855dcfce" id="r_a79c4b9ff30dc5af9e5ec550e855dcfce"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html#a79c4b9ff30dc5af9e5ec550e855dcfce">bave::KeyMods</a> = <a class="el" href="classbave_1_1EnumFlags.html">EnumFlags</a>&lt;<a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bf">Mod</a>&gt;</td></tr>
+<tr class="memdesc:a79c4b9ff30dc5af9e5ec550e855dcfce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit flags for modifier keys.  <br /></td></tr>
+<tr class="separator:a79c4b9ff30dc5af9e5ec550e855dcfce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a657cf08b6534b48fef48a23aed2654cd" id="r_a657cf08b6534b48fef48a23aed2654cd"><td class="memTemplParams" colspan="2">template&lt;std::convertible_to&lt; std::size_t &gt;... I&gt; </td></tr>
-<tr class="memitem:a657cf08b6534b48fef48a23aed2654cd"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebave.html#a657cf08b6534b48fef48a23aed2654cd">bave::make_key_mods</a> (I const ... mods) -&gt; <a class="el" href="namespacebave.html#a2045fd4be3314dff2b557537a37defff">KeyMods</a></td></tr>
-<tr class="memdesc:a657cf08b6534b48fef48a23aed2654cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create KeyMods with mods set.  <br /></td></tr>
-<tr class="separator:a657cf08b6534b48fef48a23aed2654cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ab2009dcf709284d541bb3e066e9438f0" id="r_ab2009dcf709284d541bb3e066e9438f0"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#ab2009dcf709284d541bb3e066e9438f0">bave::mod::none</a> {0}</td></tr>
-<tr class="separator:ab2009dcf709284d541bb3e066e9438f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94bb25f757ab8b1f15f1c4d7503551e3" id="r_a94bb25f757ab8b1f15f1c4d7503551e3"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#a94bb25f757ab8b1f15f1c4d7503551e3">bave::mod::shift</a> {1}</td></tr>
-<tr class="separator:a94bb25f757ab8b1f15f1c4d7503551e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aace6f1fabd388877163f540e0ce13207" id="r_aace6f1fabd388877163f540e0ce13207"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#aace6f1fabd388877163f540e0ce13207">bave::mod::ctrl</a> {2}</td></tr>
-<tr class="separator:aace6f1fabd388877163f540e0ce13207"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a962013ac7262305af3d8da2c13baf275" id="r_a962013ac7262305af3d8da2c13baf275"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#a962013ac7262305af3d8da2c13baf275">bave::mod::alt</a> {3}</td></tr>
-<tr class="separator:a962013ac7262305af3d8da2c13baf275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78299618150b7b5ae14e4e6eb49118e0" id="r_a78299618150b7b5ae14e4e6eb49118e0"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#a78299618150b7b5ae14e4e6eb49118e0">bave::mod::super</a> {4}</td></tr>
-<tr class="separator:a78299618150b7b5ae14e4e6eb49118e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa85bc75f6742ae2ce801bfa7cc6234ed" id="r_aa85bc75f6742ae2ce801bfa7cc6234ed"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#aa85bc75f6742ae2ce801bfa7cc6234ed">bave::mod::capslock</a> {5}</td></tr>
-<tr class="separator:aa85bc75f6742ae2ce801bfa7cc6234ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94e046a89efc0531aa82f35875c13119" id="r_a94e046a89efc0531aa82f35875c13119"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#a94e046a89efc0531aa82f35875c13119">bave::mod::numlock</a> {6}</td></tr>
-<tr class="separator:a94e046a89efc0531aa82f35875c13119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02d3418e12eb0d2cc732c0bbdedbf744" id="r_a02d3418e12eb0d2cc732c0bbdedbf744"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1mod.html#a02d3418e12eb0d2cc732c0bbdedbf744">bave::mod::count_v</a> {<a class="el" href="namespacebave_1_1mod.html#a94e046a89efc0531aa82f35875c13119">numlock</a> + 1}</td></tr>
-<tr class="separator:a02d3418e12eb0d2cc732c0bbdedbf744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a2d9ecd9eb16cab17ec4dd617227530bf" id="r_a2d9ecd9eb16cab17ec4dd617227530bf"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bf">bave::Mod</a> : int { <br />
+&#160;&#160;<a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bfa9e62f71ce009d65471fccb01fdb3245d">bave::eShift</a>
+, <a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bfa5677f2b1afa3fd6160c087c35c3f10a5">bave::eCtrl</a>
+, <a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bfa449749529584a602aedac2269581bd74">bave::eAlt</a>
+, <a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bfac9c88affff6f7d1bfa7776585510aa7d">bave::eSuper</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bfa03313000bddbe627fe74259a63974c64">bave::eCapsLock</a>
+, <a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bfab47d4037e1ca28b5a006254158e0436d">bave::eNumLock</a>
+, <a class="el" href="namespacebave.html#a2d9ecd9eb16cab17ec4dd617227530bfa98ce873df53900dd5454baba574ecb06">bave::eCOUNT_</a>
+<br />
+ }</td></tr>
+<tr class="separator:a2d9ecd9eb16cab17ec4dd617227530bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

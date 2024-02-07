@@ -6,11 +6,12 @@ var searchData=
   ['info_3',['info',['../structbave_1_1Logger.html#aa2b5c1aea1227cc366c1d5f8deebca78',1,'bave::Logger']]],
   ['invalid_5foption_4',['invalid_option',['../structbave_1_1clap_1_1Parser.html#a3cab72eef754502a895c73da424928aa',1,'bave::clap::Parser']]],
   ['invalid_5fvalue_5',['invalid_value',['../structbave_1_1clap_1_1Parser.html#ab7d9bb9878aba19fcf69f63ef345e516',1,'bave::clap::Parser']]],
-  ['is_5fempty_6',['is_empty',['../classbave_1_1ImageFile.html#aae8382841360d1866fcec374202b4d67',1,'bave::ImageFile::is_empty()'],['../classbave_1_1Pixmap.html#add289e041f5a8f74456c2983c73f1a52',1,'bave::Pixmap::is_empty()']]],
+  ['is_5fempty_6',['is_empty',['../structbave_1_1VertexArray.html#accc99b0838ac931207bfb1536b55389d',1,'bave::VertexArray::is_empty()'],['../classbave_1_1ImageFile.html#aae8382841360d1866fcec374202b4d67',1,'bave::ImageFile::is_empty()'],['../classbave_1_1Pixmap.html#add289e041f5a8f74456c2983c73f1a52',1,'bave::Pixmap::is_empty()']]],
   ['is_5fintersecting_7',['is_intersecting',['../namespacebave.html#ae8b75bffe44321814957faeddf27d3d6',1,'bave']]],
   ['is_5floaded_8',['is_loaded',['../classbave_1_1Font.html#a5928b8cb6582f5c8d2c088abca2b6fe6',1,'bave::Font']]],
   ['is_5fpositive_9',['is_positive',['../namespacebave.html#a7c4305df2516bc5ef64a37bc3a147223',1,'bave']]],
   ['is_5fpower_5fof_5f2_10',['is_power_of_2',['../namespacebave.html#aa0d41addbd87def4fc93597f6abf6163',1,'bave']]],
-  ['is_5frendering_11',['is_rendering',['../classbave_1_1Renderer.html#af0b78268cf78fb8b1a4039a9d1b25dfe',1,'bave::Renderer']]],
-  ['is_5fshutting_5fdown_12',['is_shutting_down',['../classbave_1_1App.html#a0eca52d2618d034e1f0b76d31da9f83f',1,'bave::App']]]
+  ['is_5fpressed_11',['is_pressed',['../structbave_1_1Gamepad.html#a804704174eb1c361232db7de2b0a06aa',1,'bave::Gamepad::is_pressed()'],['../structbave_1_1KeyState.html#a0f72cf63d297c3aa311411c36205aa69',1,'bave::KeyState::is_pressed()']]],
+  ['is_5frendering_12',['is_rendering',['../classbave_1_1Renderer.html#af0b78268cf78fb8b1a4039a9d1b25dfe',1,'bave::Renderer']]],
+  ['is_5fshutting_5fdown_13',['is_shutting_down',['../classbave_1_1App.html#a0eca52d2618d034e1f0b76d31da9f83f',1,'bave::App']]]
 ];

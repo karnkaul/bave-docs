@@ -109,8 +109,9 @@ Inheritance diagram for bave::CustomShape:</div>
  <div class="center">
   <img src="classbave_1_1CustomShape.png" usemap="#bave::CustomShape_map" alt=""/>
   <map id="bave::CustomShape_map" name="bave::CustomShape_map">
-<area href="classbave_1_1BasicShape.html" title="Base class for Drawable shapes." alt="bave::BasicShape" shape="rect" coords="0,112,123,136"/>
-<area href="classbave_1_1Drawable.html" title="Base class for drawable objects." alt="bave::Drawable" shape="rect" coords="0,56,123,80"/>
+<area href="classbave_1_1BasicShape.html" title="Base class for Drawable shapes." alt="bave::BasicShape" shape="rect" coords="0,168,123,192"/>
+<area href="classbave_1_1Drawable.html" title="Base class for drawable objects." alt="bave::Drawable" shape="rect" coords="0,112,123,136"/>
+<area href="classbave_1_1IDrawable.html" title="Interface for all drawable types." alt="bave::IDrawable" shape="rect" coords="0,56,123,80"/>
 <area href="classbave_1_1Polymorphic.html" title="Base class for polymorphic types." alt="bave::Polymorphic" shape="rect" coords="0,0,123,24"/>
   </map>
 </div></div>
@@ -118,7 +119,7 @@ Inheritance diagram for bave::CustomShape:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4c3483f8fd348ebdd8f0a19521b40b7" id="r_ab4c3483f8fd348ebdd8f0a19521b40b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c3483f8fd348ebdd8f0a19521b40b7">set_geometry</a> (<a class="el" href="structbave_1_1Geometry.html">Geometry</a> geometry)</td></tr>
-<tr class="memdesc:ab4c3483f8fd348ebdd8f0a19521b40b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="structbave_1_1Geometry.html" title="Collection of vertices and indices representing a graphics draw primitive.">Geometry</a>.  <br /></td></tr>
+<tr class="memdesc:ab4c3483f8fd348ebdd8f0a19521b40b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="structbave_1_1Geometry.html" title="VertexArray and its Topology.">Geometry</a>.  <br /></td></tr>
 <tr class="separator:ab4c3483f8fd348ebdd8f0a19521b40b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbave_1_1BasicShape"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1BasicShape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1BasicShape.html">bave::BasicShape</a></td></tr>
 <tr class="memitem:ac25f2c435874c30dddbd5589c172799f inherit pub_methods_classbave_1_1BasicShape" id="r_ac25f2c435874c30dddbd5589c172799f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1BasicShape.html#ac25f2c435874c30dddbd5589c172799f">set_texture</a> (std::shared_ptr&lt; <a class="el" href="classbave_1_1Texture.html">Texture</a> const &gt; texture)</td></tr>
@@ -128,14 +129,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a11de33ec1d3350a56b02296dce043b inherit pub_methods_classbave_1_1BasicShape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the primary texture.  <br /></td></tr>
 <tr class="separator:a5a11de33ec1d3350a56b02296dce043b inherit pub_methods_classbave_1_1BasicShape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbave_1_1Drawable"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1Drawable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1Drawable.html">bave::Drawable</a></td></tr>
-<tr class="memitem:a168c4182ce2e2d9fc37f6bc72d4ee41e inherit pub_methods_classbave_1_1Drawable" id="r_a168c4182ce2e2d9fc37f6bc72d4ee41e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a168c4182ce2e2d9fc37f6bc72d4ee41e">draw</a> (<a class="el" href="classbave_1_1Shader.html">Shader</a> &amp;shader) const</td></tr>
-<tr class="memdesc:a168c4182ce2e2d9fc37f6bc72d4ee41e inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw this object using a given shader.  <br /></td></tr>
-<tr class="separator:a168c4182ce2e2d9fc37f6bc72d4ee41e inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8396b018dbe89e04523c52af5a689620 inherit pub_methods_classbave_1_1Drawable" id="r_a8396b018dbe89e04523c52af5a689620"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a8396b018dbe89e04523c52af5a689620">draw</a> (<a class="el" href="classbave_1_1Shader.html">Shader</a> &amp;shader) const final</td></tr>
+<tr class="memdesc:a8396b018dbe89e04523c52af5a689620 inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw this object using a given shader.  <br /></td></tr>
+<tr class="separator:a8396b018dbe89e04523c52af5a689620 inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9a59a09c82b8c989add42eac513aee inherit pub_methods_classbave_1_1Drawable" id="r_a6b9a59a09c82b8c989add42eac513aee"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#a6b9a59a09c82b8c989add42eac513aee">get_bounds</a> () const -&gt; <a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt;</td></tr>
 <tr class="memdesc:a6b9a59a09c82b8c989add42eac513aee inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bounding rectangle of this instance.  <br /></td></tr>
 <tr class="separator:a6b9a59a09c82b8c989add42eac513aee inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable" id="r_ad1c99d7325315faf44823bec47a00d0c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Drawable.html#ad1c99d7325315faf44823bec47a00d0c">get_geometry</a> () const -&gt; <a class="el" href="structbave_1_1Geometry.html">Geometry</a> const &amp;</td></tr>
-<tr class="memdesc:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="structbave_1_1Geometry.html" title="Collection of vertices and indices representing a graphics draw primitive.">Geometry</a> of this instance.  <br /></td></tr>
+<tr class="memdesc:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="structbave_1_1Geometry.html" title="VertexArray and its Topology.">Geometry</a> of this instance.  <br /></td></tr>
 <tr class="separator:ad1c99d7325315faf44823bec47a00d0c inherit pub_methods_classbave_1_1Drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbave_1_1Polymorphic"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1Polymorphic')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1Polymorphic.html">bave::Polymorphic</a></td></tr>
 <tr class="memitem:a1eac285efd7d71fd3160961c4bfe27d6 inherit pub_methods_classbave_1_1Polymorphic" id="r_a1eac285efd7d71fd3160961c4bfe27d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#a1eac285efd7d71fd3160961c4bfe27d6">Polymorphic</a> (<a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> const &amp;)=default</td></tr>
@@ -198,10 +199,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set the <a class="el" href="structbave_1_1Geometry.html" title="Collection of vertices and indices representing a graphics draw primitive.">Geometry</a>. </p>
+<p>Set the <a class="el" href="structbave_1_1Geometry.html" title="VertexArray and its Topology.">Geometry</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">geometry</td><td><a class="el" href="structbave_1_1Geometry.html" title="Collection of vertices and indices representing a graphics draw primitive.">Geometry</a> to set. </td></tr>
+    <tr><td class="paramname">geometry</td><td><a class="el" href="structbave_1_1Geometry.html" title="VertexArray and its Topology.">Geometry</a> to set. </td></tr>
   </table>
   </dd>
 </dl>

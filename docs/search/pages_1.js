@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reference_0',['bave Reference',['../index.html',1,'']]]
+  ['changelog_0',['Changelog',['../md_lib_2docs_2changelog.html',1,'']]]
 ];
