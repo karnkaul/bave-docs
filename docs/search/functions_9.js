@@ -3,7 +3,7 @@ var searchData=
   ['load_5fanim_5ftimeline_0',['load_anim_timeline',['../classbave_1_1Loader.html#a3d37eba30ec2c9863155ac5a6f6ab39c',1,'bave::Loader']]],
   ['load_5faudio_5fclip_1',['load_audio_clip',['../classbave_1_1Loader.html#ab26b0984c6bd45cd25e8d37de0b1fe34',1,'bave::Loader']]],
   ['load_5fbytes_2',['load_bytes',['../classbave_1_1Loader.html#aa53c2ada2d0fa45e6dd3452e118e4f9f',1,'bave::Loader']]],
-  ['load_5ffont_3',['load_font',['../classbave_1_1Loader.html#a715d352799f0f01d26e8c7dbbf61d620',1,'bave::Loader']]],
+  ['load_5ffont_3',['load_font',['../classbave_1_1Loader.html#a1997fde32697cb065942182c711ad0e4',1,'bave::Loader']]],
   ['load_5ffrom_5fbytes_4',['load_from_bytes',['../classbave_1_1AudioClip.html#a417929f6de327c1cb757ef6088924a6c',1,'bave::AudioClip::load_from_bytes()'],['../classbave_1_1Font.html#a37bd8d11945771a95def0cdf13f0ae85',1,'bave::Font::load_from_bytes()'],['../classbave_1_1ImageFile.html#adcfb471d3234feeaaa28ce37189b7f60',1,'bave::ImageFile::load_from_bytes()'],['../classbave_1_1TextureWriteable.html#ac5ea2034ed859647c8ecdedb8ffed89d',1,'bave::TextureWriteable::load_from_bytes()']]],
   ['load_5fimage_5ffile_5',['load_image_file',['../classbave_1_1Loader.html#a0e27afd3b483cdc2784cfb098bd37c09',1,'bave::Loader']]],
   ['load_5fjson_6',['load_json',['../classbave_1_1Loader.html#a4550bc9b8d3e2d701a7b5a57d2812b4b',1,'bave::Loader']]],

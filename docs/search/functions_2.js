@@ -8,5 +8,6 @@ var searchData=
   ['clamp_5ftext_5fheight_5',['clamp_text_height',['../namespacebave.html#a23724b429735ac170f767324dc914fc0',1,'bave']]],
   ['combined_5fimage_5fsampler_6',['combined_image_sampler',['../classbave_1_1Texture.html#adc7d6b1ad9c086c8f487b7fd744eef38',1,'bave::Texture']]],
   ['contains_7',['contains',['../structbave_1_1Rect.html#a66d6937bb8c19f80e858602ece9daa00',1,'bave::Rect::contains(glm::tvec2&lt; Type &gt; const point) const -&gt; bool'],['../structbave_1_1Rect.html#ad44d8482f52c6faba470de260bfe7bdc',1,'bave::Rect::contains(Rect&lt; Type &gt; const &amp;other) const -&gt; bool']]],
-  ['cstring_8',['CString',['../classbave_1_1CString.html#af32fa94897142eb37ddf449e44711df7',1,'bave::CString::CString()=default'],['../classbave_1_1CString.html#a77edc51870f61e8196863d132e82c766',1,'bave::CString::CString(char const *text)']]]
+  ['create_5ffont_5fatlas_8',['create_font_atlas',['../classbave_1_1Font.html#a88cda97787310c4a84f9b0e830b16680',1,'bave::Font']]],
+  ['cstring_9',['CString',['../classbave_1_1CString.html#af32fa94897142eb37ddf449e44711df7',1,'bave::CString::CString()=default'],['../classbave_1_1CString.html#a77edc51870f61e8196863d132e82c766',1,'bave::CString::CString(char const *text)']]]
 ];

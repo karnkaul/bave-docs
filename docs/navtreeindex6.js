@@ -1,5 +1,14 @@
 var NAVTREEINDEX6 =
 {
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca83de85ec4cc44be16b6d8ad117666cd5":[2,0,0,127,98],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca85148971178533db7e4f1869f63e1ab7":[2,0,0,127,97],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca884621f737e7b573b9300d52edb48379":[2,0,0,127,25],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca9050a1f4e71788a91f11f526dd27f975":[2,0,0,127,99],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca90c875d428d6ef2da05f9dd0e575945d":[2,0,0,127,5],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca91d11f9f49486f4f6c81663b6546906a":[2,0,0,127,106],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca947a26f3f828e44db197f81392aa9c35":[2,0,0,127,89],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca97d352658db7b34c35502f9cd535e48b":[2,0,0,127,58],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca98ce873df53900dd5454baba574ecb06":[2,0,0,127,122],
 "namespacebave.html#a29a9523f73dfc64b112140481d5b554ca9b99cd9a69140a1d7c7d483df619ea02":[2,0,0,127,59],
 "namespacebave.html#a29a9523f73dfc64b112140481d5b554ca9c7683f6aa3f55c44f234fd42e970b2a":[2,0,0,127,115],
 "namespacebave.html#a29a9523f73dfc64b112140481d5b554ca9e75e1943152f059a45ff7adbc961391":[2,0,0,127,92],
@@ -240,14 +249,5 @@ var NAVTREEINDEX6 =
 "rect_8hpp_source.html":[5,0,0,1,0,4,10],
 "render__device_8hpp.html":[5,0,0,1,0,4,11],
 "render__device_8hpp.html#a255e66b6cc1e2a030938e586f6f99ed2":[5,0,0,1,0,4,11,2],
-"render__device_8hpp_source.html":[5,0,0,1,0,4,11],
-"render__instance_8hpp.html":[5,0,0,1,0,4,12],
-"render__instance_8hpp_source.html":[5,0,0,1,0,4,12],
-"render__view_8hpp.html":[5,0,0,1,0,4,13],
-"render__view_8hpp_source.html":[5,0,0,1,0,4,13],
-"renderer_8hpp.html":[5,0,0,1,0,4,14],
-"renderer_8hpp_source.html":[5,0,0,1,0,4,14],
-"rgba_8hpp.html":[5,0,0,1,0,4,15],
-"rgba_8hpp.html#a4a2c4cdbb25ee11893de6d9a7d7bef50":[5,0,0,1,0,4,15,8],
-"rgba_8hpp.html#a64c9ad2f61f9104642cb4e117227c9b0":[5,0,0,1,0,4,15,7]
+"render__device_8hpp_source.html":[5,0,0,1,0,4,11]
 };

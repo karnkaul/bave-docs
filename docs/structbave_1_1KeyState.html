@@ -111,6 +111,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f72cf63d297c3aa311411c36205aa69" id="r_a0f72cf63d297c3aa311411c36205aa69"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f72cf63d297c3aa311411c36205aa69">is_pressed</a> (<a class="el" href="namespacebave.html#a29a9523f73dfc64b112140481d5b554c">Key</a> const key) const -&gt; bool</td></tr>
 <tr class="memdesc:a0f72cf63d297c3aa311411c36205aa69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a key is pressed (held down).  <br /></td></tr>
 <tr class="separator:a0f72cf63d297c3aa311411c36205aa69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9483d754371fbe790a6a9a175d9a9c38" id="r_a9483d754371fbe790a6a9a175d9a9c38"><td class="memTemplParams" colspan="2">template&lt;std::same_as&lt; <a class="el" href="namespacebave.html#a29a9523f73dfc64b112140481d5b554c">Key</a> &gt;... Ks&gt; </td></tr>
+<tr class="memitem:a9483d754371fbe790a6a9a175d9a9c38"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9483d754371fbe790a6a9a175d9a9c38">any_pressed</a> (Ks const ... keys) const -&gt; bool</td></tr>
+<tr class="memdesc:a9483d754371fbe790a6a9a175d9a9c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if any given key is pressed (held down).  <br /></td></tr>
+<tr class="separator:a9483d754371fbe790a6a9a175d9a9c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da3661272fc1511361a39628f6f55a5" id="r_a9da3661272fc1511361a39628f6f55a5"><td class="memTemplParams" colspan="2">template&lt;std::same_as&lt; <a class="el" href="namespacebave.html#a29a9523f73dfc64b112140481d5b554c">Key</a> &gt;... Ks&gt; </td></tr>
+<tr class="memitem:a9da3661272fc1511361a39628f6f55a5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9da3661272fc1511361a39628f6f55a5">all_pressed</a> (Ks const ... keys) const -&gt; bool</td></tr>
+<tr class="memdesc:a9da3661272fc1511361a39628f6f55a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if all given keys are pressed (held down).  <br /></td></tr>
+<tr class="separator:a9da3661272fc1511361a39628f6f55a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -125,6 +133,80 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Stateful wrapper for keys held down over multiple frames. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9da3661272fc1511361a39628f6f55a5" name="a9da3661272fc1511361a39628f6f55a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9da3661272fc1511361a39628f6f55a5">&#9670;&#160;</a></span>all_pressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::same_as&lt; <a class="el" href="namespacebave.html#a29a9523f73dfc64b112140481d5b554c">Key</a> &gt;... Ks&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::KeyState::all_pressed </td>
+          <td>(</td>
+          <td class="paramtype">Ks const ...</td>          <td class="paramname"><span class="paramname"><em>keys</em></span></td><td>)</td>
+          <td> const -&gt; bool </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if all given keys are pressed (held down). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keys</td><td>The keys to check for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if all keys have been pressed but not yet released. </dd></dl>
+<dl class="section pre"><dt>Precondition</dt><dd>key must be non-negative and less than <a class="el" href="namespacebave.html#a29a9523f73dfc64b112140481d5b554ca98ce873df53900dd5454baba574ecb06">Key::eCOUNT_</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a9483d754371fbe790a6a9a175d9a9c38" name="a9483d754371fbe790a6a9a175d9a9c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9483d754371fbe790a6a9a175d9a9c38">&#9670;&#160;</a></span>any_pressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::same_as&lt; <a class="el" href="namespacebave.html#a29a9523f73dfc64b112140481d5b554c">Key</a> &gt;... Ks&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::KeyState::any_pressed </td>
+          <td>(</td>
+          <td class="paramtype">Ks const ...</td>          <td class="paramname"><span class="paramname"><em>keys</em></span></td><td>)</td>
+          <td> const -&gt; bool </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if any given key is pressed (held down). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keys</td><td>The keys to check for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if any key in keys has been pressed but not yet released. </dd></dl>
+<dl class="section pre"><dt>Precondition</dt><dd>keys must be non-negative and less than <a class="el" href="namespacebave.html#a29a9523f73dfc64b112140481d5b554ca98ce873df53900dd5454baba574ecb06">Key::eCOUNT_</a>. </dd></dl>
+
+</div>
+</div>
 <a id="a0f72cf63d297c3aa311411c36205aa69" name="a0f72cf63d297c3aa311411c36205aa69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f72cf63d297c3aa311411c36205aa69">&#9670;&#160;</a></span>is_pressed()</h2>
 

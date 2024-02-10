@@ -4,7 +4,7 @@ var classbave_1_1Loader =
     [ "load_anim_timeline", "classbave_1_1Loader.html#a3d37eba30ec2c9863155ac5a6f6ab39c", null ],
     [ "load_audio_clip", "classbave_1_1Loader.html#ab26b0984c6bd45cd25e8d37de0b1fe34", null ],
     [ "load_bytes", "classbave_1_1Loader.html#aa53c2ada2d0fa45e6dd3452e118e4f9f", null ],
-    [ "load_font", "classbave_1_1Loader.html#a715d352799f0f01d26e8c7dbbf61d620", null ],
+    [ "load_font", "classbave_1_1Loader.html#a1997fde32697cb065942182c711ad0e4", null ],
     [ "load_image_file", "classbave_1_1Loader.html#a0e27afd3b483cdc2784cfb098bd37c09", null ],
     [ "load_json", "classbave_1_1Loader.html#a4550bc9b8d3e2d701a7b5a57d2812b4b", null ],
     [ "load_json_asset", "classbave_1_1Loader.html#af5ef2e6ea9a02cf47b83593a02326650", null ],

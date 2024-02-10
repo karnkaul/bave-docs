@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['z_5fplane_0',['z_plane',['../structbave_1_1RenderView.html#a93bd797d2c30ddd22c19049363213f03',1,'bave::RenderView']]],
-  ['zplane_1',['ZPlane',['../structbave_1_1ZPlane.html',1,'bave']]]
+  ['y_0',['y',['../structbave_1_1Index2D.html#ac493309d5ed8ed613282ba31c546d7c0',1,'bave::Index2D']]],
+  ['yellow_5fv_1',['yellow_v',['../namespacebave.html#acfb6e1b2d44a9aff22a86f984ce0a9db',1,'bave']]]
 ];

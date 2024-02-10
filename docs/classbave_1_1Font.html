@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37bd8d11945771a95def0cdf13f0ae85" id="r_a37bd8d11945771a95def0cdf13f0ae85"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37bd8d11945771a95def0cdf13f0ae85">load_from_bytes</a> (std::vector&lt; std::byte &gt; file_bytes, float scale=<a class="el" href="#ae1b4c9e0c1d3b1a060eac3d35143a48f">scale_v</a>) -&gt; bool</td></tr>
 <tr class="memdesc:a37bd8d11945771a95def0cdf13f0ae85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to load font.  <br /></td></tr>
 <tr class="separator:a37bd8d11945771a95def0cdf13f0ae85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88cda97787310c4a84f9b0e830b16680" id="r_a88cda97787310c4a84f9b0e830b16680"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88cda97787310c4a84f9b0e830b16680">create_font_atlas</a> (<a class="el" href="namespacebave.html#ab5b6e798b6b868e7a049814b7e45f56c">TextHeight</a> height) -&gt; bool</td></tr>
+<tr class="memdesc:a88cda97787310c4a84f9b0e830b16680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create font atlas for a specific text height.  <br /></td></tr>
+<tr class="separator:a88cda97787310c4a84f9b0e830b16680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af218ca42568ae336e8ad221bba4c13a3" id="r_af218ca42568ae336e8ad221bba4c13a3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af218ca42568ae336e8ad221bba4c13a3">glyph_for</a> (<a class="el" href="namespacebave.html#ab5b6e798b6b868e7a049814b7e45f56c">TextHeight</a> height, <a class="el" href="namespacebave.html#a5d7787c81efafc139779aea513b3ad67">Codepoint</a> codepoint) -&gt; <a class="el" href="structbave_1_1Glyph.html">Glyph</a></td></tr>
 <tr class="separator:af218ca42568ae336e8ad221bba4c13a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4abea9aa77e7cc081e03aa10f3f218a" id="r_ad4abea9aa77e7cc081e03aa10f3f218a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4abea9aa77e7cc081e03aa10f3f218a">get_texture</a> (<a class="el" href="namespacebave.html#ab5b6e798b6b868e7a049814b7e45f56c">TextHeight</a> height) -&gt; std::shared_ptr&lt; <a class="el" href="classbave_1_1Texture.html">Texture</a> const &gt;</td></tr>
@@ -174,6 +177,32 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a88cda97787310c4a84f9b0e830b16680" name="a88cda97787310c4a84f9b0e830b16680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88cda97787310c4a84f9b0e830b16680">&#9670;&#160;</a></span>create_font_atlas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::Font::create_font_atlas </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacebave.html#ab5b6e798b6b868e7a049814b7e45f56c">TextHeight</a></td>          <td class="paramname"><span class="paramname"><em>height</em></span></td><td>)</td>
+          <td> -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create font atlas for a specific text height. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">height</td><td>TextHeight to create atlas for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful. </dd></dl>
+
+</div>
+</div>
 <a id="ae4e8b685dde63d140922ce48bc8e0891" name="ae4e8b685dde63d140922ce48bc8e0891"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4e8b685dde63d140922ce48bc8e0891">&#9670;&#160;</a></span>get_font_atlas()</h2>
 

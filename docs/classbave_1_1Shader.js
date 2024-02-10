@@ -2,6 +2,7 @@ var classbave_1_1Shader =
 [
     [ "Shader", "classbave_1_1Shader.html#ad21a84d0f6cc05cb429f254b92a54695", null ],
     [ "draw", "classbave_1_1Shader.html#a1f6fafd22ca266bd4cb8b29362a84cd4", null ],
+    [ "set_render_view", "classbave_1_1Shader.html#a8e50f00da0c62c5cec4b0d124cb6a3e9", null ],
     [ "update_texture", "classbave_1_1Shader.html#ac15fb576b1c03aaa2460e8050992da93", null ],
     [ "update_textures", "classbave_1_1Shader.html#a97b0eb84229d2b5f598bbf32ec58f928", null ],
     [ "write_ssbo", "classbave_1_1Shader.html#a67f4f17ef83573a49e3ff6b824bec773", null ],

@@ -1,21 +1,15 @@
 var searchData=
 [
-  ['v0_204_0',['v0.4',['../md_lib_2docs_2changelog.html#autotoc_md1',1,'']]],
-  ['validation_5flayers_1',['validation_layers',['../structbave_1_1DesktopApp_1_1CreateInfo.html#af6c0a25e1abe284e038a0c6d5d8a251e',1,'bave::DesktopApp::CreateInfo::validation_layers'],['../structbave_1_1RenderDeviceCreateInfo.html#a404d53f0ddc8f2dd63389ca6e66edab2',1,'bave::RenderDeviceCreateInfo::validation_layers']]],
-  ['validation_5flayers_5fenabled_2',['validation_layers_enabled',['../classbave_1_1RenderDevice.html#aeb9c14ab6b076dc3839b870947ed196e',1,'bave::RenderDevice']]],
-  ['value_3',['value',['../structbave_1_1Degrees.html#a7aaee9629adab345568d257ed0312d02',1,'bave::Degrees::value'],['../structbave_1_1Radians.html#a5fb3f7b34e8a08204db730151b6f14f1',1,'bave::Radians::value']]],
-  ['value_5ftype_4',['value_type',['../classbave_1_1ScopedResource.html#ae586511c4b959d2bba036c0b49ccf330',1,'bave::ScopedResource']]],
-  ['velocity_5',['velocity',['../structbave_1_1ParticleConfig.html#a75dbd9493ac2e1334a248dc8f1a9333a',1,'bave::ParticleConfig']]],
-  ['version_6',['Version',['../structbave_1_1Version.html',1,'bave']]],
-  ['version_2ehpp_7',['version.hpp',['../version_8hpp.html',1,'']]],
-  ['vertex_8',['Vertex',['../structbave_1_1Vertex.html',1,'bave']]],
-  ['vertex_5farray_9',['vertex_array',['../structbave_1_1Geometry.html#a768faeaa2d75911dd5c6ba26a68e993f',1,'bave::Geometry']]],
-  ['vertex_5fcolour_10',['vertex_colour',['../classbave_1_1Font_1_1Pen.html#adaf6d8cbd89a5706b0ecf597a1c8ce4e',1,'bave::Font::Pen']]],
-  ['vertexarray_11',['VertexArray',['../structbave_1_1VertexArray.html',1,'bave']]],
-  ['vertices_12',['vertices',['../structbave_1_1VertexArray.html#aab33f0eceb08341fb891e4d21a1f021d',1,'bave::VertexArray::vertices'],['../structbave_1_1RenderPrimitive.html#a5c0e41b547033db2ffdbc3a86c325b89',1,'bave::RenderPrimitive::vertices']]],
-  ['view_13',['View',['../classbave_1_1Bitmap.html#af5db3b755eb53b20459ebe58d9c1e413',1,'bave::Bitmap']]],
-  ['view_14',['view',['../classbave_1_1FixedString.html#a9d84955edbef42709bd2d33aa98163a5',1,'bave::FixedString']]],
-  ['viewport_15',['viewport',['../structbave_1_1RenderView.html#aa0442365dae11b217c4b837c997fb64b',1,'bave::RenderView']]],
-  ['visitor_16',['Visitor',['../structbave_1_1Visitor.html',1,'bave::Visitor&lt; T &gt;'],['../namespacebave.html#a4e73cbd5fd59121d3f1c02337d5e05da',1,'bave::Visitor(T...) -&gt; Visitor&lt; T... &gt;']]],
-  ['visitor_2ehpp_17',['visitor.hpp',['../visitor_8hpp.html',1,'']]]
+  ['unexpected_5fargument_0',['unexpected_argument',['../structbave_1_1clap_1_1Parser.html#a722bbdeb9434433145f12175a9071425',1,'bave::clap::Parser']]],
+  ['unmatched_1',['unmatched',['../structbave_1_1clap_1_1OptionSpec.html#a4cbb25361ebb9540af1e4a05df1a7906',1,'bave::clap::OptionSpec::unmatched'],['../classbave_1_1clap_1_1Options.html#ab4403384e586a113bff6e496e5ab9bb0',1,'bave::clap::Options::unmatched()']]],
+  ['unproject_2',['unproject',['../structbave_1_1RenderView.html#a20bd03239eb453fd273000911f048ebf',1,'bave::RenderView']]],
+  ['unrecognized_5fargument_3',['unrecognized_argument',['../structbave_1_1clap_1_1Parser.html#ac1fb3b926735187778f1cfe102396244',1,'bave::clap::Parser']]],
+  ['update_4',['update',['../structbave_1_1DeltaTime.html#adb05d906cf0f83ecaca0a6cb616ab58c',1,'bave::DeltaTime::update()'],['../classbave_1_1ImInputText.html#a03dfa9b777f4ed68525b74c4d9cfdf52',1,'bave::ImInputText::update()'],['../classbave_1_1GestureRecognizer.html#a01786d2b28a098d93eef4c12f3abfdcf',1,'bave::GestureRecognizer::update()']]],
+  ['update_5ftexture_5',['update_texture',['../classbave_1_1Shader.html#ac15fb576b1c03aaa2460e8050992da93',1,'bave::Shader']]],
+  ['update_5ftextures_6',['update_textures',['../classbave_1_1Shader.html#a97b0eb84229d2b5f598bbf32ec58f928',1,'bave::Shader']]],
+  ['uv_7',['uv',['../structbave_1_1Vertex.html#a066962754998682ca9909fe30836948b',1,'bave::Vertex::uv'],['../structbave_1_1Quad.html#ab2961155955a1f4b0af29c615c0eb0d7',1,'bave::Quad::uv']]],
+  ['uv_5frect_8',['uv_rect',['../structbave_1_1Glyph.html#a40013eca474fd8998fde28e0394d071e',1,'bave::Glyph']]],
+  ['uv_5frect_5fv_9',['uv_rect_v',['../namespacebave.html#a4ce8b395c13a0192b9166a4d546273cf',1,'bave']]],
+  ['uvrect_10',['UvRect',['../namespacebave.html#aeadce6fc5f9877c440d99bace8660557',1,'bave']]],
+  ['uvs_11',['uvs',['../structbave_1_1Pixmap_1_1Atlas.html#a0325629fee6ebbf643c1bce8cd11dddc',1,'bave::Pixmap::Atlas']]]
 ];
