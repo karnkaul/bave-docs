@@ -97,17 +97,25 @@ $(function(){initNavTree('md_lib_2docs_2changelog.html',''); initResizable(); })
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> </p>
 <h1><a class="anchor" id="autotoc_md1"></a>
-v0.4.1</h1>
+v0.4</h1>
+<h2><a class="anchor" id="autotoc_md2"></a>
+v0.4.2</h2>
+<ul>
+<li>Fixed app shutdown/restart flow on Android.</li>
+<li>Made <a class="el" href="classbave_1_1Texture.html" title="Texture: image on the GPU.">bave::Texture</a> polymorphic. (Marked its destructor as <code>virtual</code>.)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md3"></a>
+v0.4.1</h2>
 <ul>
 <li>Fixed <a class="el" href="structbave_1_1Rgba.html#a8771a4ca3b7a3a71db75771fb6e9d5ac" title="Convert instance to hex string.">bave::Rgba::to_hex_str()</a>. Previously it would skip leading zeroes for each byte.</li>
 <li>Add some convenience functions on <a class="el" href="classbave_1_1EnumFlags.html" title="Enum-indexed wrapper around std::bitset.">bave::EnumFlags</a>.</li>
 <li>Linearize vertex RGBA in <a class="el" href="structbave_1_1Geometry.html" title="VertexArray and its Topology.">bave::Geometry</a>.</li>
 <li>Preload font atlas for default <a class="el" href="namespacebave.html#ab5b6e798b6b868e7a049814b7e45f56c" title="Strongly typed text height.">bave::TextHeight</a>.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md2"></a>
-v0.4</h1>
-<h2><a class="anchor" id="autotoc_md3"></a>
-Features</h2>
+<h2><a class="anchor" id="autotoc_md4"></a>
+v0.4.0</h2>
+<h3><a class="anchor" id="autotoc_md5"></a>
+Features</h3>
 <ul>
 <li>Added <a class="el" href="structbave_1_1Gamepad.html" title="Read-only state of a gamepad.">bave::Gamepad</a> support, queried through <a class="el" href="classbave_1_1App.html#ae9b67dc031e00b3f2c14090dbe6ab211" title="Get a particular gamepad.">bave::App::get_gamepad()</a> and <a class="el" href="classbave_1_1App.html#a6ef631a833bdc4fc24a883a2889b4cae">bave::App::get_gamepads()</a>.<ul>
 <li>Not yet supported on Android.</li>
@@ -118,8 +126,8 @@ Features</h2>
 <li>Added <a class="el" href="classbave_1_1ParticleSystem.html" title="Container of ParticleEmitter instances.">bave::ParticleSystem</a>.</li>
 <li>Added <a class="el" href="namespacebave.html#a6e3838a499289de6876eaf44ca4d11f0">bave::LineRectShape</a> (specialization of <a class="el" href="classbave_1_1Shape.html" title="Class template for all shapes.">bave::Shape</a>).</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Changes</h2>
+<h3><a class="anchor" id="autotoc_md6"></a>
+Changes</h3>
 <ul>
 <li>Unified all bit flags to be <a class="el" href="classbave_1_1EnumFlags.html" title="Enum-indexed wrapper around std::bitset.">bave::EnumFlags</a>.</li>
 <li>Renamed <code>particle_emitter.?pp</code> to <code>particle_system.?pp</code>.</li>

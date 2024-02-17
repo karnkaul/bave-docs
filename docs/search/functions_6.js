@@ -13,7 +13,7 @@ var searchData=
   ['get_5faxis_10',['get_axis',['../structbave_1_1Gamepad.html#ac2e6d9dd2f69c382c4d9afdefbcdd280',1,'bave::Gamepad']]],
   ['get_5fbackbuffer_5fextent_11',['get_backbuffer_extent',['../classbave_1_1Renderer.html#a2d74a8cb5f3d24805d779fc2d4d93478',1,'bave::Renderer']]],
   ['get_5fbitmap_5fview_12',['get_bitmap_view',['../classbave_1_1IBitmapViewSource.html#aab276dc95a342b7a76d0750e542c45f6',1,'bave::IBitmapViewSource::get_bitmap_view()'],['../classbave_1_1Bitmap.html#a8e817b92a8b8dba181dca79537b38dc7',1,'bave::Bitmap::get_bitmap_view()'],['../classbave_1_1ImageFile.html#a706186c5c2f5c0a8fbfc07319ee34cff',1,'bave::ImageFile::get_bitmap_view()']]],
-  ['get_5fbounds_13',['get_bounds',['../classbave_1_1Drawable.html#a6b9a59a09c82b8c989add42eac513aee',1,'bave::Drawable::get_bounds()'],['../classbave_1_1Text.html#aecab93a4426b6e2082b41c08eb5d305e',1,'bave::Text::get_bounds()']]],
+  ['get_5fbounds_13',['get_bounds',['../classbave_1_1Drawable.html#a6b9a59a09c82b8c989add42eac513aee',1,'bave::Drawable::get_bounds()'],['../classbave_1_1Shape.html#a3dfb042d96512c8eb05073c741d5c1d0',1,'bave::Shape::get_bounds()'],['../classbave_1_1Text.html#aecab93a4426b6e2082b41c08eb5d305e',1,'bave::Text::get_bounds()']]],
   ['get_5fbuffer_5fcache_14',['get_buffer_cache',['../classbave_1_1RenderDevice.html#aa768800442cbfc6dd07e03717d234254',1,'bave::RenderDevice']]],
   ['get_5fclip_15',['get_clip',['../classbave_1_1AudioClip.html#a4ad9ecde9163c400f2b895a7c3ca2a8d',1,'bave::AudioClip']]],
   ['get_5fcommand_5fbuffer_16',['get_command_buffer',['../classbave_1_1Renderer.html#aba70c0af74cf233faeeaa153cb74e23e',1,'bave::Renderer']]],

@@ -177,42 +177,43 @@ $(function(){initNavTree('desktop__app_8hpp_source.html',''); initResizable(); }
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> render() final;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> do_shutdown() final;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    [[nodiscard]] auto do_get_native_features() const -&gt; <a class="code hl_class" href="classbave_1_1EnumFlags.html">FeatureFlags</a> final;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    [[nodiscard]] auto do_get_window_size() const -&gt; glm::ivec2 final;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    [[nodiscard]] auto do_get_framebuffer_size() const -&gt; glm::ivec2 final;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    [[nodiscard]] auto do_get_render_device() const -&gt; <a class="code hl_class" href="classbave_1_1RenderDevice.html">RenderDevice</a>&amp; final;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    [[nodiscard]] auto do_get_renderer() const -&gt; <a class="code hl_class" href="classbave_1_1Renderer.html">Renderer</a>&amp; final;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    [[nodiscard]] auto do_get_driver() const -&gt; <a class="code hl_typedef" href="namespacebave.html#a43ebdec65de340b63bfa89a465ecfea0">Ptr</a>&lt;<a class="code hl_class" href="classbave_1_1Driver.html">Driver</a>&gt; final { <span class="keywordflow">return</span> m_driver.get(); }</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    [[nodiscard]] <span class="keyword">auto</span> get_instance_extensions() const -&gt; std::span&lt;<span class="keywordtype">char</span> const* const&gt; final;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    [[nodiscard]] auto make_surface(vk::Instance instance) const -&gt; vk::SurfaceKHR final;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    [[nodiscard]] auto get_framebuffer_extent() const -&gt; vk::Extent2D final;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    [[nodiscard]] auto select_gpu(std::span&lt;<a class="code hl_struct" href="structbave_1_1Gpu.html">Gpu</a> const&gt; gpus) const -&gt; <a class="code hl_struct" href="structbave_1_1Gpu.html">Gpu</a> final;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    auto do_set_window_size(glm::ivec2 size) -&gt; <span class="keywordtype">bool</span> final;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    auto do_set_title(<a class="code hl_class" href="classbave_1_1CString.html">CString</a> title) -&gt; <span class="keywordtype">bool</span> final;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    auto do_set_window_icon(std::span&lt;<a class="code hl_struct" href="structbave_1_1BitmapView.html">BitmapView</a> const&gt; bitmaps) -&gt; <span class="keywordtype">bool</span> final;</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">void</span> init_data_store();</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> make_window();</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> init_graphics();</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">void</span> update_gamepads();</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    CreateInfo m_create_info{};</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    ScopedResource&lt;LogFile, LogFile::Deleter&gt; m_log_file{};</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    ScopedResource&lt;Glfw, Glfw::Deleter&gt; m_glfw{};</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    std::unique_ptr&lt;GLFWwindow, Glfw::Deleter&gt; m_window{};</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    std::unique_ptr&lt;RenderDevice&gt; m_render_device{};</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    vk::UniqueSurfaceKHR m_surface{};</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    std::unique_ptr&lt;Renderer&gt; m_renderer{};</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    std::unique_ptr&lt;detail::DearImGui&gt; m_dear_imgui{};</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    std::unique_ptr&lt;Driver&gt; m_driver{};</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    [[nodiscard]] auto get_is_shutting_down() const -&gt; <span class="keywordtype">bool</span> final;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    [[nodiscard]] auto do_get_native_features() const -&gt; <a class="code hl_class" href="classbave_1_1EnumFlags.html">FeatureFlags</a> final;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    [[nodiscard]] auto do_get_window_size() const -&gt; glm::ivec2 final;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    [[nodiscard]] auto do_get_framebuffer_size() const -&gt; glm::ivec2 final;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    [[nodiscard]] auto do_get_render_device() const -&gt; <a class="code hl_class" href="classbave_1_1RenderDevice.html">RenderDevice</a>&amp; final;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    [[nodiscard]] auto do_get_renderer() const -&gt; <a class="code hl_class" href="classbave_1_1Renderer.html">Renderer</a>&amp; final;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    [[nodiscard]] auto do_get_driver() const -&gt; <a class="code hl_typedef" href="namespacebave.html#a43ebdec65de340b63bfa89a465ecfea0">Ptr</a>&lt;<a class="code hl_class" href="classbave_1_1Driver.html">Driver</a>&gt; final { <span class="keywordflow">return</span> m_driver.get(); }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    [[nodiscard]] <span class="keyword">auto</span> get_instance_extensions() const -&gt; std::span&lt;<span class="keywordtype">char</span> const* const&gt; final;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    [[nodiscard]] auto make_surface(vk::Instance instance) const -&gt; vk::SurfaceKHR final;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    [[nodiscard]] auto get_framebuffer_extent() const -&gt; vk::Extent2D final;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    [[nodiscard]] auto select_gpu(std::span&lt;<a class="code hl_struct" href="structbave_1_1Gpu.html">Gpu</a> const&gt; gpus) const -&gt; <a class="code hl_struct" href="structbave_1_1Gpu.html">Gpu</a> final;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    auto do_set_window_size(glm::ivec2 size) -&gt; <span class="keywordtype">bool</span> final;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    auto do_set_title(<a class="code hl_class" href="classbave_1_1CString.html">CString</a> title) -&gt; <span class="keywordtype">bool</span> final;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    auto do_set_window_icon(std::span&lt;<a class="code hl_struct" href="structbave_1_1BitmapView.html">BitmapView</a> const&gt; bitmaps) -&gt; <span class="keywordtype">bool</span> final;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> init_data_store();</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> make_window();</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> init_graphics();</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> update_gamepads();</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    CreateInfo m_create_info{};</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    ScopedResource&lt;LogFile, LogFile::Deleter&gt; m_log_file{};</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    ScopedResource&lt;Glfw, Glfw::Deleter&gt; m_glfw{};</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    std::unique_ptr&lt;GLFWwindow, Glfw::Deleter&gt; m_window{};</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    std::unique_ptr&lt;RenderDevice&gt; m_render_device{};</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    vk::UniqueSurfaceKHR m_surface{};</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    std::unique_ptr&lt;Renderer&gt; m_renderer{};</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    std::unique_ptr&lt;detail::DearImGui&gt; m_dear_imgui{};</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    std::unique_ptr&lt;Driver&gt; m_driver{};</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>};</div>
 </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>} <span class="comment">// namespace bave</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>} <span class="comment">// namespace bave</span></div>
 <div class="ttc" id="aapp_8hpp_html"><div class="ttname"><a href="app_8hpp.html">app.hpp</a></div></div>
 <div class="ttc" id="aclassbave_1_1App_html"><div class="ttname"><a href="classbave_1_1App.html">bave::App</a></div><div class="ttdoc">Application API and entrypoint.</div><div class="ttdef"><b>Definition</b> app.hpp:32</div></div>
 <div class="ttc" id="aclassbave_1_1CString_html"><div class="ttname"><a href="classbave_1_1CString.html">bave::CString</a></div><div class="ttdoc">Wrapper over a C string (char const*).</div><div class="ttdef"><b>Definition</b> c_string.hpp:6</div></div>

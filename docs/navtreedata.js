@@ -27,10 +27,13 @@ var NAVTREE =
   [ "bave", "index.html", [
     [ "API Reference", "index.html", null ],
     [ "Changelog", "md_lib_2docs_2changelog.html", [
-      [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md1", null ],
-      [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md2", [
-        [ "Features", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
-        [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md4", null ]
+      [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md1", [
+        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
+        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
+        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md4", [
+          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
+          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md6", null ]
+        ] ]
       ] ]
     ] ],
     [ "Namespaces", "namespaces.html", [
@@ -69,12 +72,12 @@ var NAVTREEINDEX =
 "classbave_1_1DataStore.html#a1d73e7d765d2924468b4c43c85c2887f",
 "classbave_1_1Loader.html",
 "classbave_1_1ScopedResource.html#a2150efb8f0038cf96629058616041764",
-"codepoint_8hpp.html#a5d7787c81efafc139779aea513b3ad67abbf977b55bd3701863e3adc69358426e",
-"key_8hpp.html#a29a9523f73dfc64b112140481d5b554ca0466dc667c3b135e90ac7cab8b325756",
-"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca83de85ec4cc44be16b6d8ad117666cd5",
-"render__instance_8hpp.html",
-"structbave_1_1NineQuad.html#a2458af16aad4bc91b049e3037f3360c5",
-"structbave_1_1Texture_1_1Sampler.html#aac517e18b1570730d15e199af75eee2d"
+"codepoint_8hpp.html#a5d7787c81efafc139779aea513b3ad67",
+"key_8hpp.html#a29a9523f73dfc64b112140481d5b554ca03313000bddbe627fe74259a63974c64",
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca798cba67a96e195aa1d6976fa3e8b2a5",
+"rect_8hpp.html#ae8b75bffe44321814957faeddf27d3d6",
+"structbave_1_1MouseScroll.html",
+"structbave_1_1Texture_1_1Sampler.html#a8877a23e0aca37c328b3da48ffb79ec0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -150,7 +150,7 @@ $(function(){initNavTree('app_8hpp_source.html',''); initResizable(); });
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classbave_1_1App.html#a3f8171e414a2068b714a8efdc1af52b0">   63</a></span>    <span class="keyword">auto</span> <a class="code hl_function" href="classbave_1_1App.html#a3f8171e414a2068b714a8efdc1af52b0">run</a>() -&gt; <a class="code hl_enumeration" href="namespacebave.html#af1ada4e8999292e028ef2b2093b18e2f">ErrCode</a>;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classbave_1_1App.html#aeb0aff66175a0faaa1c272dfa3513b45">   66</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classbave_1_1App.html#aeb0aff66175a0faaa1c272dfa3513b45">shutdown</a>();</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classbave_1_1App.html#a0eca52d2618d034e1f0b76d31da9f83f">   69</a></span>    [[nodiscard]] <span class="keyword">auto</span> <a class="code hl_function" href="classbave_1_1App.html#a0eca52d2618d034e1f0b76d31da9f83f">is_shutting_down</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_shutting_down; }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classbave_1_1App.html#a0eca52d2618d034e1f0b76d31da9f83f">   69</a></span>    [[nodiscard]] <span class="keyword">auto</span> <a class="code hl_function" href="classbave_1_1App.html#a0eca52d2618d034e1f0b76d31da9f83f">is_shutting_down</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> get_is_shutting_down(); }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classbave_1_1App.html#acc230c9e171ed5a5b6a69381ad8b4147">   75</a></span>    <span class="keyword">auto</span> <a class="code hl_function" href="classbave_1_1App.html#acc230c9e171ed5a5b6a69381ad8b4147">set_window_size</a>(glm::ivec2 <span class="keyword">const</span> size) -&gt; <span class="keywordtype">bool</span> { <span class="keywordflow">return</span> do_set_window_size(size); }</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="classbave_1_1App.html#a715c0208a6674f1083458972f1fecfd6">   80</a></span>    <span class="keyword">auto</span> <a class="code hl_function" href="classbave_1_1App.html#a715c0208a6674f1083458972f1fecfd6">set_framebuffer_size</a>(glm::ivec2 size) -&gt; bool;</div>
@@ -211,35 +211,34 @@ $(function(){initNavTree('app_8hpp_source.html',''); initResizable(); });
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> render() = 0;</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> do_shutdown() = 0;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keyword">auto</span> do_get_native_features() const -&gt; <a class="code hl_typedef" href="classbave_1_1App.html#ab94c9be12de76c7dab24b82ec5ad64d0">FeatureFlags</a> { <span class="keywordflow">return</span> {}; }</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keyword">auto</span> do_get_window_size() const -&gt; glm::ivec2 { <span class="keywordflow">return</span> do_get_framebuffer_size(); }</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keyword">auto</span> do_get_framebuffer_size() const -&gt; glm::ivec2 = 0;</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    [[nodiscard]] virtual auto do_get_render_device() const -&gt; RenderDevice&amp; = 0;</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    [[nodiscard]] virtual auto do_get_renderer() const -&gt; Renderer&amp; = 0;</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    [[nodiscard]] virtual auto do_get_driver() const -&gt; <a class="code hl_typedef" href="namespacebave.html#a43ebdec65de340b63bfa89a465ecfea0">Ptr</a>&lt;Driver&gt; = 0;</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    virtual auto do_set_window_size(glm::ivec2 size) -&gt; <span class="keywordtype">bool</span> = 0;</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    virtual auto do_set_title(CString <span class="comment">/*title*/</span>) -&gt; <span class="keywordtype">bool</span> { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    <span class="keyword">virtual</span> <span class="keyword">auto</span> do_set_window_icon(std::span&lt;BitmapView const&gt; <span class="comment">/*bitmaps*/</span>) -&gt; <span class="keywordtype">bool</span> { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">void</span> pre_tick();</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    std::function&lt;std::unique_ptr&lt;Driver&gt;(<a class="code hl_function" href="classbave_1_1App.html#a0ab6f62fb46df6265d9830335c75764c">App</a>&amp;)&gt; m_bootloader{};</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    std::unique_ptr&lt;DataStore&gt; m_data_store{std::make_unique&lt;DataStore&gt;()};</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    std::unique_ptr&lt;AudioDevice&gt; m_audio_device{};</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    std::unique_ptr&lt;AudioStreamer&gt; m_audio_streamer{};</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    std::vector&lt;std::string&gt; m_drops{};</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    std::vector&lt;Event&gt; m_events{};</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    DeltaTime m_dt{};</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    Timer m_timer{};</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">bool</span> m_shutting_down{};</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>};</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keyword">auto</span> get_is_shutting_down() const -&gt; <span class="keywordtype">bool</span> = 0;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    [[nodiscard]] virtual auto do_get_native_features() const -&gt; <a class="code hl_typedef" href="classbave_1_1App.html#ab94c9be12de76c7dab24b82ec5ad64d0">FeatureFlags</a> { <span class="keywordflow">return</span> {}; }</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keyword">auto</span> do_get_window_size() const -&gt; glm::ivec2 { <span class="keywordflow">return</span> do_get_framebuffer_size(); }</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keyword">auto</span> do_get_framebuffer_size() const -&gt; glm::ivec2 = 0;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    [[nodiscard]] virtual auto do_get_render_device() const -&gt; RenderDevice&amp; = 0;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    [[nodiscard]] virtual auto do_get_renderer() const -&gt; Renderer&amp; = 0;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    [[nodiscard]] virtual auto do_get_driver() const -&gt; <a class="code hl_typedef" href="namespacebave.html#a43ebdec65de340b63bfa89a465ecfea0">Ptr</a>&lt;Driver&gt; = 0;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    virtual auto do_set_window_size(glm::ivec2 size) -&gt; <span class="keywordtype">bool</span> = 0;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    virtual auto do_set_title(CString <span class="comment">/*title*/</span>) -&gt; <span class="keywordtype">bool</span> { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>    <span class="keyword">virtual</span> <span class="keyword">auto</span> do_set_window_icon(std::span&lt;BitmapView const&gt; <span class="comment">/*bitmaps*/</span>) -&gt; <span class="keywordtype">bool</span> { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="keywordtype">void</span> pre_tick();</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    std::function&lt;std::unique_ptr&lt;Driver&gt;(<a class="code hl_function" href="classbave_1_1App.html#a0ab6f62fb46df6265d9830335c75764c">App</a>&amp;)&gt; m_bootloader{};</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    std::unique_ptr&lt;DataStore&gt; m_data_store{std::make_unique&lt;DataStore&gt;()};</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    std::unique_ptr&lt;AudioDevice&gt; m_audio_device{};</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    std::unique_ptr&lt;AudioStreamer&gt; m_audio_streamer{};</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    std::vector&lt;std::string&gt; m_drops{};</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    std::vector&lt;Event&gt; m_events{};</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    DeltaTime m_dt{};</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    Timer m_timer{};</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>};</div>
 </div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>} <span class="comment">// namespace bave</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>} <span class="comment">// namespace bave</span></div>
 <div class="ttc" id="aaudio__device_8hpp_html"><div class="ttname"><a href="audio__device_8hpp.html">audio_device.hpp</a></div></div>
 <div class="ttc" id="aaudio__streamer_8hpp_html"><div class="ttname"><a href="audio__streamer_8hpp.html">audio_streamer.hpp</a></div></div>
 <div class="ttc" id="aclassbave_1_1App_html"><div class="ttname"><a href="classbave_1_1App.html">bave::App</a></div><div class="ttdoc">Application API and entrypoint.</div><div class="ttdef"><b>Definition</b> app.hpp:32</div></div>
