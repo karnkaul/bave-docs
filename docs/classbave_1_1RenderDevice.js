@@ -15,6 +15,7 @@ var classbave_1_1RenderDevice =
     [ "get_instance", "classbave_1_1RenderDevice.html#a83db73a7848c45e12089832738c36dea", null ],
     [ "get_line_width_limits", "classbave_1_1RenderDevice.html#a4819016c311eb25ed0ed11a463225fb8", null ],
     [ "get_queue", "classbave_1_1RenderDevice.html#a13d131f429223a1db0bf6bce430a4434", null ],
+    [ "get_sample_count", "classbave_1_1RenderDevice.html#a282a082b0afd0c444cdda6ffe745fa98", null ],
     [ "get_sampler_cache", "classbave_1_1RenderDevice.html#a8a1542f0df27014f0677c7642208cc49", null ],
     [ "get_surface", "classbave_1_1RenderDevice.html#aff2b3d9db64521c9c8aeac826a1d24be", null ],
     [ "get_swapchain_extent", "classbave_1_1RenderDevice.html#aeb9bcc7135d8f906e2004005f64f05b2", null ],

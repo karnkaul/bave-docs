@@ -375,6 +375,8 @@ var namespacebave =
     [ "to_json", "namespacebave.html#aa48753dc6bd88b6fed63b9fd46d4ee25", null ],
     [ "to_json", "namespacebave.html#ac483a9a7c97994d183c290b712317dd0", null ],
     [ "to_string", "namespacebave.html#aa4736098d5cf4c984f7b8edc98a9d6aa", null ],
+    [ "to_uv_coords", "namespacebave.html#af5e225719bcd5c46d16f22824aa12a17", null ],
+    [ "to_uv_rect", "namespacebave.html#a5c06716c9085c727567648b9163ff3bb", null ],
     [ "to_vsync_string", "namespacebave.html#a255e66b6cc1e2a030938e586f6f99ed2", null ],
     [ "Visitor", "namespacebave.html#a4e73cbd5fd59121d3f1c02337d5e05da", null ],
     [ "black_v", "namespacebave.html#a729fcca01775600d6e33741acef59e35", null ],

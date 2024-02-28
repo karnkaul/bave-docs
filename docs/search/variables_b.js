@@ -25,5 +25,7 @@ var searchData=
   ['minor_22',['minor',['../structbave_1_1Version.html#a5fe7224bf5017d31e8ab2d30d107f4d6',1,'bave::Version']]],
   ['mode_23',['mode',['../structbave_1_1DesktopApp_1_1CreateInfo.html#ae569119110e7c08751ebcd72039e115a',1,'bave::DesktopApp::CreateInfo']]],
   ['modifiers_24',['modifiers',['../classbave_1_1ParticleEmitter.html#a6235b6c11c11fdf23a3be5d6b0730e16',1,'bave::ParticleEmitter']]],
-  ['mods_25',['mods',['../structbave_1_1KeyInput.html#ae7d34c24a2eae583244b4e68f1b293a9',1,'bave::KeyInput::mods'],['../structbave_1_1PointerTap.html#a4642a11b6e25e35a568386c068d8a092',1,'bave::PointerTap::mods']]]
+  ['mods_25',['mods',['../structbave_1_1KeyInput.html#ae7d34c24a2eae583244b4e68f1b293a9',1,'bave::KeyInput::mods'],['../structbave_1_1PointerTap.html#a4642a11b6e25e35a568386c068d8a092',1,'bave::PointerTap::mods']]],
+  ['msaa_26',['msaa',['../structbave_1_1DesktopApp_1_1CreateInfo.html#a460f866415f6ee1c7a33dbf36527ab4d',1,'bave::DesktopApp::CreateInfo']]],
+  ['msaa_5fv_27',['msaa_v',['../classbave_1_1AndroidApp.html#aa06700c7d7c306dac349155a205806aa',1,'bave::AndroidApp']]]
 ];

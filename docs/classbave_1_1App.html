@@ -180,8 +180,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa925bac6152d6a35200c5a4c96fe863" id="r_afa925bac6152d6a35200c5a4c96fe863"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa925bac6152d6a35200c5a4c96fe863">get_most_recent_gamepad</a> () const -&gt; <a class="el" href="structbave_1_1Gamepad.html">Gamepad</a> const &amp;</td></tr>
 <tr class="memdesc:afa925bac6152d6a35200c5a4c96fe863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the most recently used gamepad.  <br /></td></tr>
 <tr class="separator:afa925bac6152d6a35200c5a4c96fe863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01578422e30d664e95aef4f5e2935260" id="r_a01578422e30d664e95aef4f5e2935260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01578422e30d664e95aef4f5e2935260">update_gamepad_mappings</a> (<a class="el" href="classbave_1_1CString.html">CString</a> const text)</td></tr>
+<tr class="memdesc:a01578422e30d664e95aef4f5e2935260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update GLFW gamepad mappings.  <br /></td></tr>
+<tr class="separator:a01578422e30d664e95aef4f5e2935260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa018879254ee052db120875165474906" id="r_aa018879254ee052db120875165474906"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa018879254ee052db120875165474906">get_features</a> () const -&gt; <a class="el" href="#ab94c9be12de76c7dab24b82ec5ad64d0">FeatureFlags</a></td></tr>
 <tr class="separator:aa018879254ee052db120875165474906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688c9947b18230149fe4477142bd69bc" id="r_a688c9947b18230149fe4477142bd69bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688c9947b18230149fe4477142bd69bc">wait_render_device_idle</a> ()</td></tr>
+<tr class="memdesc:a688c9947b18230149fe4477142bd69bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until <a class="el" href="classbave_1_1RenderDevice.html" title="Vulkan rendering device.">RenderDevice</a> is idle.  <br /></td></tr>
+<tr class="separator:a688c9947b18230149fe4477142bd69bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63853c94db3261ef02970a8571dd54df" id="r_a63853c94db3261ef02970a8571dd54df"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63853c94db3261ef02970a8571dd54df">get_data_store</a> () const -&gt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a> &amp;</td></tr>
 <tr class="separator:a63853c94db3261ef02970a8571dd54df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee234d1039f4985f12548721372c778f" id="r_aee234d1039f4985f12548721372c778f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee234d1039f4985f12548721372c778f">get_render_device</a> () const -&gt; <a class="el" href="classbave_1_1RenderDevice.html">RenderDevice</a> &amp;</td></tr>
@@ -1295,6 +1301,66 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01578422e30d664e95aef4f5e2935260" name="a01578422e30d664e95aef4f5e2935260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01578422e30d664e95aef4f5e2935260">&#9670;&#160;</a></span>update_gamepad_mappings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bave::App::update_gamepad_mappings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbave_1_1CString.html">CString</a> const</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update GLFW gamepad mappings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>contents in SDL game controller DB format. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a688c9947b18230149fe4477142bd69bc" name="a688c9947b18230149fe4477142bd69bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688c9947b18230149fe4477142bd69bc">&#9670;&#160;</a></span>wait_render_device_idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bave::App::wait_render_device_idle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wait until <a class="el" href="classbave_1_1RenderDevice.html" title="Vulkan rendering device.">RenderDevice</a> is idle. </p>
 
 </div>
 </div>

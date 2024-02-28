@@ -28,11 +28,13 @@ var NAVTREE =
     [ "API Reference", "index.html", null ],
     [ "Changelog", "md_lib_2docs_2changelog.html", [
       [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md1", [
-        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
-        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
-        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md4", [
-          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
-          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md6", null ]
+        [ "v0.4.4", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
+        [ "v0.4.3", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
+        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md4", null ],
+        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
+        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md6", [
+          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md7", null ],
+          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md8", null ]
         ] ]
       ] ]
     ] ],
@@ -69,15 +71,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8hpp.html",
-"classbave_1_1DataStore.html#a1d73e7d765d2924468b4c43c85c2887f",
-"classbave_1_1Loader.html",
-"classbave_1_1ScopedResource.html#a2150efb8f0038cf96629058616041764",
-"codepoint_8hpp.html#a5d7787c81efafc139779aea513b3ad67",
-"key_8hpp.html#a29a9523f73dfc64b112140481d5b554ca03313000bddbe627fe74259a63974c64",
-"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca798cba67a96e195aa1d6976fa3e8b2a5",
-"rect_8hpp.html#ae8b75bffe44321814957faeddf27d3d6",
-"structbave_1_1MouseScroll.html",
-"structbave_1_1Texture_1_1Sampler.html#a8877a23e0aca37c328b3da48ffb79ec0"
+"classbave_1_1CString.html#af32fa94897142eb37ddf449e44711df7",
+"classbave_1_1ImTexture.html#a9c4bd5792c6884fa1160c95c82ada40b",
+"classbave_1_1Renderer.html#a9d3c2b1e5bb4deb849fe6d6b94d79d7e",
+"classbave_1_1clap_1_1Options.html#aa00c13c4b9ed566a1047acb1ceadb28d",
+"is__positive_8hpp_source.html",
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca4c8304dece44017c460079c4b4f2155f",
+"platform_8hpp_source.html",
+"structbave_1_1KeyState.html#a1491e61f7e1d3cf9c25ab0f45403f3fd",
+"structbave_1_1Rgba.html#a793bef91aac3033581e4f3c7497e877e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

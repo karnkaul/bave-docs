@@ -792,6 +792,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ae8b75bffe44321814957faeddf27d3d6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae8b75bffe44321814957faeddf27d3d6">is_intersecting</a> (<a class="el" href="structbave_1_1Rect.html">Rect</a>&lt; Type &gt; const &amp;a, <a class="el" href="structbave_1_1Rect.html">Rect</a>&lt; Type &gt; const &amp;b) -&gt; bool</td></tr>
 <tr class="memdesc:ae8b75bffe44321814957faeddf27d3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if two rects are intersecting.  <br /></td></tr>
 <tr class="separator:ae8b75bffe44321814957faeddf27d3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e225719bcd5c46d16f22824aa12a17" id="r_af5e225719bcd5c46d16f22824aa12a17"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5e225719bcd5c46d16f22824aa12a17">to_uv_coords</a> (glm::vec2 const n_xy) -&gt; glm::vec2</td></tr>
+<tr class="memdesc:af5e225719bcd5c46d16f22824aa12a17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a normalized point to UV coordinates.  <br /></td></tr>
+<tr class="separator:af5e225719bcd5c46d16f22824aa12a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c06716c9085c727567648b9163ff3bb" id="r_a5c06716c9085c727567648b9163ff3bb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c06716c9085c727567648b9163ff3bb">to_uv_rect</a> (<a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt; const &amp;n_rect) -&gt; <a class="el" href="#aeadce6fc5f9877c440d99bace8660557">UvRect</a></td></tr>
+<tr class="memdesc:a5c06716c9085c727567648b9163ff3bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a normalized <a class="el" href="structbave_1_1Rect.html" title="Axis aligned rectangle specified by top-left and bottom-right points.">Rect</a> to UV coordinates.  <br /></td></tr>
+<tr class="separator:a5c06716c9085c727567648b9163ff3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a255e66b6cc1e2a030938e586f6f99ed2" id="r_a255e66b6cc1e2a030938e586f6f99ed2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255e66b6cc1e2a030938e586f6f99ed2">to_vsync_string</a> (vk::PresentModeKHR const mode) -&gt; std::string_view</td></tr>
 <tr class="separator:a255e66b6cc1e2a030938e586f6f99ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a819272e2be61cb2dea0cf51923dcfc04" id="r_a819272e2be61cb2dea0cf51923dcfc04"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a819272e2be61cb2dea0cf51923dcfc04">get_rotation_matrix</a> (<a class="el" href="structbave_1_1Radians.html">Radians</a> rotation) -&gt; glm::mat4</td></tr>
@@ -2414,6 +2420,74 @@ template&lt;dj::Numeric Type&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Serialized version string. </dd></dl>
+
+</div>
+</div>
+<a id="af5e225719bcd5c46d16f22824aa12a17" name="af5e225719bcd5c46d16f22824aa12a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5e225719bcd5c46d16f22824aa12a17">&#9670;&#160;</a></span>to_uv_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto bave::to_uv_coords </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec2 const</td>          <td class="paramname"><span class="paramname"><em>n_xy</em></span></td><td>)</td>
+          <td> -&gt; glm::vec2 </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a normalized point to UV coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n_xy</td><td>Normalized point in world space (origin at centre, +y goes up). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Point in UV space (origin at top-left, +y goes down). </dd></dl>
+
+</div>
+</div>
+<a id="a5c06716c9085c727567648b9163ff3bb" name="a5c06716c9085c727567648b9163ff3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c06716c9085c727567648b9163ff3bb">&#9670;&#160;</a></span>to_uv_rect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto bave::to_uv_rect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>n_rect</em></span></td><td>)</td>
+          <td> -&gt; <a class="el" href="#aeadce6fc5f9877c440d99bace8660557">UvRect</a> </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a normalized <a class="el" href="structbave_1_1Rect.html" title="Axis aligned rectangle specified by top-left and bottom-right points.">Rect</a> to UV coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n_rect</td><td>Normalized rect in world space (origin at centre, +y goes up). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structbave_1_1Rect.html" title="Axis aligned rectangle specified by top-left and bottom-right points.">Rect</a> in UV space (origin at top-left, +y goes down). </dd></dl>
 
 </div>
 </div>

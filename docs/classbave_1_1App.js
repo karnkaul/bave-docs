@@ -47,6 +47,8 @@ var classbave_1_1App =
     [ "set_window_size", "classbave_1_1App.html#acc230c9e171ed5a5b6a69381ad8b4147", null ],
     [ "shutdown", "classbave_1_1App.html#aeb0aff66175a0faaa1c272dfa3513b45", null ],
     [ "start_next_frame", "classbave_1_1App.html#a79576c9af42ee590d3f09eeb3fe2f1cf", null ],
+    [ "update_gamepad_mappings", "classbave_1_1App.html#a01578422e30d664e95aef4f5e2935260", null ],
+    [ "wait_render_device_idle", "classbave_1_1App.html#a688c9947b18230149fe4477142bd69bc", null ],
     [ "m_active_pointers", "classbave_1_1App.html#a7c6dcfcf3e81e124604e17805eeb8191", null ],
     [ "m_gamepads", "classbave_1_1App.html#a7c7b57d3cd5adc196ecf451a19933ef3", null ],
     [ "m_gesture_recognizer", "classbave_1_1App.html#aa7e10d14454aec611460b698b612c684", null ],

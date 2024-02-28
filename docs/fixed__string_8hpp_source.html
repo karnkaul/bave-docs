@@ -118,7 +118,7 @@ $(function(){initNavTree('fixed__string_8hpp_source.html',''); initResizable(); 
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classbave_1_1FixedString.html#ad4593baebee7ec20f4b5ebf699f2043e">   23</a></span>    <a class="code hl_function" href="classbave_1_1FixedString.html#ad4593baebee7ec20f4b5ebf699f2043e">FixedString</a>(T <span class="keyword">const</span>&amp; t) {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">auto</span> <span class="keyword">const</span> str = std::string_view{t};</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        m_size = str.size();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        m_size = std::min(Capacity, str.size());</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        std::memcpy(m_buffer.data(), str.data(), m_size);</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
 </div>

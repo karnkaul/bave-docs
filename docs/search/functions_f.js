@@ -21,5 +21,5 @@ var searchData=
   ['respawn_5fall_18',['respawn_all',['../classbave_1_1ParticleEmitter.html#a923e3486221102d991d85372a6a822ff',1,'bave::ParticleEmitter::respawn_all()'],['../classbave_1_1ParticleSystem.html#ad1faab5f9d99faf0d5479281c5c4ab35',1,'bave::ParticleSystem::respawn_all()']]],
   ['resume_19',['resume',['../classbave_1_1AudioStreamer.html#a8e7ecf98929480b8ccce6b1297e6ebdd',1,'bave::AudioStreamer']]],
   ['return_5fcode_20',['return_code',['../namespacebave_1_1clap.html#ac14045901719843e3d22fb955e1178ca',1,'bave::clap']]],
-  ['run_21',['run',['../classbave_1_1App.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::App']]]
+  ['run_21',['run',['../classbave_1_1App.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::App::run()'],['../classbave_1_1AndroidApp.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::AndroidApp::run()'],['../classbave_1_1DesktopApp.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::DesktopApp::run()']]]
 ];

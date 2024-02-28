@@ -9,7 +9,7 @@ var searchData=
   ['set_6',['set',['../classbave_1_1EnumFlags.html#a92e9a7648452667a6954e93718007506',1,'bave::EnumFlags']]],
   ['set_5falign_7',['set_align',['../classbave_1_1Text.html#a9e2533bc0151a8e01589e76a9d8d39c8',1,'bave::Text']]],
   ['set_5fauto_5fsize_8',['set_auto_size',['../classbave_1_1Sprite.html#a4201a10f2c39fd956316a5c79d8380c8',1,'bave::Sprite']]],
-  ['set_5fbootloader_9',['set_bootloader',['../classbave_1_1App.html#a05b929a7aa1b1899627892184fa3df64',1,'bave::App']]],
+  ['set_5fbootloader_9',['set_bootloader',['../classbave_1_1App.html#a05b929a7aa1b1899627892184fa3df64',1,'bave::App::set_bootloader()'],['../classbave_1_1AndroidApp.html#a05b929a7aa1b1899627892184fa3df64',1,'bave::AndroidApp::set_bootloader()'],['../classbave_1_1DesktopApp.html#a05b929a7aa1b1899627892184fa3df64',1,'bave::DesktopApp::set_bootloader()']]],
   ['set_5fdata_5fstore_10',['set_data_store',['../classbave_1_1App.html#a39eee804b16bbbb5487fbe033a73bf66',1,'bave::App']]],
   ['set_5ffont_11',['set_font',['../classbave_1_1Text.html#a50b583180b6e43000f96729c6551fe00',1,'bave::Text']]],
   ['set_5ffooter_12',['set_footer',['../classbave_1_1clap_1_1Options.html#aa00c13c4b9ed566a1047acb1ceadb28d',1,'bave::clap::Options']]],

@@ -110,6 +110,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a20bd03239eb453fd273000911f048ebf" id="r_a20bd03239eb453fd273000911f048ebf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20bd03239eb453fd273000911f048ebf">unproject</a> (glm::vec2 ndc) const -&gt; glm::vec2</td></tr>
 <tr class="memdesc:a20bd03239eb453fd273000911f048ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unproject a point in normalized coords [0-1] to view space.  <br /></td></tr>
 <tr class="separator:a20bd03239eb453fd273000911f048ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bc654fb926e3e2c3df33c28fc8eed98" id="r_a7bc654fb926e3e2c3df33c28fc8eed98"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bc654fb926e3e2c3df33c28fc8eed98">to_n_scissor</a> (<a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt; viewport_rect) const -&gt; <a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt;</td></tr>
+<tr class="memdesc:a7bc654fb926e3e2c3df33c28fc8eed98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a viewport <a class="el" href="structbave_1_1Rect.html" title="Axis aligned rectangle specified by top-left and bottom-right points.">Rect</a> to normalized scissor (UV coordinates).  <br /></td></tr>
+<tr class="separator:a7bc654fb926e3e2c3df33c28fc8eed98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -129,6 +132,40 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Rendering view. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7bc654fb926e3e2c3df33c28fc8eed98" name="a7bc654fb926e3e2c3df33c28fc8eed98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc654fb926e3e2c3df33c28fc8eed98">&#9670;&#160;</a></span>to_n_scissor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto bave::RenderView::to_n_scissor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt;</td>          <td class="paramname"><span class="paramname"><em>viewport_rect</em></span></td><td>)</td>
+          <td> const -&gt; <a class="el" href="structbave_1_1Rect.html">Rect</a>&lt;&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a viewport <a class="el" href="structbave_1_1Rect.html" title="Axis aligned rectangle specified by top-left and bottom-right points.">Rect</a> to normalized scissor (UV coordinates). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">viewport_rect</td><td><a class="el" href="structbave_1_1Rect.html" title="Axis aligned rectangle specified by top-left and bottom-right points.">Rect</a> in viewport space. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding scissor rect. </dd></dl>
+
+</div>
+</div>
 <a id="a20bd03239eb453fd273000911f048ebf" name="a20bd03239eb453fd273000911f048ebf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20bd03239eb453fd273000911f048ebf">&#9670;&#160;</a></span>unproject()</h2>
 
