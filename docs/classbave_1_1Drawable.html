@@ -163,6 +163,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afaa0513bcb1bb6405a70edbc557abfcf" id="r_afaa0513bcb1bb6405a70edbc557abfcf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structbave_1_1RenderInstance.html">RenderInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaa0513bcb1bb6405a70edbc557abfcf">instances</a> {}</td></tr>
 <tr class="memdesc:afaa0513bcb1bb6405a70edbc557abfcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instanced rendering.  <br /></td></tr>
 <tr class="separator:afaa0513bcb1bb6405a70edbc557abfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978804cc139677d8df14d2b54e9e4191" id="r_a978804cc139677d8df14d2b54e9e4191"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a978804cc139677d8df14d2b54e9e4191">parented_instances</a> {true}</td></tr>
+<tr class="memdesc:a978804cc139677d8df14d2b54e9e4191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to parent <a class="el" href="structbave_1_1RenderInstance.html" title="A single render instance.">RenderInstance</a> transforms on transform.  <br /></td></tr>
+<tr class="separator:a978804cc139677d8df14d2b54e9e4191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -327,7 +330,24 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Instanced rendering. </p>
-<p>transform and tint are ignored if instances is not empty. </p>
+<p>tint is ignored if instances is not empty. </p>
+
+</div>
+</div>
+<a id="a978804cc139677d8df14d2b54e9e4191" name="a978804cc139677d8df14d2b54e9e4191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978804cc139677d8df14d2b54e9e4191">&#9670;&#160;</a></span>parented_instances</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool bave::Drawable::parented_instances {true}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to parent <a class="el" href="structbave_1_1RenderInstance.html" title="A single render instance.">RenderInstance</a> transforms on transform. </p>
+<p>If true, transform will affect each instance.transform. </p>
 
 </div>
 </div>

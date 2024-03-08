@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['acquire_5fnext_5fimage_0',['acquire_next_image',['../classbave_1_1RenderDevice.html#a2b902e7ca80f9bc78850cb4b96cf38d6',1,'bave::RenderDevice']]],
+  ['acquire_5fnext_5fimage_0',['acquire_next_image',['../classbave_1_1RenderDevice.html#a27e6509c3b9b0e5e42735d3fa8723525',1,'bave::RenderDevice']]],
   ['active_5fparticles_1',['active_particles',['../classbave_1_1ParticleEmitter.html#a43b004527c72a6b48e750ebb22124b36',1,'bave::ParticleEmitter']]],
   ['add_2',['add',['../classbave_1_1Pixmap_1_1Builder.html#a4de2c8f0f3bc1bb23a4fb00ec4b9e60f',1,'bave::Pixmap::Builder']]],
   ['advance_3',['advance',['../structbave_1_1clap_1_1Parser.html#ab92428c7c1e5902732395559cc9d4004',1,'bave::clap::Parser::advance()'],['../classbave_1_1Font_1_1Pen.html#a41a18b81e5ec4e3ad53ae3e7f0e1a40e',1,'bave::Font::Pen::advance()']]],

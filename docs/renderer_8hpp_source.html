@@ -155,22 +155,23 @@ $(function(){initNavTree('renderer_8hpp_source.html',''); initResizable(); });
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        std::optional&lt;detail::RenderTarget&gt; render_target{};</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keyword">static</span> <span class="keyword">auto</span> make(RenderDevice&amp; render_device) -&gt; Frame;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    };</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    Logger m_log{<span class="stringliteral">&quot;FrameRenderer&quot;</span>};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    NotNull&lt;RenderDevice*&gt; m_render_device;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    Frame m_frame{};</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    std::unique_ptr&lt;detail::PipelineCache&gt; m_pipeline_cache{};</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    Texture m_white;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    detail::DeviceBlocker m_blocker{};</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordtype">void</span> make_syncs(vk::Device device, std::uint32_t queue_family);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    };</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    Logger m_log{<span class="stringliteral">&quot;FrameRenderer&quot;</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    NotNull&lt;RenderDevice*&gt; m_render_device;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    Frame m_frame{};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::unique_ptr&lt;detail::PipelineCache&gt; m_pipeline_cache{};</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    Texture m_white;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    detail::DeviceBlocker m_blocker{};</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
 </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>} <span class="comment">// namespace bave</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>} <span class="comment">// namespace bave</span></div>
 <div class="ttc" id="aclassbave_1_1NotNull_html"><div class="ttname"><a href="classbave_1_1NotNull.html">bave::NotNull</a></div><div class="ttdoc">Pointer that cannot be null.</div><div class="ttdef"><b>Definition</b> not_null.hpp:17</div></div>
 <div class="ttc" id="aclassbave_1_1Pinned_html"><div class="ttname"><a href="classbave_1_1Pinned.html">bave::Pinned</a></div><div class="ttdoc">Base class for non-copiable and non-movable types.</div><div class="ttdef"><b>Definition</b> pinned.hpp:5</div></div>
-<div class="ttc" id="aclassbave_1_1RenderDevice_html"><div class="ttname"><a href="classbave_1_1RenderDevice.html">bave::RenderDevice</a></div><div class="ttdoc">Vulkan rendering device.</div><div class="ttdef"><b>Definition</b> render_device.hpp:32</div></div>
+<div class="ttc" id="aclassbave_1_1RenderDevice_html"><div class="ttname"><a href="classbave_1_1RenderDevice.html">bave::RenderDevice</a></div><div class="ttdoc">Vulkan rendering device.</div><div class="ttdef"><b>Definition</b> render_device.hpp:33</div></div>
 <div class="ttc" id="aclassbave_1_1Renderer_html"><div class="ttname"><a href="classbave_1_1Renderer.html">bave::Renderer</a></div><div class="ttdef"><b>Definition</b> renderer.hpp:14</div></div>
 <div class="ttc" id="aclassbave_1_1Renderer_html_a2d74a8cb5f3d24805d779fc2d4d93478"><div class="ttname"><a href="classbave_1_1Renderer.html#a2d74a8cb5f3d24805d779fc2d4d93478">bave::Renderer::get_backbuffer_extent</a></div><div class="ttdeci">auto get_backbuffer_extent() const -&gt; vk::Extent2D</div></div>
 <div class="ttc" id="aclassbave_1_1Renderer_html_a3b310a0fea2b5e7042f66cff44c0679c"><div class="ttname"><a href="classbave_1_1Renderer.html#a3b310a0fea2b5e7042f66cff44c0679c">bave::Renderer::get_render_device</a></div><div class="ttdeci">auto get_render_device() const -&gt; RenderDevice &amp;</div><div class="ttdef"><b>Definition</b> renderer.hpp:18</div></div>

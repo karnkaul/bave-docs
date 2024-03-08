@@ -10,7 +10,9 @@ var classbave_1_1ParticleEmitter =
       [ "eCOUNT_", "classbave_1_1ParticleEmitter.html#ae9f10787bb9b980a7d8fc2cbe72de5dca98ce873df53900dd5454baba574ecb06", null ]
     ] ],
     [ "active_particles", "classbave_1_1ParticleEmitter.html#a43b004527c72a6b48e750ebb22124b36", null ],
+    [ "get_position", "classbave_1_1ParticleEmitter.html#a34cbd4bd72b7c9bc7ad84dd50c4f9c47", null ],
     [ "respawn_all", "classbave_1_1ParticleEmitter.html#a923e3486221102d991d85372a6a822ff", null ],
+    [ "set_position", "classbave_1_1ParticleEmitter.html#aa5517da66aede55b06fa31c251410d24", null ],
     [ "tick", "classbave_1_1ParticleEmitter.html#a41c4a7e4960261ab5f98e474a2b1cda1", null ],
     [ "config", "classbave_1_1ParticleEmitter.html#a424a7a242ec26ad18a5af1e645a0c869", null ],
     [ "modifiers", "classbave_1_1ParticleEmitter.html#a6235b6c11c11fdf23a3be5d6b0730e16", null ]

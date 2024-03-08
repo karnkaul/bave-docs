@@ -130,35 +130,36 @@ $(function(){initNavTree('drawable_8hpp_source.html',''); initResizable(); });
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classbave_1_1Drawable.html#a1c818feab896fc0528c8257d86010699">   36</a></span>    std::array&lt;std::shared_ptr&lt;Texture const&gt;, <a class="code hl_variable" href="classbave_1_1Shader.html#a9d1d18866fd0c61c30b4bb1dc37a2ac9">Shader::max_textures_v</a>&gt; <a class="code hl_variable" href="classbave_1_1Drawable.html#a1c818feab896fc0528c8257d86010699">textures</a>{};</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classbave_1_1Drawable.html#afaa0513bcb1bb6405a70edbc557abfcf">   41</a></span>    std::vector&lt;RenderInstance&gt; <a class="code hl_variable" href="classbave_1_1Drawable.html#afaa0513bcb1bb6405a70edbc557abfcf">instances</a>{};</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classbave_1_1Drawable.html#a02060c007c0184d3f161dd2b6396d896">   44</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classbave_1_1Drawable.html#a02060c007c0184d3f161dd2b6396d896">set_geometry</a>(<a class="code hl_struct" href="structbave_1_1Geometry.html">Geometry</a> geometry);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb">   45</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb">set_texture</a>(std::shared_ptr&lt;Texture const&gt; texture) { <a class="code hl_variable" href="classbave_1_1Drawable.html#a1c818feab896fc0528c8257d86010699">textures</a>.front() = std::move(texture); }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classbave_1_1Drawable.html#a978804cc139677d8df14d2b54e9e4191">   45</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="classbave_1_1Drawable.html#a978804cc139677d8df14d2b54e9e4191">parented_instances</a>{<span class="keyword">true</span>};</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">struct </span>Primitive {</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        std::vector&lt;std::byte&gt; bytes{};</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        std::uint32_t verts{};</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        std::uint32_t indices{};</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        std::size_t ibo_offset{};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_enumeration" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8f">Topology</a> topology{};</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">void</span> write(Geometry <span class="keyword">const</span>&amp; geometry);</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordtype">void</span> clear();</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        [[nodiscard]] <span class="keyword">operator</span> RenderPrimitive() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    };</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> bake_instances() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> update_textures(Shader&amp; out_shader) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    Geometry m_geometry{};</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    Primitive m_primitive{};</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">mutable</span> std::vector&lt;RenderInstance::Baked&gt; m_baked_instances{};</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classbave_1_1Drawable.html#a02060c007c0184d3f161dd2b6396d896">   48</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classbave_1_1Drawable.html#a02060c007c0184d3f161dd2b6396d896">set_geometry</a>(<a class="code hl_struct" href="structbave_1_1Geometry.html">Geometry</a> geometry);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb">   49</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb">set_texture</a>(std::shared_ptr&lt;Texture const&gt; texture) { <a class="code hl_variable" href="classbave_1_1Drawable.html#a1c818feab896fc0528c8257d86010699">textures</a>.front() = std::move(texture); }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">struct </span>Primitive {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        std::vector&lt;std::byte&gt; bytes{};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        std::uint32_t verts{};</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        std::uint32_t indices{};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        std::size_t ibo_offset{};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_enumeration" href="namespacebave.html#a2bc80670984378660d9b209e1899cc8f">Topology</a> topology{};</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">void</span> write(Geometry <span class="keyword">const</span>&amp; geometry);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordtype">void</span> clear();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        [[nodiscard]] <span class="keyword">operator</span> RenderPrimitive() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    };</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> bake_instances() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> update_textures(Shader&amp; out_shader) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    Geometry m_geometry{};</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    Primitive m_primitive{};</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">mutable</span> std::vector&lt;RenderInstance::Baked&gt; m_baked_instances{};</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
 </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>} <span class="comment">// namespace bave</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>} <span class="comment">// namespace bave</span></div>
 <div class="ttc" id="aclassbave_1_1Drawable_html"><div class="ttname"><a href="classbave_1_1Drawable.html">bave::Drawable</a></div><div class="ttdoc">Base class for drawable objects.</div><div class="ttdef"><b>Definition</b> drawable.hpp:20</div></div>
 <div class="ttc" id="aclassbave_1_1Drawable_html_a02060c007c0184d3f161dd2b6396d896"><div class="ttname"><a href="classbave_1_1Drawable.html#a02060c007c0184d3f161dd2b6396d896">bave::Drawable::set_geometry</a></div><div class="ttdeci">void set_geometry(Geometry geometry)</div></div>
 <div class="ttc" id="aclassbave_1_1Drawable_html_a1c818feab896fc0528c8257d86010699"><div class="ttname"><a href="classbave_1_1Drawable.html#a1c818feab896fc0528c8257d86010699">bave::Drawable::textures</a></div><div class="ttdeci">std::array&lt; std::shared_ptr&lt; Texture const  &gt;, Shader::max_textures_v &gt; textures</div><div class="ttdoc">Textures to bind during draw.</div><div class="ttdef"><b>Definition</b> drawable.hpp:36</div></div>
@@ -166,8 +167,9 @@ $(function(){initNavTree('drawable_8hpp_source.html',''); initResizable(); });
 <div class="ttc" id="aclassbave_1_1Drawable_html_a6b9a59a09c82b8c989add42eac513aee"><div class="ttname"><a href="classbave_1_1Drawable.html#a6b9a59a09c82b8c989add42eac513aee">bave::Drawable::get_bounds</a></div><div class="ttdeci">auto get_bounds() const -&gt; Rect&lt;&gt;</div><div class="ttdoc">Get the bounding rectangle of this instance.</div><div class="ttdef"><b>Definition</b> drawable.hpp:27</div></div>
 <div class="ttc" id="aclassbave_1_1Drawable_html_a8396b018dbe89e04523c52af5a689620"><div class="ttname"><a href="classbave_1_1Drawable.html#a8396b018dbe89e04523c52af5a689620">bave::Drawable::draw</a></div><div class="ttdeci">void draw(Shader &amp;shader) const final</div><div class="ttdoc">Draw this object using a given shader.</div></div>
 <div class="ttc" id="aclassbave_1_1Drawable_html_a85177518667166526c8f2c982b110884"><div class="ttname"><a href="classbave_1_1Drawable.html#a85177518667166526c8f2c982b110884">bave::Drawable::tint</a></div><div class="ttdeci">Rgba tint</div><div class="ttdoc">Tint to apply during draw.</div><div class="ttdef"><b>Definition</b> drawable.hpp:34</div></div>
+<div class="ttc" id="aclassbave_1_1Drawable_html_a978804cc139677d8df14d2b54e9e4191"><div class="ttname"><a href="classbave_1_1Drawable.html#a978804cc139677d8df14d2b54e9e4191">bave::Drawable::parented_instances</a></div><div class="ttdeci">bool parented_instances</div><div class="ttdoc">Whether to parent RenderInstance transforms on transform.</div><div class="ttdef"><b>Definition</b> drawable.hpp:45</div></div>
 <div class="ttc" id="aclassbave_1_1Drawable_html_ad1c99d7325315faf44823bec47a00d0c"><div class="ttname"><a href="classbave_1_1Drawable.html#ad1c99d7325315faf44823bec47a00d0c">bave::Drawable::get_geometry</a></div><div class="ttdeci">auto get_geometry() const -&gt; Geometry const &amp;</div><div class="ttdoc">Get the Geometry of this instance.</div><div class="ttdef"><b>Definition</b> drawable.hpp:29</div></div>
-<div class="ttc" id="aclassbave_1_1Drawable_html_af2c51c68a0f33b7b17049dfe901ed0eb"><div class="ttname"><a href="classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb">bave::Drawable::set_texture</a></div><div class="ttdeci">void set_texture(std::shared_ptr&lt; Texture const &gt; texture)</div><div class="ttdef"><b>Definition</b> drawable.hpp:45</div></div>
+<div class="ttc" id="aclassbave_1_1Drawable_html_af2c51c68a0f33b7b17049dfe901ed0eb"><div class="ttname"><a href="classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb">bave::Drawable::set_texture</a></div><div class="ttdeci">void set_texture(std::shared_ptr&lt; Texture const &gt; texture)</div><div class="ttdef"><b>Definition</b> drawable.hpp:49</div></div>
 <div class="ttc" id="aclassbave_1_1Drawable_html_afaa0513bcb1bb6405a70edbc557abfcf"><div class="ttname"><a href="classbave_1_1Drawable.html#afaa0513bcb1bb6405a70edbc557abfcf">bave::Drawable::instances</a></div><div class="ttdeci">std::vector&lt; RenderInstance &gt; instances</div><div class="ttdoc">Instanced rendering.</div><div class="ttdef"><b>Definition</b> drawable.hpp:41</div></div>
 <div class="ttc" id="aclassbave_1_1IDrawable_html"><div class="ttname"><a href="classbave_1_1IDrawable.html">bave::IDrawable</a></div><div class="ttdoc">Interface for all drawable types.</div><div class="ttdef"><b>Definition</b> drawable.hpp:12</div></div>
 <div class="ttc" id="aclassbave_1_1IDrawable_html_acac959cfba17104df6559c9a4277b955"><div class="ttname"><a href="classbave_1_1IDrawable.html#acac959cfba17104df6559c9a4277b955">bave::IDrawable::draw</a></div><div class="ttdeci">virtual void draw(Shader &amp;shader) const =0</div><div class="ttdoc">Draw this object using a given shader.</div></div>

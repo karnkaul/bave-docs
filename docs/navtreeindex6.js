@@ -1,5 +1,14 @@
 var NAVTREEINDEX6 =
 {
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca38d66c22a1d4a2fa891333ea8bff88f4":[2,0,0,127,23],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca38de3f7d221a2910710874b0b220cb26":[2,0,0,127,12],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca3a876e157f4f77fe73c07fc77325a5e8":[2,0,0,127,16],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca3baaa36041b4f71b9843834ff6afadde":[2,0,0,127,108],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca3c398e549bb226459373d9406b883465":[2,0,0,127,70],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca492585e49f078b06b0cd507d42ae9da0":[2,0,0,127,15],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca494c91c4cc3b84fa3809700bce11eb0a":[2,0,0,127,81],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca4b6d8cd7151c00674e1e0a7d6bc89595":[2,0,0,127,77],
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca4bbd88be6857315b78d5e679b266eee1":[2,0,0,127,29],
 "namespacebave.html#a29a9523f73dfc64b112140481d5b554ca4c8304dece44017c460079c4b4f2155f":[2,0,0,127,93],
 "namespacebave.html#a29a9523f73dfc64b112140481d5b554ca528d11fa2db53949ee332e3e41ec3af4":[2,0,0,127,63],
 "namespacebave.html#a29a9523f73dfc64b112140481d5b554ca536c1152e8d4a04c247ed6ef7ca0d457":[2,0,0,127,84],
@@ -240,14 +249,5 @@ var NAVTREEINDEX6 =
 "particle__system_8hpp.html":[5,0,0,1,0,4,7],
 "particle__system_8hpp_source.html":[5,0,0,1,0,4,7],
 "pinned_8hpp.html":[5,0,0,1,0,2,11],
-"pinned_8hpp_source.html":[5,0,0,1,0,2,11],
-"pixmap_8hpp.html":[5,0,0,1,0,4,8],
-"pixmap_8hpp_source.html":[5,0,0,1,0,4,8],
-"platform_8hpp.html":[5,0,0,1,0,17],
-"platform_8hpp.html#a61b2ab16780851545be9ac5bdd40aafa":[5,0,0,1,0,17,2],
-"platform_8hpp.html#a7fc49b530aec811388d9e36364dbfb18":[5,0,0,1,0,17,3],
-"platform_8hpp.html#ac1757221491ed76a9a4a6ccf611bd172":[5,0,0,1,0,17,0],
-"platform_8hpp.html#ac1757221491ed76a9a4a6ccf611bd172a67c0c2f33c5059ab26a9819585a1deb4":[5,0,0,1,0,17,0,0],
-"platform_8hpp.html#ac1757221491ed76a9a4a6ccf611bd172ac6932878aaff774a302fc4e9292ef6fe":[5,0,0,1,0,17,0,1],
-"platform_8hpp.html#ac87e7718125baf5813ed636d6e35a35d":[5,0,0,1,0,17,1]
+"pinned_8hpp_source.html":[5,0,0,1,0,2,11]
 };

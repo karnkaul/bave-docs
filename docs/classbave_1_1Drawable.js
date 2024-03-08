@@ -6,6 +6,7 @@ var classbave_1_1Drawable =
     [ "set_geometry", "classbave_1_1Drawable.html#a02060c007c0184d3f161dd2b6396d896", null ],
     [ "set_texture", "classbave_1_1Drawable.html#af2c51c68a0f33b7b17049dfe901ed0eb", null ],
     [ "instances", "classbave_1_1Drawable.html#afaa0513bcb1bb6405a70edbc557abfcf", null ],
+    [ "parented_instances", "classbave_1_1Drawable.html#a978804cc139677d8df14d2b54e9e4191", null ],
     [ "textures", "classbave_1_1Drawable.html#a1c818feab896fc0528c8257d86010699", null ],
     [ "tint", "classbave_1_1Drawable.html#a85177518667166526c8f2c982b110884", null ],
     [ "transform", "classbave_1_1Drawable.html#a21cac1b910dcbd0d11da6ab6e6a65807", null ]

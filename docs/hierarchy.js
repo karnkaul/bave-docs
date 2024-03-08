@@ -119,6 +119,7 @@ var hierarchy =
     ] ],
     [ "bave::Radians", "structbave_1_1Radians.html", null ],
     [ "bave::RandomPolicyUniform", "structbave_1_1RandomPolicyUniform.html", null ],
+    [ "bave::RenderDevice::RecreateSync", "structbave_1_1RenderDevice_1_1RecreateSync.html", null ],
     [ "bave::Rect< Type >", "structbave_1_1Rect.html", null ],
     [ "bave::Rect< float >", "structbave_1_1Rect.html", null ],
     [ "bave::Rect< int >", "structbave_1_1Rect.html", null ],

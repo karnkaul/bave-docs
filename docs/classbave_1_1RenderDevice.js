@@ -1,8 +1,10 @@
 var classbave_1_1RenderDevice =
 [
+    [ "RecreateSync", "structbave_1_1RenderDevice_1_1RecreateSync.html", null ],
+    [ "AcquireResult", "classbave_1_1RenderDevice.html#abdadb8912d697db23d718035727e0af9", null ],
     [ "CreateInfo", "classbave_1_1RenderDevice.html#a8cb06e484cdf4dc2da69dcd40301c882", null ],
     [ "RenderDevice", "classbave_1_1RenderDevice.html#a55815e7774c127e6c2a626633e4d250d", null ],
-    [ "acquire_next_image", "classbave_1_1RenderDevice.html#a2b902e7ca80f9bc78850cb4b96cf38d6", null ],
+    [ "acquire_next_image", "classbave_1_1RenderDevice.html#a27e6509c3b9b0e5e42735d3fa8723525", null ],
     [ "get_allocator", "classbave_1_1RenderDevice.html#a0dc4ca33033af7574a31fc1e5c09aaff", null ],
     [ "get_buffer_cache", "classbave_1_1RenderDevice.html#aa768800442cbfc6dd07e03717d234254", null ],
     [ "get_default_view", "classbave_1_1RenderDevice.html#ad204091701c55bccc12219de27c4e791", null ],
@@ -25,7 +27,7 @@ var classbave_1_1RenderDevice =
     [ "queue_submit", "classbave_1_1RenderDevice.html#a61038dc4d439807b1b080206ac7b9cb7", null ],
     [ "recreate_surface", "classbave_1_1RenderDevice.html#ab66a9421d341f2d4d2dc2f4486b1d202", null ],
     [ "request_present_mode", "classbave_1_1RenderDevice.html#a9b911c47efab15c9777a516642ec9b99", null ],
-    [ "reset_fence", "classbave_1_1RenderDevice.html#ac3e8123f30e24ff43a2a0d78c22758f7", null ],
+    [ "reset_fence", "classbave_1_1RenderDevice.html#a718389bac79524678725b12f916c8957", null ],
     [ "submit_and_present", "classbave_1_1RenderDevice.html#aa009303ffb1579a8166320c22c945e24", null ],
     [ "validation_layers_enabled", "classbave_1_1RenderDevice.html#aeb9c14ab6b076dc3839b870947ed196e", null ],
     [ "wait_for", "classbave_1_1RenderDevice.html#a4a3b2ff5173fea3137864656c003f740", null ],

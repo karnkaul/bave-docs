@@ -93,6 +93,7 @@ $(function(){initNavTree('classbave_1_1RenderDevice.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -107,10 +108,17 @@ $(function(){initNavTree('classbave_1_1RenderDevice.html',''); initResizable(); 
 
 <p><code>#include &lt;<a class="el" href="render__device_8hpp_source.html">render_device.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbave_1_1RenderDevice_1_1RecreateSync.html">RecreateSync</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a8cb06e484cdf4dc2da69dcd40301c882" id="r_a8cb06e484cdf4dc2da69dcd40301c882"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cb06e484cdf4dc2da69dcd40301c882">CreateInfo</a> = <a class="el" href="structbave_1_1RenderDeviceCreateInfo.html">RenderDeviceCreateInfo</a></td></tr>
 <tr class="separator:a8cb06e484cdf4dc2da69dcd40301c882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdadb8912d697db23d718035727e0af9" id="r_abdadb8912d697db23d718035727e0af9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdadb8912d697db23d718035727e0af9">AcquireResult</a> = std::variant&lt;std::monostate, detail::RenderTarget, <a class="el" href="structbave_1_1RenderDevice_1_1RecreateSync.html">RecreateSync</a>&gt;</td></tr>
+<tr class="separator:abdadb8912d697db23d718035727e0af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -148,12 +156,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac0442f8a2509e1068295c4718a910139"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a3b2ff5173fea3137864656c003f740" id="r_a4a3b2ff5173fea3137864656c003f740"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a3b2ff5173fea3137864656c003f740">wait_for</a> (vk::Fence fence, std::uint64_t timeout=<a class="el" href="#a8f5fd2a240878f16278a390f60ec267b">max_timeout_v</a>) const -&gt; bool</td></tr>
 <tr class="separator:a4a3b2ff5173fea3137864656c003f740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e8123f30e24ff43a2a0d78c22758f7" id="r_ac3e8123f30e24ff43a2a0d78c22758f7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3e8123f30e24ff43a2a0d78c22758f7">reset_fence</a> (vk::Fence fence, bool wait_first=true) const -&gt; bool</td></tr>
-<tr class="separator:ac3e8123f30e24ff43a2a0d78c22758f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718389bac79524678725b12f916c8957" id="r_a718389bac79524678725b12f916c8957"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718389bac79524678725b12f916c8957">reset_fence</a> (vk::Fence fence, std::optional&lt; std::uint64_t &gt; wait_timeout) const -&gt; bool</td></tr>
+<tr class="separator:a718389bac79524678725b12f916c8957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b911c47efab15c9777a516642ec9b99" id="r_a9b911c47efab15c9777a516642ec9b99"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b911c47efab15c9777a516642ec9b99">request_present_mode</a> (vk::PresentModeKHR present_mode) -&gt; bool</td></tr>
 <tr class="separator:a9b911c47efab15c9777a516642ec9b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b902e7ca80f9bc78850cb4b96cf38d6" id="r_a2b902e7ca80f9bc78850cb4b96cf38d6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b902e7ca80f9bc78850cb4b96cf38d6">acquire_next_image</a> (vk::Fence wait, vk::Semaphore signal) -&gt; std::optional&lt; detail::RenderTarget &gt;</td></tr>
-<tr class="separator:a2b902e7ca80f9bc78850cb4b96cf38d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27e6509c3b9b0e5e42735d3fa8723525" id="r_a27e6509c3b9b0e5e42735d3fa8723525"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27e6509c3b9b0e5e42735d3fa8723525">acquire_next_image</a> (vk::Fence wait, vk::Semaphore signal) -&gt; <a class="el" href="#abdadb8912d697db23d718035727e0af9">AcquireResult</a></td></tr>
+<tr class="separator:a27e6509c3b9b0e5e42735d3fa8723525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61038dc4d439807b1b080206ac7b9cb7" id="r_a61038dc4d439807b1b080206ac7b9cb7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61038dc4d439807b1b080206ac7b9cb7">queue_submit</a> (vk::SubmitInfo const &amp;submit_info, vk::Fence signal) -&gt; bool</td></tr>
 <tr class="separator:a61038dc4d439807b1b080206ac7b9cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa009303ffb1579a8166320c22c945e24" id="r_aa009303ffb1579a8166320c22c945e24"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa009303ffb1579a8166320c22c945e24">submit_and_present</a> (vk::SubmitInfo const &amp;submit_info, vk::Fence draw_signal, vk::Semaphore present_wait) -&gt; bool</td></tr>
@@ -188,6 +196,20 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Vulkan rendering device. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="abdadb8912d697db23d718035727e0af9" name="abdadb8912d697db23d718035727e0af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdadb8912d697db23d718035727e0af9">&#9670;&#160;</a></span>AcquireResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#abdadb8912d697db23d718035727e0af9">bave::RenderDevice::AcquireResult</a> = std::variant&lt;std::monostate, detail::RenderTarget, <a class="el" href="structbave_1_1RenderDevice_1_1RecreateSync.html">RecreateSync</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8cb06e484cdf4dc2da69dcd40301c882" name="a8cb06e484cdf4dc2da69dcd40301c882"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cb06e484cdf4dc2da69dcd40301c882">&#9670;&#160;</a></span>CreateInfo</h2>
 
@@ -233,8 +255,8 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2b902e7ca80f9bc78850cb4b96cf38d6" name="a2b902e7ca80f9bc78850cb4b96cf38d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b902e7ca80f9bc78850cb4b96cf38d6">&#9670;&#160;</a></span>acquire_next_image()</h2>
+<a id="a27e6509c3b9b0e5e42735d3fa8723525" name="a27e6509c3b9b0e5e42735d3fa8723525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27e6509c3b9b0e5e42735d3fa8723525">&#9670;&#160;</a></span>acquire_next_image()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +269,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">vk::Semaphore</td>          <td class="paramname"><span class="paramname"><em>signal</em></span>&#160;) -&gt;  std::optional&lt; detail::RenderTarget &gt;</td>
+          <td class="paramtype">vk::Semaphore</td>          <td class="paramname"><span class="paramname"><em>signal</em></span>&#160;) -&gt;  <a class="el" href="#abdadb8912d697db23d718035727e0af9">AcquireResult</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -764,8 +786,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac3e8123f30e24ff43a2a0d78c22758f7" name="ac3e8123f30e24ff43a2a0d78c22758f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3e8123f30e24ff43a2a0d78c22758f7">&#9670;&#160;</a></span>reset_fence()</h2>
+<a id="a718389bac79524678725b12f916c8957" name="a718389bac79524678725b12f916c8957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a718389bac79524678725b12f916c8957">&#9670;&#160;</a></span>reset_fence()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -778,7 +800,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>wait_first</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span>&#160;) const -&gt;  bool</td>
+          <td class="paramtype">std::optional&lt; std::uint64_t &gt;</td>          <td class="paramname"><span class="paramname"><em>wait_timeout</em></span>&#160;) const -&gt;  bool</td>
         </tr>
       </table>
 </div><div class="memdoc">

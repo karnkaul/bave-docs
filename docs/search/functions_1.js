@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['bake_0',['bake',['../structbave_1_1RenderInstance.html#a49f12d6720372154a4f5b218b516c6cb',1,'bave::RenderInstance']]],
+  ['bake_0',['bake',['../structbave_1_1RenderInstance.html#aaa93446a504351d8e9d254c6e422ba18',1,'bave::RenderInstance']]],
   ['basicrandom_1',['BasicRandom',['../classbave_1_1BasicRandom.html#a60f038e3472e7be3a4ac74fb25f55320',1,'bave::BasicRandom']]],
   ['bitmap_2',['Bitmap',['../classbave_1_1Bitmap.html#a38607f8f8fb78bd39f33217f70a37861',1,'bave::Bitmap']]],
   ['boot_5fdriver_3',['boot_driver',['../classbave_1_1App.html#a0018238d10113a63a9a8794b1134a4b7',1,'bave::App']]],
