@@ -142,8 +142,9 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a41c4a7e4960261ab5f98e474a2b1cda1" id="r_a41c4a7e4960261ab5f98e474a2b1cda1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41c4a7e4960261ab5f98e474a2b1cda1">tick</a> (<a class="el" href="namespacebave.html#a2b3fb78c91469a4a24bd72440e6a7921">Seconds</a> dt)</td></tr>
 <tr class="separator:a41c4a7e4960261ab5f98e474a2b1cda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a923e3486221102d991d85372a6a822ff" id="r_a923e3486221102d991d85372a6a822ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a923e3486221102d991d85372a6a822ff">respawn_all</a> ()</td></tr>
-<tr class="separator:a923e3486221102d991d85372a6a822ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bcae5e5b51b0398e3fb977a8c44d773" id="r_a4bcae5e5b51b0398e3fb977a8c44d773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcae5e5b51b0398e3fb977a8c44d773">pre_warm</a> (<a class="el" href="namespacebave.html#a2b3fb78c91469a4a24bd72440e6a7921">Seconds</a> dt=50ms, int ticks=100)</td></tr>
+<tr class="memdesc:a4bcae5e5b51b0398e3fb977a8c44d773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-warm particles by simulating ticks.  <br /></td></tr>
+<tr class="separator:a4bcae5e5b51b0398e3fb977a8c44d773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5517da66aede55b06fa31c251410d24" id="r_aa5517da66aede55b06fa31c251410d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5517da66aede55b06fa31c251410d24">set_position</a> (glm::vec2 position)</td></tr>
 <tr class="memdesc:aa5517da66aede55b06fa31c251410d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set emitter position. Does not affect already spawned particles.  <br /></td></tr>
 <tr class="separator:aa5517da66aede55b06fa31c251410d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -372,20 +373,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a923e3486221102d991d85372a6a822ff" name="a923e3486221102d991d85372a6a822ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a923e3486221102d991d85372a6a822ff">&#9670;&#160;</a></span>respawn_all()</h2>
+<a id="a4bcae5e5b51b0398e3fb977a8c44d773" name="a4bcae5e5b51b0398e3fb977a8c44d773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bcae5e5b51b0398e3fb977a8c44d773">&#9670;&#160;</a></span>pre_warm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void bave::ParticleEmitter::respawn_all </td>
+          <td class="memname">void bave::ParticleEmitter::pre_warm </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespacebave.html#a2b3fb78c91469a4a24bd72440e6a7921">Seconds</a></td>          <td class="paramname"><span class="paramname"><em>dt</em><span class="paramdefsep"> = </span><span class="paramdefval">50ms</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ticks</em><span class="paramdefsep"> = </span><span class="paramdefval">100</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Pre-warm particles by simulating ticks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dt</td><td>Delta time to use per tick. </td></tr>
+    <tr><td class="paramname">ticks</td><td>Number of ticks to simulate. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

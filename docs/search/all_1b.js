@@ -19,8 +19,8 @@ var searchData=
   ['vertex_5fcolour_16',['vertex_colour',['../classbave_1_1Font_1_1Pen.html#adaf6d8cbd89a5706b0ecf597a1c8ce4e',1,'bave::Font::Pen']]],
   ['vertexarray_17',['VertexArray',['../structbave_1_1VertexArray.html',1,'bave']]],
   ['vertices_18',['vertices',['../structbave_1_1VertexArray.html#aab33f0eceb08341fb891e4d21a1f021d',1,'bave::VertexArray::vertices'],['../structbave_1_1RenderPrimitive.html#a5c0e41b547033db2ffdbc3a86c325b89',1,'bave::RenderPrimitive::vertices']]],
-  ['view_19',['View',['../classbave_1_1Bitmap.html#af5db3b755eb53b20459ebe58d9c1e413',1,'bave::Bitmap']]],
-  ['view_20',['view',['../classbave_1_1FixedString.html#a9d84955edbef42709bd2d33aa98163a5',1,'bave::FixedString']]],
+  ['view_19',['view',['../classbave_1_1FixedString.html#a9d84955edbef42709bd2d33aa98163a5',1,'bave::FixedString']]],
+  ['view_20',['View',['../classbave_1_1Bitmap.html#af5db3b755eb53b20459ebe58d9c1e413',1,'bave::Bitmap']]],
   ['viewport_21',['viewport',['../structbave_1_1RenderView.html#aa0442365dae11b217c4b837c997fb64b',1,'bave::RenderView']]],
   ['visitor_22',['Visitor',['../structbave_1_1Visitor.html',1,'bave::Visitor&lt; T &gt;'],['../namespacebave.html#a4e73cbd5fd59121d3f1c02337d5e05da',1,'bave::Visitor(T...) -&gt; Visitor&lt; T... &gt;']]],
   ['visitor_2ehpp_23',['visitor.hpp',['../visitor_8hpp.html',1,'']]]

@@ -15,8 +15,9 @@ var searchData=
   ['polymorphic_12',['Polymorphic',['../classbave_1_1Polymorphic.html#a1eac285efd7d71fd3160961c4bfe27d6',1,'bave::Polymorphic::Polymorphic(Polymorphic const &amp;)=default'],['../classbave_1_1Polymorphic.html#a843a5cba228adc01ea7ed2b71562fafb',1,'bave::Polymorphic::Polymorphic(Polymorphic &amp;&amp;)=default'],['../classbave_1_1Polymorphic.html#a3717be30493c5da3dc9af85693366531',1,'bave::Polymorphic::Polymorphic()=default']]],
   ['polypinned_13',['PolyPinned',['../classbave_1_1PolyPinned.html#ad54c1bdf2fad63c168c2ac2344a04120',1,'bave::PolyPinned::PolyPinned(PolyPinned const &amp;)=delete'],['../classbave_1_1PolyPinned.html#af2beeb262aa14405aedbb5e4a6b28a84',1,'bave::PolyPinned::PolyPinned(PolyPinned &amp;&amp;)=delete'],['../classbave_1_1PolyPinned.html#ad934cd892ea8b76bbc9e6d8a3f9bedbf',1,'bave::PolyPinned::PolyPinned()=default']]],
   ['positional_14',['positional',['../classbave_1_1clap_1_1Options.html#ad90b35d287b0dff7e6025bd8ca50d5da',1,'bave::clap::Options']]],
-  ['project_15',['project',['../structbave_1_1Projector.html#a9be16a202eda5cfbfc5fbe969829a240',1,'bave::Projector']]],
-  ['project_5fto_16',['project_to',['../classbave_1_1RenderDevice.html#ac0442f8a2509e1068295c4718a910139',1,'bave::RenderDevice']]],
-  ['push_5fdrop_17',['push_drop',['../classbave_1_1App.html#aa3e6d10556c44cc2edbe1e0b972e47e8',1,'bave::App']]],
-  ['push_5fevent_18',['push_event',['../classbave_1_1App.html#a58b23af0b43451696554187a3a6eb77a',1,'bave::App']]]
+  ['pre_5fwarm_15',['pre_warm',['../classbave_1_1ParticleEmitter.html#a4bcae5e5b51b0398e3fb977a8c44d773',1,'bave::ParticleEmitter::pre_warm()'],['../classbave_1_1ParticleSystem.html#a28f81602eae4bb97acc95c775ab8a4aa',1,'bave::ParticleSystem::pre_warm()']]],
+  ['project_16',['project',['../structbave_1_1Projector.html#a9be16a202eda5cfbfc5fbe969829a240',1,'bave::Projector']]],
+  ['project_5fto_17',['project_to',['../classbave_1_1RenderDevice.html#ac0442f8a2509e1068295c4718a910139',1,'bave::RenderDevice']]],
+  ['push_5fdrop_18',['push_drop',['../classbave_1_1App.html#aa3e6d10556c44cc2edbe1e0b972e47e8',1,'bave::App']]],
+  ['push_5fevent_19',['push_event',['../classbave_1_1App.html#a58b23af0b43451696554187a3a6eb77a',1,'bave::App']]]
 ];
