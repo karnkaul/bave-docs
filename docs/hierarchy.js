@@ -103,7 +103,9 @@ var hierarchy =
         ] ],
         [ "bave::ParticleSystem", "classbave_1_1ParticleSystem.html", null ]
       ] ],
-      [ "bave::ImInputText", "classbave_1_1ImInputText.html", null ]
+      [ "bave::ImInputText", "classbave_1_1ImInputText.html", [
+        [ "bave::ImInputTextMultiLine", "classbave_1_1ImInputTextMultiLine.html", null ]
+      ] ]
     ] ],
     [ "bave::PolyPinned", "classbave_1_1PolyPinned.html", [
       [ "bave::App", "classbave_1_1App.html", [

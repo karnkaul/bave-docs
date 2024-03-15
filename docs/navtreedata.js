@@ -28,14 +28,16 @@ var NAVTREE =
     [ "API Reference", "index.html", null ],
     [ "Changelog", "md_lib_2docs_2changelog.html", [
       [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md1", [
-        [ "v0.4.5", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
-        [ "v0.4.4", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
-        [ "v0.4.3", "md_lib_2docs_2changelog.html#autotoc_md4", null ],
-        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
-        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md6", null ],
-        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md7", [
-          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md8", null ],
-          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md9", null ]
+        [ "v0.4.7", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
+        [ "v0.4.6", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
+        [ "v0.4.5", "md_lib_2docs_2changelog.html#autotoc_md4", null ],
+        [ "v0.4.4", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
+        [ "v0.4.3", "md_lib_2docs_2changelog.html#autotoc_md6", null ],
+        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md7", null ],
+        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md8", null ],
+        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md9", [
+          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md10", null ],
+          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md11", null ]
         ] ]
       ] ]
     ] ],
@@ -73,14 +75,14 @@ var NAVTREEINDEX =
 [
 "action_8hpp.html",
 "classbave_1_1CString.html#af32fa94897142eb37ddf449e44711df7",
-"classbave_1_1ImTexture.html#a737d6b681d56edd63fbabc5587a7c3bb",
-"classbave_1_1Renderer.html#a6ea9337b819a14d0d1d39b7543c629b9",
-"classbave_1_1Timer.html#a6ea20207ed951d1e37a4afec422b0667",
-"inclusive__range_8hpp.html",
-"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca38d66c22a1d4a2fa891333ea8bff88f4",
-"pixmap_8hpp.html",
-"structbave_1_1KeyInput.html#ab343df9b047d87ca1c9e0798d32c7314",
-"structbave_1_1RenderView.html#a9747c3de3b3cb9d3f15369f6d61cda8e"
+"classbave_1_1ImInputTextMultiLine.html#aa3d0efa100740a00d8d2d28ce89636a0",
+"classbave_1_1RenderDevice.html#afe54733c7ff1f97f3fd0faf1a5a774cc",
+"classbave_1_1TextureWriteable.html#a96ffdae1fa9ae7e7e6d396330ab15352",
+"hash__combine_8hpp.html#a7179b2df939d819721a9bd77b2b0d8ac",
+"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca18fb3a0b50a3af341e5854c07428e6f5",
+"namespacemembers_enum.html",
+"structbave_1_1InclusiveRange.html#ab97bd1bdc6f4a9ca3664dedf768f898e",
+"structbave_1_1RenderPrimitive.html#a5c0e41b547033db2ffdbc3a86c325b89"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

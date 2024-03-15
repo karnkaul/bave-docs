@@ -46,6 +46,7 @@ var annotated_dup =
       [ "IDrawable", "classbave_1_1IDrawable.html", "classbave_1_1IDrawable" ],
       [ "ImageFile", "classbave_1_1ImageFile.html", "classbave_1_1ImageFile" ],
       [ "ImInputText", "classbave_1_1ImInputText.html", "classbave_1_1ImInputText" ],
+      [ "ImInputTextMultiLine", "classbave_1_1ImInputTextMultiLine.html", "classbave_1_1ImInputTextMultiLine" ],
       [ "ImTexture", "classbave_1_1ImTexture.html", "classbave_1_1ImTexture" ],
       [ "InclusiveRange", "structbave_1_1InclusiveRange.html", "structbave_1_1InclusiveRange" ],
       [ "Index2D", "structbave_1_1Index2D.html", "structbave_1_1Index2D" ],

@@ -18,7 +18,8 @@ var searchData=
   ['reset_5ffence_15',['reset_fence',['../classbave_1_1RenderDevice.html#a718389bac79524678725b12f916c8957',1,'bave::RenderDevice']]],
   ['reset_5fuv_16',['reset_uv',['../classbave_1_1Sprite.html#a2e4faaf1f654bce4d0059e66c9d63591',1,'bave::Sprite']]],
   ['resize_5fbuffer_17',['resize_buffer',['../classbave_1_1ImInputText.html#a88791677191e663662a1cd785677abb9',1,'bave::ImInputText']]],
-  ['resume_18',['resume',['../classbave_1_1AudioStreamer.html#a8e7ecf98929480b8ccce6b1297e6ebdd',1,'bave::AudioStreamer']]],
-  ['return_5fcode_19',['return_code',['../namespacebave_1_1clap.html#ac14045901719843e3d22fb955e1178ca',1,'bave::clap']]],
-  ['run_20',['run',['../classbave_1_1App.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::App::run()'],['../classbave_1_1AndroidApp.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::AndroidApp::run()'],['../classbave_1_1DesktopApp.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::DesktopApp::run()']]]
+  ['respawn_18',['respawn',['../classbave_1_1ParticleEmitter.html#a4393cfad4821d2f6486c1e49c325fffe',1,'bave::ParticleEmitter::respawn()'],['../classbave_1_1ParticleSystem.html#ab3d19f9519668e805ec28e4eeefe4929',1,'bave::ParticleSystem::respawn()']]],
+  ['resume_19',['resume',['../classbave_1_1AudioStreamer.html#a8e7ecf98929480b8ccce6b1297e6ebdd',1,'bave::AudioStreamer']]],
+  ['return_5fcode_20',['return_code',['../namespacebave_1_1clap.html#ac14045901719843e3d22fb955e1178ca',1,'bave::clap']]],
+  ['run_21',['run',['../classbave_1_1App.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::App::run()'],['../classbave_1_1AndroidApp.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::AndroidApp::run()'],['../classbave_1_1DesktopApp.html#a3f8171e414a2068b714a8efdc1af52b0',1,'bave::DesktopApp::run()']]]
 ];

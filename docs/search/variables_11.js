@@ -7,7 +7,7 @@ var searchData=
   ['scancode_4',['scancode',['../structbave_1_1KeyInput.html#a8484d95234357c4f4d8bcbd9e646010e',1,'bave::KeyInput']]],
   ['select_5fgpu_5',['select_gpu',['../structbave_1_1DesktopApp_1_1CreateInfo.html#ab85f808d0d22bb938aad5df3633f2832',1,'bave::DesktopApp::CreateInfo']]],
   ['sfx_5fgain_6',['sfx_gain',['../classbave_1_1AudioDevice.html#a4ccc541413bed4cb9817292c38319b12',1,'bave::AudioDevice']]],
-  ['size_7',['size',['../structbave_1_1Quad.html#aa21492a44cfea2d3837c8d22a6ff0a1d',1,'bave::Quad::size'],['../structbave_1_1NineQuad.html#a77bf4c108dc89296d12c431c284d8761',1,'bave::NineQuad::size'],['../classbave_1_1Pixmap_1_1Builder.html#a0abb6422a5c00dc1a4d73de370d4a481',1,'bave::Pixmap::Builder::size']]],
+  ['size_7',['size',['../structbave_1_1Quad.html#aa21492a44cfea2d3837c8d22a6ff0a1d',1,'bave::Quad::size'],['../structbave_1_1NineQuad.html#a77bf4c108dc89296d12c431c284d8761',1,'bave::NineQuad::size'],['../classbave_1_1Pixmap_1_1Builder.html#a0abb6422a5c00dc1a4d73de370d4a481',1,'bave::Pixmap::Builder::size'],['../classbave_1_1ImInputTextMultiLine.html#aa3d0efa100740a00d8d2d28ce89636a0',1,'bave::ImInputTextMultiLine::size']]],
   ['size_5fv_8',['size_v',['../structbave_1_1Quad.html#a1fed14da4b64f2c5a1e0e0c23edd9f79',1,'bave::Quad']]],
   ['slice_9',['slice',['../structbave_1_1NineQuad.html#a7574adbb3a52ca7e2430a04d652e9a08',1,'bave::NineQuad']]],
   ['source_10',['source',['../structbave_1_1ExtentScaler.html#a8d0bec9aa7a89f66d43fbaf435dbea47',1,'bave::ExtentScaler::source'],['../structbave_1_1Projector.html#a7abb8489a29e88ff159571770fee17fd',1,'bave::Projector::source']]],

@@ -12,6 +12,7 @@ var classbave_1_1Driver =
     [ "on_scroll", "classbave_1_1Driver.html#a115c13f7c8a2392f5545ae88b47876e7", null ],
     [ "on_tap", "classbave_1_1Driver.html#a3333375843c35620b6ceb63d15439955", null ],
     [ "render", "classbave_1_1Driver.html#ac429674b06a3ef739a834d6cf62a6877", null ],
+    [ "should_close", "classbave_1_1Driver.html#a418570c5dd7d3be570bb95997d0479f3", null ],
     [ "tick", "classbave_1_1Driver.html#a71d6a32a1643783be43fa117dec8f37d", null ],
     [ "AndroidApp", "classbave_1_1Driver.html#af9b1c12c75fe2320937d7ef42f6ed4fc", null ],
     [ "DesktopApp", "classbave_1_1Driver.html#abc24dd7035da8232923c1e53cdb9dd76", null ],

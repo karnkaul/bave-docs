@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4bcae5e5b51b0398e3fb977a8c44d773" id="r_a4bcae5e5b51b0398e3fb977a8c44d773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcae5e5b51b0398e3fb977a8c44d773">pre_warm</a> (<a class="el" href="namespacebave.html#a2b3fb78c91469a4a24bd72440e6a7921">Seconds</a> dt=50ms, int ticks=100)</td></tr>
 <tr class="memdesc:a4bcae5e5b51b0398e3fb977a8c44d773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-warm particles by simulating ticks.  <br /></td></tr>
 <tr class="separator:a4bcae5e5b51b0398e3fb977a8c44d773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4393cfad4821d2f6486c1e49c325fffe" id="r_a4393cfad4821d2f6486c1e49c325fffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4393cfad4821d2f6486c1e49c325fffe">respawn</a> ()</td></tr>
+<tr class="memdesc:a4393cfad4821d2f6486c1e49c325fffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Respawn particles.  <br /></td></tr>
+<tr class="separator:a4393cfad4821d2f6486c1e49c325fffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5517da66aede55b06fa31c251410d24" id="r_aa5517da66aede55b06fa31c251410d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5517da66aede55b06fa31c251410d24">set_position</a> (glm::vec2 position)</td></tr>
 <tr class="memdesc:aa5517da66aede55b06fa31c251410d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set emitter position. Does not affect already spawned particles.  <br /></td></tr>
 <tr class="separator:aa5517da66aede55b06fa31c251410d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -400,6 +403,26 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a4393cfad4821d2f6486c1e49c325fffe" name="a4393cfad4821d2f6486c1e49c325fffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4393cfad4821d2f6486c1e49c325fffe">&#9670;&#160;</a></span>respawn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bave::ParticleEmitter::respawn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Respawn particles. </p>
+<p>Has no effect if config.respawn is true. </p>
 
 </div>
 </div>

@@ -113,14 +113,15 @@ Inheritance diagram for bave::ImInputText:</div>
  <div class="center">
   <img src="classbave_1_1ImInputText.png" usemap="#bave::ImInputText_map" alt=""/>
   <map id="bave::ImInputText_map" name="bave::ImInputText_map">
-<area href="classbave_1_1Polymorphic.html" title="Base class for polymorphic types." alt="bave::Polymorphic" shape="rect" coords="0,0,116,24"/>
+<area href="classbave_1_1Polymorphic.html" title="Base class for polymorphic types." alt="bave::Polymorphic" shape="rect" coords="0,0,159,24"/>
+<area href="classbave_1_1ImInputTextMultiLine.html" title="Expandable ImGui multi-line input text buffer." alt="bave::ImInputTextMultiLine" shape="rect" coords="0,112,159,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a03dfa9b777f4ed68525b74c4d9cfdf52" id="r_a03dfa9b777f4ed68525b74c4d9cfdf52"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03dfa9b777f4ed68525b74c4d9cfdf52">update</a> (<a class="el" href="classbave_1_1CString.html">CString</a> name) -&gt; bool</td></tr>
-<tr class="separator:a03dfa9b777f4ed68525b74c4d9cfdf52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a597bd950467544076564e92941b157a0" id="r_a597bd950467544076564e92941b157a0"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a597bd950467544076564e92941b157a0">update</a> (<a class="el" href="classbave_1_1CString.html">CString</a> name) -&gt; bool</td></tr>
+<tr class="separator:a597bd950467544076564e92941b157a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bdfb126864780147758171073a338d8" id="r_a4bdfb126864780147758171073a338d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bdfb126864780147758171073a338d8">set_text</a> (std::string_view text)</td></tr>
 <tr class="separator:a4bdfb126864780147758171073a338d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f7574f4b98c4f87ac9b0dd6f6aeb1d7" id="r_a9f7574f4b98c4f87ac9b0dd6f6aeb1d7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f7574f4b98c4f87ac9b0dd6f6aeb1d7">operator()</a> (<a class="el" href="classbave_1_1CString.html">CString</a> name) -&gt; bool</td></tr>
@@ -310,20 +311,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a03dfa9b777f4ed68525b74c4d9cfdf52" name="a03dfa9b777f4ed68525b74c4d9cfdf52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03dfa9b777f4ed68525b74c4d9cfdf52">&#9670;&#160;</a></span>update()</h2>
+<a id="a597bd950467544076564e92941b157a0" name="a597bd950467544076564e92941b157a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a597bd950467544076564e92941b157a0">&#9670;&#160;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto bave::ImInputText::update </td>
+          <td class="memname">virtual auto bave::ImInputText::update </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classbave_1_1CString.html">CString</a></td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td> -&gt;  bool</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classbave_1_1ImInputTextMultiLine.html#aa6815af69ae3318a54564428612acacf">bave::ImInputTextMultiLine</a>.</p>
 
 </div>
 </div>

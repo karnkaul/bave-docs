@@ -12,6 +12,7 @@ var classbave_1_1ParticleEmitter =
     [ "active_particles", "classbave_1_1ParticleEmitter.html#a43b004527c72a6b48e750ebb22124b36", null ],
     [ "get_position", "classbave_1_1ParticleEmitter.html#a34cbd4bd72b7c9bc7ad84dd50c4f9c47", null ],
     [ "pre_warm", "classbave_1_1ParticleEmitter.html#a4bcae5e5b51b0398e3fb977a8c44d773", null ],
+    [ "respawn", "classbave_1_1ParticleEmitter.html#a4393cfad4821d2f6486c1e49c325fffe", null ],
     [ "set_position", "classbave_1_1ParticleEmitter.html#aa5517da66aede55b06fa31c251410d24", null ],
     [ "tick", "classbave_1_1ParticleEmitter.html#a41c4a7e4960261ab5f98e474a2b1cda1", null ],
     [ "config", "classbave_1_1ParticleEmitter.html#a424a7a242ec26ad18a5af1e645a0c869", null ],
