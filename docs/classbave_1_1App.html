@@ -144,9 +144,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a05b929a7aa1b1899627892184fa3df64" id="r_a05b929a7aa1b1899627892184fa3df64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b929a7aa1b1899627892184fa3df64">set_bootloader</a> (<a class="el" href="#abd9137beca1b0192ee1f20e8efc9b800">Bootloader</a> bootloader)</td></tr>
 <tr class="memdesc:a05b929a7aa1b1899627892184fa3df64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Bootloader.  <br /></td></tr>
 <tr class="separator:a05b929a7aa1b1899627892184fa3df64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39eee804b16bbbb5487fbe033a73bf66" id="r_a39eee804b16bbbb5487fbe033a73bf66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39eee804b16bbbb5487fbe033a73bf66">set_data_store</a> (std::unique_ptr&lt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a> &gt; data_store)</td></tr>
-<tr class="memdesc:a39eee804b16bbbb5487fbe033a73bf66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set custom <a class="el" href="classbave_1_1DataStore.html">DataStore</a>.  <br /></td></tr>
-<tr class="separator:a39eee804b16bbbb5487fbe033a73bf66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f8171e414a2068b714a8efdc1af52b0" id="r_a3f8171e414a2068b714a8efdc1af52b0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f8171e414a2068b714a8efdc1af52b0">run</a> () -&gt; <a class="el" href="namespacebave.html#af1ada4e8999292e028ef2b2093b18e2f">ErrCode</a></td></tr>
 <tr class="memdesc:a3f8171e414a2068b714a8efdc1af52b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the game loop.  <br /></td></tr>
 <tr class="separator:a3f8171e414a2068b714a8efdc1af52b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,9 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed8009fd04314d903a2360e117014929" id="r_aed8009fd04314d903a2360e117014929"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed8009fd04314d903a2360e117014929">load_shader</a> (std::string_view vertex, std::string_view fragment) const -&gt; std::optional&lt; <a class="el" href="classbave_1_1Shader.html">Shader</a> &gt;</td></tr>
 <tr class="memdesc:aed8009fd04314d903a2360e117014929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a shader for drawing.  <br /></td></tr>
 <tr class="separator:aed8009fd04314d903a2360e117014929"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0da0269a6b5cbec778cbc31e567b4b0c" id="r_a0da0269a6b5cbec778cbc31e567b4b0c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0da0269a6b5cbec778cbc31e567b4b0c">change_mount_point</a> (std::string_view directory) -&gt; bool</td></tr>
-<tr class="memdesc:a0da0269a6b5cbec778cbc31e567b4b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the data store mount point.  <br /></td></tr>
-<tr class="separator:a0da0269a6b5cbec778cbc31e567b4b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf086fb12b6ce26cf043a892e22b92c" id="r_aaaf086fb12b6ce26cf043a892e22b92c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf086fb12b6ce26cf043a892e22b92c">set_data_loader</a> (std::unique_ptr&lt; <a class="el" href="classbave_1_1IDataLoader.html">IDataLoader</a> &gt; loader)</td></tr>
+<tr class="memdesc:aaaf086fb12b6ce26cf043a892e22b92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a custom DataLoader.  <br /></td></tr>
+<tr class="separator:aaaf086fb12b6ce26cf043a892e22b92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9b67dc031e00b3f2c14090dbe6ab211" id="r_ae9b67dc031e00b3f2c14090dbe6ab211"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9b67dc031e00b3f2c14090dbe6ab211">get_gamepad</a> (<a class="el" href="namespacebave.html#a050808e68c020a299882d94605e7e27a">GamepadId</a> const id) const -&gt; <a class="el" href="structbave_1_1Gamepad.html">Gamepad</a> const &amp;</td></tr>
 <tr class="memdesc:ae9b67dc031e00b3f2c14090dbe6ab211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a particular gamepad.  <br /></td></tr>
 <tr class="separator:ae9b67dc031e00b3f2c14090dbe6ab211"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,8 +185,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a688c9947b18230149fe4477142bd69bc" id="r_a688c9947b18230149fe4477142bd69bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688c9947b18230149fe4477142bd69bc">wait_render_device_idle</a> ()</td></tr>
 <tr class="memdesc:a688c9947b18230149fe4477142bd69bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until <a class="el" href="classbave_1_1RenderDevice.html" title="Vulkan rendering device.">RenderDevice</a> is idle.  <br /></td></tr>
 <tr class="separator:a688c9947b18230149fe4477142bd69bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63853c94db3261ef02970a8571dd54df" id="r_a63853c94db3261ef02970a8571dd54df"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63853c94db3261ef02970a8571dd54df">get_data_store</a> () const -&gt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a> &amp;</td></tr>
-<tr class="separator:a63853c94db3261ef02970a8571dd54df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab536c48e26cc90ff60757e00b71adecf" id="r_ab536c48e26cc90ff60757e00b71adecf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab536c48e26cc90ff60757e00b71adecf">get_data_store</a> () const -&gt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a> const &amp;</td></tr>
+<tr class="separator:ab536c48e26cc90ff60757e00b71adecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee234d1039f4985f12548721372c778f" id="r_aee234d1039f4985f12548721372c778f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee234d1039f4985f12548721372c778f">get_render_device</a> () const -&gt; <a class="el" href="classbave_1_1RenderDevice.html">RenderDevice</a> &amp;</td></tr>
 <tr class="separator:aee234d1039f4985f12548721372c778f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afadce2faec9476874a97a2615e4b4c4a" id="r_afadce2faec9476874a97a2615e4b4c4a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afadce2faec9476874a97a2615e4b4c4a">get_renderer</a> () const -&gt; <a class="el" href="classbave_1_1Renderer.html">Renderer</a> const &amp;</td></tr>
@@ -394,33 +391,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0da0269a6b5cbec778cbc31e567b4b0c" name="a0da0269a6b5cbec778cbc31e567b4b0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0da0269a6b5cbec778cbc31e567b4b0c">&#9670;&#160;</a></span>change_mount_point()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::App::change_mount_point </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>directory</em></span></td><td>)</td>
-          <td> -&gt;  bool</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Change the data store mount point. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">directory</td><td>Directory to mount. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true on success.</dd></dl>
-<p>Mount point is fixed on Android. </p>
-
-</div>
-</div>
 <a id="a2f94fe8be4e6443600ac619ff4f291e4" name="a2f94fe8be4e6443600ac619ff4f291e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f94fe8be4e6443600ac619ff4f291e4">&#9670;&#160;</a></span>get_active_pointers()</h2>
 
@@ -496,8 +466,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a63853c94db3261ef02970a8571dd54df" name="a63853c94db3261ef02970a8571dd54df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63853c94db3261ef02970a8571dd54df">&#9670;&#160;</a></span>get_data_store()</h2>
+<a id="ab536c48e26cc90ff60757e00b71adecf" name="ab536c48e26cc90ff60757e00b71adecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab536c48e26cc90ff60757e00b71adecf">&#9670;&#160;</a></span>get_data_store()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,7 +479,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">auto bave::App::get_data_store </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const -&gt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a>&amp; </td>
+          <td> const -&gt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a> const&amp; </td>
         </tr>
       </table>
   </td>
@@ -1126,29 +1096,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a39eee804b16bbbb5487fbe033a73bf66" name="a39eee804b16bbbb5487fbe033a73bf66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39eee804b16bbbb5487fbe033a73bf66">&#9670;&#160;</a></span>set_data_store()</h2>
+<a id="aaaf086fb12b6ce26cf043a892e22b92c" name="aaaf086fb12b6ce26cf043a892e22b92c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf086fb12b6ce26cf043a892e22b92c">&#9670;&#160;</a></span>set_data_loader()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void bave::App::set_data_store </td>
+          <td class="memname">void bave::App::set_data_loader </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>data_store</em></span></td><td>)</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classbave_1_1IDataLoader.html">IDataLoader</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>loader</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set custom <a class="el" href="classbave_1_1DataStore.html">DataStore</a>. </p>
+<p>Set a custom DataLoader. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data_store</td><td>store instance to use. </td></tr>
+    <tr><td class="paramname">loader</td><td>Custom DataLoader to use. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section pre"><dt>Precondition</dt><dd>data_store should not be null. </dd></dl>
 
 </div>
 </div>

@@ -27,17 +27,23 @@ var NAVTREE =
   [ "bave", "index.html", [
     [ "API Reference", "index.html", null ],
     [ "Changelog", "md_lib_2docs_2changelog.html", [
-      [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md1", [
-        [ "v0.4.7", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
-        [ "v0.4.6", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
-        [ "v0.4.5", "md_lib_2docs_2changelog.html#autotoc_md4", null ],
-        [ "v0.4.4", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
-        [ "v0.4.3", "md_lib_2docs_2changelog.html#autotoc_md6", null ],
-        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md7", null ],
-        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md8", null ],
-        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md9", [
-          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md10", null ],
-          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md11", null ]
+      [ "v0.5", "md_lib_2docs_2changelog.html#autotoc_md1", [
+        [ "v0.5.0", "md_lib_2docs_2changelog.html#autotoc_md2", null ]
+      ] ],
+      [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md3", [
+        [ "v0.4.10", "md_lib_2docs_2changelog.html#autotoc_md4", null ],
+        [ "v0.4.9", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
+        [ "v0.4.8", "md_lib_2docs_2changelog.html#autotoc_md6", null ],
+        [ "v0.4.7", "md_lib_2docs_2changelog.html#autotoc_md7", null ],
+        [ "v0.4.6", "md_lib_2docs_2changelog.html#autotoc_md8", null ],
+        [ "v0.4.5", "md_lib_2docs_2changelog.html#autotoc_md9", null ],
+        [ "v0.4.4", "md_lib_2docs_2changelog.html#autotoc_md10", null ],
+        [ "v0.4.3", "md_lib_2docs_2changelog.html#autotoc_md11", null ],
+        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md12", null ],
+        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md13", null ],
+        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md14", [
+          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md15", null ],
+          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md16", null ]
         ] ]
       ] ]
     ] ],
@@ -74,15 +80,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8hpp.html",
-"classbave_1_1CString.html#af32fa94897142eb37ddf449e44711df7",
-"classbave_1_1ImInputTextMultiLine.html#aa3d0efa100740a00d8d2d28ce89636a0",
-"classbave_1_1RenderDevice.html#afe54733c7ff1f97f3fd0faf1a5a774cc",
-"classbave_1_1TextureWriteable.html#a96ffdae1fa9ae7e7e6d396330ab15352",
-"hash__combine_8hpp.html#a7179b2df939d819721a9bd77b2b0d8ac",
-"namespacebave.html#a29a9523f73dfc64b112140481d5b554ca18fb3a0b50a3af341e5854c07428e6f5",
-"namespacemembers_enum.html",
-"structbave_1_1InclusiveRange.html#ab97bd1bdc6f4a9ca3664dedf768f898e",
-"structbave_1_1RenderPrimitive.html#a5c0e41b547033db2ffdbc3a86c325b89"
+"classbave_1_1CustomShape.html",
+"classbave_1_1ImInputText.html#a597bd950467544076564e92941b157a0",
+"classbave_1_1RenderDevice.html#ab66a9421d341f2d4d2dc2f4486b1d202",
+"classbave_1_1Texture9Slice.html",
+"gamepad_8hpp.html#a701b7a07fc8a044fe61416b236f07e42a98ce873df53900dd5454baba574ecb06",
+"namespacebave.html#a050808e68c020a299882d94605e7e27aacd3dc8b6cffb41e4163dcbd857ca87da",
+"namespacebave.html#af94131e9293144ef49a90a5c5825c6aa",
+"structbave_1_1Gamepad.html#a8a69409020ea2914051f961ac98c1c32",
+"structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee",
+"structbave_1_1clap_1_1Parser.html#ae0e2aaaa09914ef276c6fa8b800e904d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

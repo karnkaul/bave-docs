@@ -7,6 +7,7 @@ var dir_805577b10f29d978f0f54c44dce96d2b =
     [ "geometry.hpp", "geometry_8hpp.html", "geometry_8hpp" ],
     [ "gpu.hpp", "gpu_8hpp.html", "gpu_8hpp" ],
     [ "image_file.hpp", "image__file_8hpp.html", "image__file_8hpp" ],
+    [ "particle_config.hpp", "particle__config_8hpp.html", "particle__config_8hpp" ],
     [ "particle_system.hpp", "particle__system_8hpp.html", "particle__system_8hpp" ],
     [ "pixmap.hpp", "pixmap_8hpp.html", "pixmap_8hpp" ],
     [ "projector.hpp", "projector_8hpp.html", "projector_8hpp" ],

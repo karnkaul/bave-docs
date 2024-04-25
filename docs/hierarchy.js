@@ -27,6 +27,8 @@ var hierarchy =
     [ "bave::CombinedImageSampler", "structbave_1_1CombinedImageSampler.html", null ],
     [ "bave::DesktopApp::CreateInfo", "structbave_1_1DesktopApp_1_1CreateInfo.html", null ],
     [ "bave::CString", "classbave_1_1CString.html", null ],
+    [ "bave::DataLoaderBuilder", "classbave_1_1DataLoaderBuilder.html", null ],
+    [ "bave::DataStore", "classbave_1_1DataStore.html", null ],
     [ "bave::Degrees", "structbave_1_1Degrees.html", null ],
     [ "bave::DesktopApp::Glfw::Deleter", "structbave_1_1DesktopApp_1_1Glfw_1_1Deleter.html", null ],
     [ "bave::DesktopApp::LogFile::Deleter", "structbave_1_1DesktopApp_1_1LogFile_1_1Deleter.html", null ],
@@ -82,10 +84,13 @@ var hierarchy =
     [ "bave::PointerMove", "structbave_1_1PointerMove.html", null ],
     [ "bave::PointerTap", "structbave_1_1PointerTap.html", null ],
     [ "bave::Polymorphic", "classbave_1_1Polymorphic.html", [
-      [ "bave::DataStore", "classbave_1_1DataStore.html", null ],
       [ "bave::IBitmapViewSource", "classbave_1_1IBitmapViewSource.html", [
         [ "bave::Bitmap", "classbave_1_1Bitmap.html", null ],
         [ "bave::ImageFile", "classbave_1_1ImageFile.html", null ]
+      ] ],
+      [ "bave::IDataLoader", "classbave_1_1IDataLoader.html", [
+        [ "bave::FileLoader", "classbave_1_1FileLoader.html", null ],
+        [ "bave::ZipLoader", "classbave_1_1ZipLoader.html", null ]
       ] ],
       [ "bave::IDrawable", "classbave_1_1IDrawable.html", [
         [ "bave::Drawable", "classbave_1_1Drawable.html", [

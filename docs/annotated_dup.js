@@ -23,6 +23,7 @@ var annotated_dup =
       [ "CombinedImageSampler", "structbave_1_1CombinedImageSampler.html", "structbave_1_1CombinedImageSampler" ],
       [ "CString", "classbave_1_1CString.html", "classbave_1_1CString" ],
       [ "CustomShape", "classbave_1_1CustomShape.html", "classbave_1_1CustomShape" ],
+      [ "DataLoaderBuilder", "classbave_1_1DataLoaderBuilder.html", "classbave_1_1DataLoaderBuilder" ],
       [ "DataStore", "classbave_1_1DataStore.html", "classbave_1_1DataStore" ],
       [ "Degrees", "structbave_1_1Degrees.html", "structbave_1_1Degrees" ],
       [ "DeltaTime", "structbave_1_1DeltaTime.html", "structbave_1_1DeltaTime" ],
@@ -33,6 +34,7 @@ var annotated_dup =
       [ "EnumFlags", "classbave_1_1EnumFlags.html", "classbave_1_1EnumFlags" ],
       [ "Error", "classbave_1_1Error.html", "classbave_1_1Error" ],
       [ "ExtentScaler", "structbave_1_1ExtentScaler.html", "structbave_1_1ExtentScaler" ],
+      [ "FileLoader", "classbave_1_1FileLoader.html", "classbave_1_1FileLoader" ],
       [ "FixedString", "classbave_1_1FixedString.html", "classbave_1_1FixedString" ],
       [ "FocusChange", "structbave_1_1FocusChange.html", "structbave_1_1FocusChange" ],
       [ "Font", "classbave_1_1Font.html", "classbave_1_1Font" ],
@@ -43,6 +45,7 @@ var annotated_dup =
       [ "Glyph", "structbave_1_1Glyph.html", "structbave_1_1Glyph" ],
       [ "Gpu", "structbave_1_1Gpu.html", "structbave_1_1Gpu" ],
       [ "IBitmapViewSource", "classbave_1_1IBitmapViewSource.html", "classbave_1_1IBitmapViewSource" ],
+      [ "IDataLoader", "classbave_1_1IDataLoader.html", "classbave_1_1IDataLoader" ],
       [ "IDrawable", "classbave_1_1IDrawable.html", "classbave_1_1IDrawable" ],
       [ "ImageFile", "classbave_1_1ImageFile.html", "classbave_1_1ImageFile" ],
       [ "ImInputText", "classbave_1_1ImInputText.html", "classbave_1_1ImInputText" ],
@@ -104,6 +107,7 @@ var annotated_dup =
       [ "Visitor", "structbave_1_1Visitor.html", null ],
       [ "Windowed", "structbave_1_1Windowed.html", "structbave_1_1Windowed" ],
       [ "WindowResize", "structbave_1_1WindowResize.html", "structbave_1_1WindowResize" ],
+      [ "ZipLoader", "classbave_1_1ZipLoader.html", null ],
       [ "ZPlane", "structbave_1_1ZPlane.html", "structbave_1_1ZPlane" ]
     ] ]
 ];

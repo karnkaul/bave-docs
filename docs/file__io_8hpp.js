@@ -1,7 +1,10 @@
 var file__io_8hpp =
 [
-    [ "does_exist", "file__io_8hpp.html#aa9841b5a448356670768ae6d8b132787", null ],
-    [ "find_super_dir", "file__io_8hpp.html#a925f21946ad4c8163c9a6c748e8d5eef", null ],
-    [ "read_bytes_from", "file__io_8hpp.html#a1d0d897b42a3e4105e829c8c34183bda", null ],
-    [ "read_string_from", "file__io_8hpp.html#ae3c4c480487b74b448d5967e6fb190db", null ]
+    [ "exists", "file__io_8hpp.html#a6283f1dc196ad748ae1d2437a5a06bd4", null ],
+    [ "make_uri", "file__io_8hpp.html#a38cb94f7643cf998a3af8dd7c35f9e04", null ],
+    [ "read_bytes", "file__io_8hpp.html#a3a2698dfcc42d2a7fa70ce0238281f7f", null ],
+    [ "read_string", "file__io_8hpp.html#abd19389c49592b56b34a693240d2cfee", null ],
+    [ "upfind", "file__io_8hpp.html#ab6a388e8e79950fd047238b62270edbc", null ],
+    [ "upfind_dir", "file__io_8hpp.html#addda052dfcb6c252b3aeb1cee34d3fc2", null ],
+    [ "upfind_parent", "file__io_8hpp.html#a70465ac060a9fc80a1eb9281dacec1ed", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bave: lib/include/bave/json_io.hpp Source File</title>
+<title>bave: lib/include/bave/io/json_io.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -102,63 +102,69 @@ $(function(){initNavTree('json__io_8hpp_source.html',''); initResizable(); });
 <div class="contents">
 <a href="json__io_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;<a class="code" href="geometry_8hpp.html">bave/graphics/geometry.hpp</a>&gt;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="rect_8hpp.html">bave/graphics/rect.hpp</a>&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="rgba_8hpp.html">bave/graphics/rgba.hpp</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="tile__sheet_8hpp.html">bave/graphics/tile_sheet.hpp</a>&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;djson/json.hpp&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacebave.html">bave</a> {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">   10</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; json, glm::tvec2&lt;Type&gt; <span class="keyword">const</span>&amp; in) {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    json.push_back(in.x);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    json.push_back(in.y);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>}</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="particle__config_8hpp.html">bave/graphics/particle_config.hpp</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="rect_8hpp.html">bave/graphics/rect.hpp</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="rgba_8hpp.html">bave/graphics/rgba.hpp</a>&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;<a class="code" href="tile__sheet_8hpp.html">bave/graphics/tile_sheet.hpp</a>&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;djson/json.hpp&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacebave.html">bave</a> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="}">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">   11</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; json, glm::tvec2&lt;Type&gt; <span class="keyword">const</span>&amp; in) {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    json.push_back(in.x);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    json.push_back(in.y);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
 </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">   16</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; in, glm::tvec2&lt;Type&gt;&amp; out) {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordflow">if</span> (in.is_number()) {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        out = glm::tvec2&lt;Type&gt;{in.as&lt;Type&gt;()};</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        out = {in[0].as&lt;Type&gt;(), in[1].as&lt;Type&gt;()};</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>}</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">   17</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; in, glm::tvec2&lt;Type&gt;&amp; out) {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordflow">if</span> (in.is_number()) {</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        out = glm::tvec2&lt;Type&gt;{in.as&lt;Type&gt;()};</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        out = {in[0].as&lt;Type&gt;(), in[1].as&lt;Type&gt;()};</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    }</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
-<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="namespacebave.html#abc9b69644573ff34652d45c23cd6ff84">   25</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1Rect.html">Rect&lt;Type&gt;</a> <span class="keyword">const</span>&amp; in) {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(out[<span class="stringliteral">&quot;lt&quot;</span>], in.<a class="code hl_variable" href="structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee">lt</a>);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(out[<span class="stringliteral">&quot;rb&quot;</span>], in.<a class="code hl_variable" href="structbave_1_1Rect.html#a50e448d8c62a53213c18bf637d347aa3">rb</a>);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>}</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="namespacebave.html#abc9b69644573ff34652d45c23cd6ff84">   26</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1Rect.html">Rect&lt;Type&gt;</a> <span class="keyword">const</span>&amp; in) {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(out[<span class="stringliteral">&quot;lt&quot;</span>], in.<a class="code hl_variable" href="structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee">lt</a>);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(out[<span class="stringliteral">&quot;rb&quot;</span>], in.<a class="code hl_variable" href="structbave_1_1Rect.html#a50e448d8c62a53213c18bf637d347aa3">rb</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
 </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
-<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="namespacebave.html#aa9708079a2c53e55054c953f19642306">   31</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1Rect.html">Rect&lt;Type&gt;</a>&amp; out) {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(json[<span class="stringliteral">&quot;lt&quot;</span>], out.<a class="code hl_variable" href="structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee">lt</a>);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(json[<span class="stringliteral">&quot;rb&quot;</span>], out.<a class="code hl_variable" href="structbave_1_1Rect.html#a50e448d8c62a53213c18bf637d347aa3">rb</a>);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>}</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">template</span> &lt;dj::Numeric Type&gt;</div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespacebave.html#aa9708079a2c53e55054c953f19642306">   32</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1Rect.html">Rect&lt;Type&gt;</a>&amp; out) {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(json[<span class="stringliteral">&quot;lt&quot;</span>], out.<a class="code hl_variable" href="structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee">lt</a>);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(json[<span class="stringliteral">&quot;rb&quot;</span>], out.<a class="code hl_variable" href="structbave_1_1Rect.html#a50e448d8c62a53213c18bf637d347aa3">rb</a>);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}</div>
 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="namespacebave.html#aa48753dc6bd88b6fed63b9fd46d4ee25">   36</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1Rgba.html">Rgba</a> <span class="keyword">const</span>&amp; rgba);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="namespacebave.html#a593003868c02dc4ee9a140e647000673">   37</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1Rgba.html">Rgba</a>&amp; out);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespacebave.html#a7b52bb61bf6918317e9446537b70730e">   39</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1NineSlice.html">NineSlice</a> <span class="keyword">const</span>&amp; nine_slice);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="namespacebave.html#a0ffc2eee26d96c8a0ce8c6806b275d6c">   40</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1NineSlice.html">NineSlice</a>&amp; out);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="namespacebave.html#ac483a9a7c97994d183c290b712317dd0">   42</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1TileSheet.html">TileSheet</a> <span class="keyword">const</span>&amp; tile_sheet);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="namespacebave.html#a6f2ac1d564a09aa9543e13dee8fa309b">   43</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1TileSheet.html">TileSheet</a>&amp; out);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} <span class="comment">// namespace bave</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="namespacebave.html#aa48753dc6bd88b6fed63b9fd46d4ee25">   37</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1Rgba.html">Rgba</a> <span class="keyword">const</span>&amp; rgba);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="namespacebave.html#a593003868c02dc4ee9a140e647000673">   38</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1Rgba.html">Rgba</a>&amp; out);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="namespacebave.html#a7b52bb61bf6918317e9446537b70730e">   40</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1NineSlice.html">NineSlice</a> <span class="keyword">const</span>&amp; nine_slice);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespacebave.html#a0ffc2eee26d96c8a0ce8c6806b275d6c">   41</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1NineSlice.html">NineSlice</a>&amp; out);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="namespacebave.html#ac483a9a7c97994d183c290b712317dd0">   43</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1TileSheet.html">TileSheet</a> <span class="keyword">const</span>&amp; tile_sheet);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="namespacebave.html#a6f2ac1d564a09aa9543e13dee8fa309b">   44</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1TileSheet.html">TileSheet</a>&amp; out);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="namespacebave.html#ae4759c505d8500fe26f4d99f4f8614f0">   46</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">to_json</a>(dj::Json&amp; out, <a class="code hl_struct" href="structbave_1_1ParticleConfig.html">ParticleConfig</a> <span class="keyword">const</span>&amp; particle_config);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="namespacebave.html#a9ea290bbf8da774fd9eb204bb2dd7806">   47</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">from_json</a>(dj::Json <span class="keyword">const</span>&amp; json, <a class="code hl_struct" href="structbave_1_1ParticleConfig.html">ParticleConfig</a>&amp; out);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>} <span class="comment">// namespace bave</span></div>
 <div class="ttc" id="ageometry_8hpp_html"><div class="ttname"><a href="geometry_8hpp.html">geometry.hpp</a></div></div>
 <div class="ttc" id="anamespacebave_html"><div class="ttname"><a href="namespacebave.html">bave</a></div><div class="ttdef"><b>Definition</b> android_app.hpp:16</div></div>
-<div class="ttc" id="anamespacebave_html_a44b5af69e8ec72d949f4d4c84da79c7a"><div class="ttname"><a href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">bave::to_json</a></div><div class="ttdeci">void to_json(dj::Json &amp;json, glm::tvec2&lt; Type &gt; const &amp;in)</div><div class="ttdef"><b>Definition</b> json_io.hpp:10</div></div>
-<div class="ttc" id="anamespacebave_html_ae5ec368e084c5118df5318169d376e43"><div class="ttname"><a href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">bave::from_json</a></div><div class="ttdeci">void from_json(dj::Json const &amp;in, glm::tvec2&lt; Type &gt; &amp;out)</div><div class="ttdef"><b>Definition</b> json_io.hpp:16</div></div>
+<div class="ttc" id="anamespacebave_html_a44b5af69e8ec72d949f4d4c84da79c7a"><div class="ttname"><a href="namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a">bave::to_json</a></div><div class="ttdeci">void to_json(dj::Json &amp;json, glm::tvec2&lt; Type &gt; const &amp;in)</div><div class="ttdef"><b>Definition</b> json_io.hpp:11</div></div>
+<div class="ttc" id="anamespacebave_html_ae5ec368e084c5118df5318169d376e43"><div class="ttname"><a href="namespacebave.html#ae5ec368e084c5118df5318169d376e43">bave::from_json</a></div><div class="ttdeci">void from_json(dj::Json const &amp;in, glm::tvec2&lt; Type &gt; &amp;out)</div><div class="ttdef"><b>Definition</b> json_io.hpp:17</div></div>
+<div class="ttc" id="aparticle__config_8hpp_html"><div class="ttname"><a href="particle__config_8hpp.html">particle_config.hpp</a></div></div>
 <div class="ttc" id="arect_8hpp_html"><div class="ttname"><a href="rect_8hpp.html">rect.hpp</a></div></div>
 <div class="ttc" id="argba_8hpp_html"><div class="ttname"><a href="rgba_8hpp.html">rgba.hpp</a></div></div>
 <div class="ttc" id="astructbave_1_1NineSlice_html"><div class="ttname"><a href="structbave_1_1NineSlice.html">bave::NineSlice</a></div><div class="ttdoc">Spec for a 9-slice.</div><div class="ttdef"><b>Definition</b> geometry.hpp:97</div></div>
+<div class="ttc" id="astructbave_1_1ParticleConfig_html"><div class="ttname"><a href="structbave_1_1ParticleConfig.html">bave::ParticleConfig</a></div><div class="ttdoc">Configuration for a particle emitter.</div><div class="ttdef"><b>Definition</b> particle_config.hpp:10</div></div>
 <div class="ttc" id="astructbave_1_1Rect_html"><div class="ttname"><a href="structbave_1_1Rect.html">bave::Rect</a></div><div class="ttdoc">Axis aligned rectangle specified by top-left and bottom-right points.</div><div class="ttdef"><b>Definition</b> rect.hpp:9</div></div>
 <div class="ttc" id="astructbave_1_1Rect_html_a50e448d8c62a53213c18bf637d347aa3"><div class="ttname"><a href="structbave_1_1Rect.html#a50e448d8c62a53213c18bf637d347aa3">bave::Rect::rb</a></div><div class="ttdeci">glm::tvec2&lt; Type &gt; rb</div><div class="ttdoc">Right-bottom (x: right, y: bottom).</div><div class="ttdef"><b>Definition</b> rect.hpp:13</div></div>
 <div class="ttc" id="astructbave_1_1Rect_html_ab39914596410a7d24424ea6b93c7cbee"><div class="ttname"><a href="structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee">bave::Rect::lt</a></div><div class="ttdeci">glm::tvec2&lt; Type &gt; lt</div><div class="ttdoc">Left-top (x: left, y: top).</div><div class="ttdef"><b>Definition</b> rect.hpp:11</div></div>
@@ -170,7 +176,7 @@ $(function(){initNavTree('json__io_8hpp_source.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_5a30104352ef4255dc24354b02eb2d20.html">include</a></li><li class="navelem"><a class="el" href="dir_489d1a072b312cf10858def2cb5d29d4.html">bave</a></li><li class="navelem"><a class="el" href="json__io_8hpp.html">json_io.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_5a30104352ef4255dc24354b02eb2d20.html">include</a></li><li class="navelem"><a class="el" href="dir_489d1a072b312cf10858def2cb5d29d4.html">bave</a></li><li class="navelem"><a class="el" href="dir_3a2768c73c1390495f7e71b5adef7b66.html">io</a></li><li class="navelem"><a class="el" href="json__io_8hpp.html">json_io.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
   </ul>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bave: lib/include/bave/file_io.hpp File Reference</title>
+<title>bave: lib/include/bave/io/file_io.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -108,24 +108,39 @@ $(function(){initNavTree('file__io_8hpp.html',''); initResizable(); });
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacebave" id="r_namespacebave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html">bave</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacebave_1_1file" id="r_namespacebave_1_1file"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html">bave::file</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a925f21946ad4c8163c9a6c748e8d5eef" id="r_a925f21946ad4c8163c9a6c748e8d5eef"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html#a925f21946ad4c8163c9a6c748e8d5eef">bave::find_super_dir</a> (std::string_view base, std::string_view patterns) -&gt; std::string</td></tr>
-<tr class="separator:a925f21946ad4c8163c9a6c748e8d5eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9841b5a448356670768ae6d8b132787" id="r_aa9841b5a448356670768ae6d8b132787"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html#aa9841b5a448356670768ae6d8b132787">bave::does_exist</a> (<a class="el" href="classbave_1_1CString.html">CString</a> path) -&gt; bool</td></tr>
-<tr class="separator:aa9841b5a448356670768ae6d8b132787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d0d897b42a3e4105e829c8c34183bda" id="r_a1d0d897b42a3e4105e829c8c34183bda"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html#a1d0d897b42a3e4105e829c8c34183bda">bave::read_bytes_from</a> (std::vector&lt; std::byte &gt; &amp;out, <a class="el" href="classbave_1_1CString.html">CString</a> path) -&gt; bool</td></tr>
-<tr class="separator:a1d0d897b42a3e4105e829c8c34183bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3c4c480487b74b448d5967e6fb190db" id="r_ae3c4c480487b74b448d5967e6fb190db"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html#ae3c4c480487b74b448d5967e6fb190db">bave::read_string_from</a> (std::string &amp;out, <a class="el" href="classbave_1_1CString.html">CString</a> path) -&gt; bool</td></tr>
-<tr class="separator:ae3c4c480487b74b448d5967e6fb190db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a388e8e79950fd047238b62270edbc" id="r_ab6a388e8e79950fd047238b62270edbc"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html#ab6a388e8e79950fd047238b62270edbc">bave::file::upfind</a> (std::string_view base, std::string_view patterns) -&gt; std::string</td></tr>
+<tr class="memdesc:ab6a388e8e79950fd047238b62270edbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a super path to a given file/directory pattern.  <br /></td></tr>
+<tr class="separator:ab6a388e8e79950fd047238b62270edbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addda052dfcb6c252b3aeb1cee34d3fc2" id="r_addda052dfcb6c252b3aeb1cee34d3fc2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html#addda052dfcb6c252b3aeb1cee34d3fc2">bave::file::upfind_dir</a> (std::string_view base, std::string_view patterns) -&gt; std::string</td></tr>
+<tr class="memdesc:addda052dfcb6c252b3aeb1cee34d3fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a super path to a given directory pattern.  <br /></td></tr>
+<tr class="separator:addda052dfcb6c252b3aeb1cee34d3fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70465ac060a9fc80a1eb9281dacec1ed" id="r_a70465ac060a9fc80a1eb9281dacec1ed"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html#a70465ac060a9fc80a1eb9281dacec1ed">bave::file::upfind_parent</a> (std::string_view base, std::string_view filename) -&gt; std::string</td></tr>
+<tr class="memdesc:a70465ac060a9fc80a1eb9281dacec1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the parent directory of a super directory containing a given file.  <br /></td></tr>
+<tr class="separator:a70465ac060a9fc80a1eb9281dacec1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6283f1dc196ad748ae1d2437a5a06bd4" id="r_a6283f1dc196ad748ae1d2437a5a06bd4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html#a6283f1dc196ad748ae1d2437a5a06bd4">bave::file::exists</a> (<a class="el" href="classbave_1_1CString.html">CString</a> path) -&gt; bool</td></tr>
+<tr class="memdesc:a6283f1dc196ad748ae1d2437a5a06bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a file exists.  <br /></td></tr>
+<tr class="separator:a6283f1dc196ad748ae1d2437a5a06bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2698dfcc42d2a7fa70ce0238281f7f" id="r_a3a2698dfcc42d2a7fa70ce0238281f7f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html#a3a2698dfcc42d2a7fa70ce0238281f7f">bave::file::read_bytes</a> (std::vector&lt; std::byte &gt; &amp;out, <a class="el" href="classbave_1_1CString.html">CString</a> path) -&gt; bool</td></tr>
+<tr class="memdesc:a3a2698dfcc42d2a7fa70ce0238281f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read bytes from a file.  <br /></td></tr>
+<tr class="separator:a3a2698dfcc42d2a7fa70ce0238281f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd19389c49592b56b34a693240d2cfee" id="r_abd19389c49592b56b34a693240d2cfee"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html#abd19389c49592b56b34a693240d2cfee">bave::file::read_string</a> (std::string &amp;out, <a class="el" href="classbave_1_1CString.html">CString</a> path) -&gt; bool</td></tr>
+<tr class="memdesc:abd19389c49592b56b34a693240d2cfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read string from a file.  <br /></td></tr>
+<tr class="separator:abd19389c49592b56b34a693240d2cfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38cb94f7643cf998a3af8dd7c35f9e04" id="r_a38cb94f7643cf998a3af8dd7c35f9e04"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave_1_1file.html#a38cb94f7643cf998a3af8dd7c35f9e04">bave::file::make_uri</a> (std::string_view assets_dir, std::string_view full_path) -&gt; std::string</td></tr>
+<tr class="memdesc:a38cb94f7643cf998a3af8dd7c35f9e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a URI relative to the assets path. Only relevant for desktop platforms.  <br /></td></tr>
+<tr class="separator:a38cb94f7643cf998a3af8dd7c35f9e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_5a30104352ef4255dc24354b02eb2d20.html">include</a></li><li class="navelem"><a class="el" href="dir_489d1a072b312cf10858def2cb5d29d4.html">bave</a></li><li class="navelem"><a class="el" href="file__io_8hpp.html">file_io.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_5a30104352ef4255dc24354b02eb2d20.html">include</a></li><li class="navelem"><a class="el" href="dir_489d1a072b312cf10858def2cb5d29d4.html">bave</a></li><li class="navelem"><a class="el" href="dir_3a2768c73c1390495f7e71b5adef7b66.html">io</a></li><li class="navelem"><a class="el" href="file__io_8hpp.html">file_io.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
   </ul>
 </div>

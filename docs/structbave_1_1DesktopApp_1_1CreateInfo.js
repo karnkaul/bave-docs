@@ -1,7 +1,6 @@
 var structbave_1_1DesktopApp_1_1CreateInfo =
 [
-    [ "args", "structbave_1_1DesktopApp_1_1CreateInfo.html#a0232284c2dacb65db07da0577c7f2c35", null ],
-    [ "assets_patterns", "structbave_1_1DesktopApp_1_1CreateInfo.html#a02bb6e080b9bbb6a1334e73bc3f963f1", null ],
+    [ "data_loader", "structbave_1_1DesktopApp_1_1CreateInfo.html#a91b7dc53018693587d770d756212ef99", null ],
     [ "mode", "structbave_1_1DesktopApp_1_1CreateInfo.html#ae569119110e7c08751ebcd72039e115a", null ],
     [ "msaa", "structbave_1_1DesktopApp_1_1CreateInfo.html#a460f866415f6ee1c7a33dbf36527ab4d", null ],
     [ "select_gpu", "structbave_1_1DesktopApp_1_1CreateInfo.html#ab85f808d0d22bb938aad5df3633f2832", null ],

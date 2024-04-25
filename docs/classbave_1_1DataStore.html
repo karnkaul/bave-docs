@@ -95,98 +95,47 @@ $(function(){initNavTree('classbave_1_1DataStore.html',''); initResizable(); });
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classbave_1_1DataStore-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">bave::DataStore Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
+<p>Central data store, maintains an ordered list of <code><a class="el" href="classbave_1_1IDataLoader.html" title="Interface for loading bytes given a URI.">IDataLoader</a></code>s.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="data__store_8hpp_source.html">data_store.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for bave::DataStore:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classbave_1_1DataStore.png" usemap="#bave::DataStore_map" alt=""/>
-  <map id="bave::DataStore_map" name="bave::DataStore_map">
-<area href="classbave_1_1Polymorphic.html" title="Base class for polymorphic types." alt="bave::Polymorphic" shape="rect" coords="0,0,116,24"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a59c6ecd1fc27ec1b077f5d368d963d70" id="r_a59c6ecd1fc27ec1b077f5d368d963d70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59c6ecd1fc27ec1b077f5d368d963d70">DataStore</a> (std::string tag=&quot;DataStore&quot;)</td></tr>
-<tr class="separator:a59c6ecd1fc27ec1b077f5d368d963d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa368d6c28396070089c69f99d45ec0cb" id="r_aa368d6c28396070089c69f99d45ec0cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa368d6c28396070089c69f99d45ec0cb">set_loader</a> (std::unique_ptr&lt; <a class="el" href="classbave_1_1IDataLoader.html">IDataLoader</a> &gt; loader)</td></tr>
+<tr class="memdesc:aa368d6c28396070089c69f99d45ec0cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use a custom DataLoader.  <br /></td></tr>
+<tr class="separator:aa368d6c28396070089c69f99d45ec0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3267757b3bfbf443d3b3d04f7ea05518" id="r_a3267757b3bfbf443d3b3d04f7ea05518"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3267757b3bfbf443d3b3d04f7ea05518">exists</a> (std::string_view uri) const -&gt; bool</td></tr>
+<tr class="memdesc:a3267757b3bfbf443d3b3d04f7ea05518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a resource exists at the given URI.  <br /></td></tr>
 <tr class="separator:a3267757b3bfbf443d3b3d04f7ea05518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a850260c22c7c62fdea20fe387f7ce8a3" id="r_a850260c22c7c62fdea20fe387f7ce8a3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a850260c22c7c62fdea20fe387f7ce8a3">read_bytes</a> (std::string_view uri) const -&gt; std::vector&lt; std::byte &gt;</td></tr>
+<tr class="memdesc:a850260c22c7c62fdea20fe387f7ce8a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read bytes from a given URI.  <br /></td></tr>
 <tr class="separator:a850260c22c7c62fdea20fe387f7ce8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a627ca7d7b5eca9a56173d8bc08057569" id="r_a627ca7d7b5eca9a56173d8bc08057569"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627ca7d7b5eca9a56173d8bc08057569">read_string</a> (std::string_view uri) const -&gt; std::string</td></tr>
+<tr class="memdesc:a627ca7d7b5eca9a56173d8bc08057569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read string from a given URI.  <br /></td></tr>
 <tr class="separator:a627ca7d7b5eca9a56173d8bc08057569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab25ec45a5a606e78bc0351d4d6fa790c" id="r_ab25ec45a5a606e78bc0351d4d6fa790c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab25ec45a5a606e78bc0351d4d6fa790c">read_json</a> (std::string_view uri) const -&gt; dj::Json</td></tr>
+<tr class="memdesc:ab25ec45a5a606e78bc0351d4d6fa790c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read JSON from a given URI.  <br /></td></tr>
 <tr class="separator:ab25ec45a5a606e78bc0351d4d6fa790c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a656d6dfee0554c113fa6153d5eac2a39" id="r_a656d6dfee0554c113fa6153d5eac2a39"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a656d6dfee0554c113fa6153d5eac2a39">get_mount_point</a> () const -&gt; std::string_view</td></tr>
-<tr class="separator:a656d6dfee0554c113fa6153d5eac2a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b023d7c5c3ea6584482b75e88c129d6" id="r_a9b023d7c5c3ea6584482b75e88c129d6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b023d7c5c3ea6584482b75e88c129d6">set_mount_point</a> (std::string_view directory) -&gt; bool</td></tr>
-<tr class="separator:a9b023d7c5c3ea6584482b75e88c129d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc926f94909e6fced99a64f441770476" id="r_abc926f94909e6fced99a64f441770476"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc926f94909e6fced99a64f441770476">make_full_path</a> (std::string_view uri) const -&gt; std::string</td></tr>
-<tr class="separator:abc926f94909e6fced99a64f441770476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20d8dacb7d598cc8e6ebf3847dea8cff" id="r_a20d8dacb7d598cc8e6ebf3847dea8cff"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d8dacb7d598cc8e6ebf3847dea8cff">make_uri</a> (std::string_view full_path) const -&gt; std::string</td></tr>
-<tr class="separator:a20d8dacb7d598cc8e6ebf3847dea8cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53017c1012405ac8fda617997545071a" id="r_a53017c1012405ac8fda617997545071a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53017c1012405ac8fda617997545071a">to_spir_v</a> (std::string_view glsl) const -&gt; std::string</td></tr>
+<tr class="memdesc:a53017c1012405ac8fda617997545071a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a GLSL URI to SPIR-V.  <br /></td></tr>
 <tr class="separator:a53017c1012405ac8fda617997545071a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classbave_1_1Polymorphic"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classbave_1_1Polymorphic')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbave_1_1Polymorphic.html">bave::Polymorphic</a></td></tr>
-<tr class="memitem:a1eac285efd7d71fd3160961c4bfe27d6 inherit pub_methods_classbave_1_1Polymorphic" id="r_a1eac285efd7d71fd3160961c4bfe27d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#a1eac285efd7d71fd3160961c4bfe27d6">Polymorphic</a> (<a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> const &amp;)=default</td></tr>
-<tr class="separator:a1eac285efd7d71fd3160961c4bfe27d6 inherit pub_methods_classbave_1_1Polymorphic"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a843a5cba228adc01ea7ed2b71562fafb inherit pub_methods_classbave_1_1Polymorphic" id="r_a843a5cba228adc01ea7ed2b71562fafb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#a843a5cba228adc01ea7ed2b71562fafb">Polymorphic</a> (<a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> &amp;&amp;)=default</td></tr>
-<tr class="separator:a843a5cba228adc01ea7ed2b71562fafb inherit pub_methods_classbave_1_1Polymorphic"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08e71a97cb825977e4a9f80bdaefd81d inherit pub_methods_classbave_1_1Polymorphic" id="r_a08e71a97cb825977e4a9f80bdaefd81d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#a08e71a97cb825977e4a9f80bdaefd81d">operator=</a> (<a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> const &amp;) -&gt; <a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> &amp;=default</td></tr>
-<tr class="separator:a08e71a97cb825977e4a9f80bdaefd81d inherit pub_methods_classbave_1_1Polymorphic"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8e2950e4644134c2401c011eaa37122 inherit pub_methods_classbave_1_1Polymorphic" id="r_ad8e2950e4644134c2401c011eaa37122"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#ad8e2950e4644134c2401c011eaa37122">operator=</a> (<a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> &amp;&amp;) -&gt; <a class="el" href="classbave_1_1Polymorphic.html">Polymorphic</a> &amp;=default</td></tr>
-<tr class="separator:ad8e2950e4644134c2401c011eaa37122 inherit pub_methods_classbave_1_1Polymorphic"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3717be30493c5da3dc9af85693366531 inherit pub_methods_classbave_1_1Polymorphic" id="r_a3717be30493c5da3dc9af85693366531"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#a3717be30493c5da3dc9af85693366531">Polymorphic</a> ()=default</td></tr>
-<tr class="separator:a3717be30493c5da3dc9af85693366531 inherit pub_methods_classbave_1_1Polymorphic"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c2053fbd54235c5cc631598a1a73ced inherit pub_methods_classbave_1_1Polymorphic" id="r_a6c2053fbd54235c5cc631598a1a73ced"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Polymorphic.html#a6c2053fbd54235c5cc631598a1a73ced">~Polymorphic</a> ()=default</td></tr>
-<tr class="separator:a6c2053fbd54235c5cc631598a1a73ced inherit pub_methods_classbave_1_1Polymorphic"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2de0700ce906769a6f6b5dfc554657b3" id="r_a2de0700ce906769a6f6b5dfc554657b3"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de0700ce906769a6f6b5dfc554657b3">as_string_view</a> (std::span&lt; std::byte const &gt; bytes) -&gt; std::string_view</td></tr>
+<tr class="memdesc:a2de0700ce906769a6f6b5dfc554657b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">View bytes as a string view.  <br /></td></tr>
 <tr class="separator:a2de0700ce906769a6f6b5dfc554657b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a50f8ce74d46ec6974522f5503b4dbc0b" id="r_a50f8ce74d46ec6974522f5503b4dbc0b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f8ce74d46ec6974522f5503b4dbc0b">m_prefix</a> {}</td></tr>
-<tr class="separator:a50f8ce74d46ec6974522f5503b4dbc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d73e7d765d2924468b4c43c85c2887f" id="r_a1d73e7d765d2924468b4c43c85c2887f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbave_1_1Logger.html">Logger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d73e7d765d2924468b4c43c85c2887f">m_log</a></td></tr>
-<tr class="separator:a1d73e7d765d2924468b4c43c85c2887f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a59c6ecd1fc27ec1b077f5d368d963d70" name="a59c6ecd1fc27ec1b077f5d368d963d70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59c6ecd1fc27ec1b077f5d368d963d70">&#9670;&#160;</a></span>DataStore()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bave::DataStore::DataStore </td>
-          <td>(</td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>tag</em><span class="paramdefsep"> = </span><span class="paramdefval">&quot;DataStore&quot;</span></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Central data store, maintains an ordered list of <code><a class="el" href="classbave_1_1IDataLoader.html" title="Interface for loading bytes given a URI.">IDataLoader</a></code>s. </p>
+<p>The stored loaders are iterated through for each API function, with the first success being returned. If all loaders fail (or no loaders present), the call fails. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2de0700ce906769a6f6b5dfc554657b3" name="a2de0700ce906769a6f6b5dfc554657b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2de0700ce906769a6f6b5dfc554657b3">&#9670;&#160;</a></span>as_string_view()</h2>
 
@@ -210,6 +159,15 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>View bytes as a string view. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bytes</td><td>Bytes to interpret. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string_view into the bytes. </dd></dl>
+
 </div>
 </div>
 <a id="a3267757b3bfbf443d3b3d04f7ea05518" name="a3267757b3bfbf443d3b3d04f7ea05518"></a>
@@ -217,82 +175,24 @@ Protected Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto bave::DataStore::exists </td>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>uri</em></span></td><td>)</td>
-          <td> const -&gt; bool </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a656d6dfee0554c113fa6153d5eac2a39" name="a656d6dfee0554c113fa6153d5eac2a39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a656d6dfee0554c113fa6153d5eac2a39">&#9670;&#160;</a></span>get_mount_point()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::DataStore::get_mount_point </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const -&gt; std::string_view </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abc926f94909e6fced99a64f441770476" name="abc926f94909e6fced99a64f441770476"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc926f94909e6fced99a64f441770476">&#9670;&#160;</a></span>make_full_path()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::DataStore::make_full_path </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>uri</em></span></td><td>)</td>
-          <td> const -&gt;  std::string</td>
+          <td> const -&gt;  bool</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a20d8dacb7d598cc8e6ebf3847dea8cff" name="a20d8dacb7d598cc8e6ebf3847dea8cff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20d8dacb7d598cc8e6ebf3847dea8cff">&#9670;&#160;</a></span>make_uri()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto bave::DataStore::make_uri </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>full_path</em></span></td><td>)</td>
-          <td> const -&gt;  std::string</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Check if a resource exists at the given URI. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uri</td><td>URI of the resource. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if a resource exists. </dd></dl>
 
 </div>
 </div>
@@ -311,6 +211,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Read bytes from a given URI. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uri</td><td>URI to read from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of bytes, empty on failure. </dd></dl>
+
 </div>
 </div>
 <a id="ab25ec45a5a606e78bc0351d4d6fa790c" name="ab25ec45a5a606e78bc0351d4d6fa790c"></a>
@@ -327,6 +236,15 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Read JSON from a given URI. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uri</td><td>URI to read from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>JSON, null object on failure. </dd></dl>
 
 </div>
 </div>
@@ -345,30 +263,39 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Read string from a given URI. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uri</td><td>URI to read from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String, empty on failure. </dd></dl>
+
 </div>
 </div>
-<a id="a9b023d7c5c3ea6584482b75e88c129d6" name="a9b023d7c5c3ea6584482b75e88c129d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b023d7c5c3ea6584482b75e88c129d6">&#9670;&#160;</a></span>set_mount_point()</h2>
+<a id="aa368d6c28396070089c69f99d45ec0cb" name="aa368d6c28396070089c69f99d45ec0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa368d6c28396070089c69f99d45ec0cb">&#9670;&#160;</a></span>set_loader()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto bave::DataStore::set_mount_point </td>
+          <td class="memname">void bave::DataStore::set_loader </td>
           <td>(</td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>directory</em></span></td><td>)</td>
-          <td> -&gt; bool </td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classbave_1_1IDataLoader.html">IDataLoader</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>loader</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Use a custom DataLoader. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loader</td><td>Custom DataLoader to use. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -387,50 +314,14 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1d73e7d765d2924468b4c43c85c2887f" name="a1d73e7d765d2924468b4c43c85c2887f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d73e7d765d2924468b4c43c85c2887f">&#9670;&#160;</a></span>m_log</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structbave_1_1Logger.html">Logger</a> bave::DataStore::m_log</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50f8ce74d46ec6974522f5503b4dbc0b" name="a50f8ce74d46ec6974522f5503b4dbc0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50f8ce74d46ec6974522f5503b4dbc0b">&#9670;&#160;</a></span>m_prefix</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string bave::DataStore::m_prefix {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Convert a GLSL URI to SPIR-V. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glsl</td><td>GLSL URI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>SPIR-V URI if exists, else empty string. </dd></dl>
 
 </div>
 </div>

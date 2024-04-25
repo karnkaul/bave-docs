@@ -6,9 +6,7 @@ var searchData=
   ['angle_3',['angle',['../structbave_1_1ParticleConfig.html#aa4be9dbd421bdf36e3e60c0023630b2b',1,'bave::ParticleConfig']]],
   ['angular_4',['angular',['../structbave_1_1ParticleConfig.html#a795bf78efb33a57cb2c7ca2344ad02a9',1,'bave::ParticleConfig']]],
   ['animate_5',['animate',['../classbave_1_1SpriteAnim.html#a6364a9fcefbd9bcff2974faec4417765',1,'bave::SpriteAnim']]],
-  ['args_6',['args',['../structbave_1_1DesktopApp_1_1CreateInfo.html#a0232284c2dacb65db07da0577c7f2c35',1,'bave::DesktopApp::CreateInfo']]],
-  ['argument_7',['argument',['../structbave_1_1clap_1_1Option.html#ad82a62137d65993c12f639c5dccf1b83',1,'bave::clap::Option']]],
-  ['assets_5fpatterns_8',['assets_patterns',['../structbave_1_1DesktopApp_1_1CreateInfo.html#a02bb6e080b9bbb6a1334e73bc3f963f1',1,'bave::DesktopApp::CreateInfo']]],
-  ['axes_9',['axes',['../structbave_1_1Gamepad.html#af28e2e97cbe78927b893449de2eb077b',1,'bave::Gamepad']]],
-  ['axes_5fv_10',['axes_v',['../structbave_1_1Gamepad.html#a380aec2d3948edfcc97a234e398a0f04',1,'bave::Gamepad']]]
+  ['argument_6',['argument',['../structbave_1_1clap_1_1Option.html#ad82a62137d65993c12f639c5dccf1b83',1,'bave::clap::Option']]],
+  ['axes_7',['axes',['../structbave_1_1Gamepad.html#af28e2e97cbe78927b893449de2eb077b',1,'bave::Gamepad']]],
+  ['axes_5fv_8',['axes_v',['../structbave_1_1Gamepad.html#a380aec2d3948edfcc97a234e398a0f04',1,'bave::Gamepad']]]
 ];
