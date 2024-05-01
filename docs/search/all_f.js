@@ -3,7 +3,7 @@ var searchData=
   ['far_0',['far',['../structbave_1_1ZPlane.html#a8114957e31eb6fb5d0b4c52b78f4c88f',1,'bave::ZPlane']]],
   ['feature_1',['Feature',['../classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19e',1,'bave::App']]],
   ['featureflags_2',['FeatureFlags',['../classbave_1_1App.html#ab94c9be12de76c7dab24b82ec5ad64d0',1,'bave::App']]],
-  ['features_3',['Features',['../md_lib_2docs_2changelog.html#autotoc_md15',1,'']]],
+  ['features_3',['Features',['../md_lib_2docs_2changelog.html#autotoc_md17',1,'']]],
   ['file_5fio_2ehpp_4',['file_io.hpp',['../file__io_8hpp.html',1,'']]],
   ['file_5floader_2ehpp_5',['file_loader.hpp',['../file__loader_8hpp.html',1,'']]],
   ['fileloader_6',['FileLoader',['../classbave_1_1FileLoader.html',1,'bave::FileLoader'],['../classbave_1_1FileLoader.html#ab0c7de8bcdb4b315f9516fff35e6b0c6',1,'bave::FileLoader::FileLoader()']]],
@@ -28,5 +28,6 @@ var searchData=
   ['from_5fjson_25',['from_json',['../namespacebave.html#ae5ec368e084c5118df5318169d376e43',1,'bave::from_json(dj::Json const &amp;in, glm::tvec2&lt; Type &gt; &amp;out)'],['../namespacebave.html#aa9708079a2c53e55054c953f19642306',1,'bave::from_json(dj::Json const &amp;json, Rect&lt; Type &gt; &amp;out)'],['../namespacebave.html#a593003868c02dc4ee9a140e647000673',1,'bave::from_json(dj::Json const &amp;json, Rgba &amp;out)'],['../namespacebave.html#a0ffc2eee26d96c8a0ce8c6806b275d6c',1,'bave::from_json(dj::Json const &amp;json, NineSlice &amp;out)'],['../namespacebave.html#a6f2ac1d564a09aa9543e13dee8fa309b',1,'bave::from_json(dj::Json const &amp;json, TileSheet &amp;out)'],['../namespacebave.html#a9ea290bbf8da774fd9eb204bb2dd7806',1,'bave::from_json(dj::Json const &amp;json, ParticleConfig &amp;out)']]],
   ['from_5flbrt_26',['from_lbrt',['../structbave_1_1Rect.html#ac82b7046115f3c8752d16dd64fcb6a35',1,'bave::Rect']]],
   ['from_5fsize_27',['from_size',['../structbave_1_1Rect.html#a28a5cb50baabd26a79d26895c747187b',1,'bave::Rect']]],
-  ['from_5fstring_2ehpp_28',['from_string.hpp',['../from__string_8hpp.html',1,'']]]
+  ['from_5fstring_2ehpp_28',['from_string.hpp',['../from__string_8hpp.html',1,'']]],
+  ['full_5fpath_29',['full_path',['../classbave_1_1Persistor.html#a50d70e329a26b7384cc04b95e1c9238d',1,'bave::Persistor']]]
 ];

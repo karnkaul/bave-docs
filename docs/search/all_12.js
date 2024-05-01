@@ -2,8 +2,8 @@ var searchData=
 [
   ['ibitmapviewsource_0',['IBitmapViewSource',['../classbave_1_1IBitmapViewSource.html',1,'bave']]],
   ['ibo_5foffset_1',['ibo_offset',['../structbave_1_1RenderPrimitive.html#ad921b90f62323c5aaab29bade221ea9c',1,'bave::RenderPrimitive']]],
-  ['id_2',['Id',['../structbave_1_1Pixmap_1_1Atlas.html#a076bab89e03f0ca8f0081b9e78a82085',1,'bave::Pixmap::Atlas::Id'],['../classbave_1_1Pixmap_1_1Builder.html#a63109409ab6ce7d014e192f92d01f7f5',1,'bave::Pixmap::Builder::Id'],['../structbave_1_1Gamepad.html#a7a16f4dcfe1aa73a9b2327401a21693f',1,'bave::Gamepad::Id'],['../structbave_1_1Pointer.html#a1947b42227a68705774098175cb2434a',1,'bave::Pointer::Id']]],
-  ['id_3',['id',['../structbave_1_1TileBlock.html#abd27a766a6a7abfb888a8a04a379bf60',1,'bave::TileBlock::id'],['../structbave_1_1TileSheet_1_1Tile.html#ae8445ae52d610fedaeac37a52cca4f52',1,'bave::TileSheet::Tile::id'],['../structbave_1_1Gamepad.html#a62ed096dae35b17cf0ff73ffe2f915d1',1,'bave::Gamepad::id'],['../structbave_1_1Pointer.html#a73ef0dfff9b60f8f6ca730634432e98a',1,'bave::Pointer::id']]],
+  ['id_2',['id',['../structbave_1_1TileBlock.html#abd27a766a6a7abfb888a8a04a379bf60',1,'bave::TileBlock::id'],['../structbave_1_1TileSheet_1_1Tile.html#ae8445ae52d610fedaeac37a52cca4f52',1,'bave::TileSheet::Tile::id'],['../structbave_1_1Gamepad.html#a62ed096dae35b17cf0ff73ffe2f915d1',1,'bave::Gamepad::id'],['../structbave_1_1Pointer.html#a73ef0dfff9b60f8f6ca730634432e98a',1,'bave::Pointer::id']]],
+  ['id_3',['Id',['../structbave_1_1Pixmap_1_1Atlas.html#a076bab89e03f0ca8f0081b9e78a82085',1,'bave::Pixmap::Atlas::Id'],['../classbave_1_1Pixmap_1_1Builder.html#a63109409ab6ce7d014e192f92d01f7f5',1,'bave::Pixmap::Builder::Id'],['../structbave_1_1Gamepad.html#a7a16f4dcfe1aa73a9b2327401a21693f',1,'bave::Gamepad::Id'],['../structbave_1_1Pointer.html#a1947b42227a68705774098175cb2434a',1,'bave::Pointer::Id']]],
   ['idataloader_4',['IDataLoader',['../classbave_1_1IDataLoader.html',1,'bave']]],
   ['idrawable_5',['IDrawable',['../classbave_1_1IDrawable.html',1,'bave']]],
   ['im_5finput_5ftext_2ehpp_6',['im_input_text.hpp',['../im__input__text_8hpp.html',1,'']]],

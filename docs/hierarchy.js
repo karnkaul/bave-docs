@@ -76,6 +76,7 @@ var hierarchy =
     [ "bave::ParticleConfig", "structbave_1_1ParticleConfig.html", null ],
     [ "bave::AudioStreamer::Pause", "structbave_1_1AudioStreamer_1_1Pause.html", null ],
     [ "bave::Font::Pen", "classbave_1_1Font_1_1Pen.html", null ],
+    [ "bave::Persistor", "classbave_1_1Persistor.html", null ],
     [ "bave::Pinned", "classbave_1_1Pinned.html", [
       [ "bave::Renderer", "classbave_1_1Renderer.html", null ]
     ] ],

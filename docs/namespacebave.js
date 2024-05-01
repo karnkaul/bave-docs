@@ -8,7 +8,9 @@ var namespacebave =
       [ "read_string", "namespacebave_1_1file.html#abd19389c49592b56b34a693240d2cfee", null ],
       [ "upfind", "namespacebave_1_1file.html#ab6a388e8e79950fd047238b62270edbc", null ],
       [ "upfind_dir", "namespacebave_1_1file.html#addda052dfcb6c252b3aeb1cee34d3fc2", null ],
-      [ "upfind_parent", "namespacebave_1_1file.html#a70465ac060a9fc80a1eb9281dacec1ed", null ]
+      [ "upfind_parent", "namespacebave_1_1file.html#a70465ac060a9fc80a1eb9281dacec1ed", null ],
+      [ "write_bytes", "namespacebave_1_1file.html#ae8ae73e790df7ce317ab5f7c7da6d24f", null ],
+      [ "write_string", "namespacebave_1_1file.html#a0e01981c0e64f01e315f7432e78f3c1c", null ]
     ] ],
     [ "log", "namespacebave_1_1log.html", "namespacebave_1_1log" ],
     [ "zip", "namespacebave_1_1zip.html", [
@@ -76,6 +78,7 @@ var namespacebave =
     [ "ParticleConfig", "structbave_1_1ParticleConfig.html", "structbave_1_1ParticleConfig" ],
     [ "ParticleEmitter", "classbave_1_1ParticleEmitter.html", "classbave_1_1ParticleEmitter" ],
     [ "ParticleSystem", "classbave_1_1ParticleSystem.html", "classbave_1_1ParticleSystem" ],
+    [ "Persistor", "classbave_1_1Persistor.html", "classbave_1_1Persistor" ],
     [ "Pinned", "classbave_1_1Pinned.html", "classbave_1_1Pinned" ],
     [ "Pixmap", "classbave_1_1Pixmap.html", "classbave_1_1Pixmap" ],
     [ "Pointer", "structbave_1_1Pointer.html", "structbave_1_1Pointer" ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['6_0',['v0.4.6',['../md_lib_2docs_2changelog.html#autotoc_md8',1,'']]]
+  ['6_0',['v0.4.6',['../md_lib_2docs_2changelog.html#autotoc_md10',1,'']]]
 ];

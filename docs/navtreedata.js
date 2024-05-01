@@ -28,22 +28,24 @@ var NAVTREE =
     [ "API Reference", "index.html", null ],
     [ "Changelog", "md_lib_2docs_2changelog.html", [
       [ "v0.5", "md_lib_2docs_2changelog.html#autotoc_md1", [
-        [ "v0.5.0", "md_lib_2docs_2changelog.html#autotoc_md2", null ]
+        [ "v0.5.2", "md_lib_2docs_2changelog.html#autotoc_md2", null ],
+        [ "v0.5.1", "md_lib_2docs_2changelog.html#autotoc_md3", null ],
+        [ "v0.5.0", "md_lib_2docs_2changelog.html#autotoc_md4", null ]
       ] ],
-      [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md3", [
-        [ "v0.4.10", "md_lib_2docs_2changelog.html#autotoc_md4", null ],
-        [ "v0.4.9", "md_lib_2docs_2changelog.html#autotoc_md5", null ],
-        [ "v0.4.8", "md_lib_2docs_2changelog.html#autotoc_md6", null ],
-        [ "v0.4.7", "md_lib_2docs_2changelog.html#autotoc_md7", null ],
-        [ "v0.4.6", "md_lib_2docs_2changelog.html#autotoc_md8", null ],
-        [ "v0.4.5", "md_lib_2docs_2changelog.html#autotoc_md9", null ],
-        [ "v0.4.4", "md_lib_2docs_2changelog.html#autotoc_md10", null ],
-        [ "v0.4.3", "md_lib_2docs_2changelog.html#autotoc_md11", null ],
-        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md12", null ],
-        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md13", null ],
-        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md14", [
-          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md15", null ],
-          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md16", null ]
+      [ "v0.4", "md_lib_2docs_2changelog.html#autotoc_md5", [
+        [ "v0.4.10", "md_lib_2docs_2changelog.html#autotoc_md6", null ],
+        [ "v0.4.9", "md_lib_2docs_2changelog.html#autotoc_md7", null ],
+        [ "v0.4.8", "md_lib_2docs_2changelog.html#autotoc_md8", null ],
+        [ "v0.4.7", "md_lib_2docs_2changelog.html#autotoc_md9", null ],
+        [ "v0.4.6", "md_lib_2docs_2changelog.html#autotoc_md10", null ],
+        [ "v0.4.5", "md_lib_2docs_2changelog.html#autotoc_md11", null ],
+        [ "v0.4.4", "md_lib_2docs_2changelog.html#autotoc_md12", null ],
+        [ "v0.4.3", "md_lib_2docs_2changelog.html#autotoc_md13", null ],
+        [ "v0.4.2", "md_lib_2docs_2changelog.html#autotoc_md14", null ],
+        [ "v0.4.1", "md_lib_2docs_2changelog.html#autotoc_md15", null ],
+        [ "v0.4.0", "md_lib_2docs_2changelog.html#autotoc_md16", [
+          [ "Features", "md_lib_2docs_2changelog.html#autotoc_md17", null ],
+          [ "Changes", "md_lib_2docs_2changelog.html#autotoc_md18", null ]
         ] ]
       ] ]
     ] ],
@@ -80,16 +82,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8hpp.html",
-"classbave_1_1CustomShape.html",
-"classbave_1_1ImInputText.html#a597bd950467544076564e92941b157a0",
-"classbave_1_1RenderDevice.html#ab66a9421d341f2d4d2dc2f4486b1d202",
-"classbave_1_1Texture9Slice.html",
-"gamepad_8hpp.html#a701b7a07fc8a044fe61416b236f07e42a98ce873df53900dd5454baba574ecb06",
-"namespacebave.html#a050808e68c020a299882d94605e7e27aacd3dc8b6cffb41e4163dcbd857ca87da",
-"namespacebave.html#af94131e9293144ef49a90a5c5825c6aa",
-"structbave_1_1Gamepad.html#a8a69409020ea2914051f961ac98c1c32",
-"structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee",
-"structbave_1_1clap_1_1Parser.html#ae0e2aaaa09914ef276c6fa8b800e904d"
+"classbave_1_1CString.html#af32fa94897142eb37ddf449e44711df7",
+"classbave_1_1ImInputText.html#a4bdfb126864780147758171073a338d8",
+"classbave_1_1RenderDevice.html#a55815e7774c127e6c2a626633e4d250d",
+"classbave_1_1Texture.html#a868700ee150a92eed236cc54aca95b16",
+"gamepad_8hpp.html#a050808e68c020a299882d94605e7e27aa7ed21b04c0dcde1c638e5c8480ad0026",
+"mods_8hpp.html",
+"namespacebave.html#aa48753dc6bd88b6fed63b9fd46d4ee25",
+"structbave_1_1ExtentScaler.html#a6ee99285d7b79a8386fb183dec05b3c2",
+"structbave_1_1Radians.html",
+"structbave_1_1clap_1_1Option.html#af407b4376d9ce15f7ad9a2a71807473d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

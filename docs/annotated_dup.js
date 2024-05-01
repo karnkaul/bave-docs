@@ -65,6 +65,7 @@ var annotated_dup =
       [ "ParticleConfig", "structbave_1_1ParticleConfig.html", "structbave_1_1ParticleConfig" ],
       [ "ParticleEmitter", "classbave_1_1ParticleEmitter.html", "classbave_1_1ParticleEmitter" ],
       [ "ParticleSystem", "classbave_1_1ParticleSystem.html", "classbave_1_1ParticleSystem" ],
+      [ "Persistor", "classbave_1_1Persistor.html", "classbave_1_1Persistor" ],
       [ "Pinned", "classbave_1_1Pinned.html", "classbave_1_1Pinned" ],
       [ "Pixmap", "classbave_1_1Pixmap.html", "classbave_1_1Pixmap" ],
       [ "Pointer", "structbave_1_1Pointer.html", "structbave_1_1Pointer" ],

@@ -118,6 +118,12 @@ Functions</h2></td></tr>
 <tr class="memitem:abd19389c49592b56b34a693240d2cfee" id="r_abd19389c49592b56b34a693240d2cfee"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd19389c49592b56b34a693240d2cfee">read_string</a> (std::string &amp;out, <a class="el" href="classbave_1_1CString.html">CString</a> path) -&gt; bool</td></tr>
 <tr class="memdesc:abd19389c49592b56b34a693240d2cfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read string from a file.  <br /></td></tr>
 <tr class="separator:abd19389c49592b56b34a693240d2cfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ae73e790df7ce317ab5f7c7da6d24f" id="r_ae8ae73e790df7ce317ab5f7c7da6d24f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8ae73e790df7ce317ab5f7c7da6d24f">write_bytes</a> (<a class="el" href="classbave_1_1CString.html">CString</a> path, std::span&lt; std::byte const &gt; data) -&gt; bool</td></tr>
+<tr class="memdesc:ae8ae73e790df7ce317ab5f7c7da6d24f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write bytes to a file.  <br /></td></tr>
+<tr class="separator:ae8ae73e790df7ce317ab5f7c7da6d24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e01981c0e64f01e315f7432e78f3c1c" id="r_a0e01981c0e64f01e315f7432e78f3c1c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e01981c0e64f01e315f7432e78f3c1c">write_string</a> (<a class="el" href="classbave_1_1CString.html">CString</a> path, std::string_view text) -&gt; bool</td></tr>
+<tr class="memdesc:a0e01981c0e64f01e315f7432e78f3c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write string to a file.  <br /></td></tr>
+<tr class="separator:a0e01981c0e64f01e315f7432e78f3c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38cb94f7643cf998a3af8dd7c35f9e04" id="r_a38cb94f7643cf998a3af8dd7c35f9e04"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38cb94f7643cf998a3af8dd7c35f9e04">make_uri</a> (std::string_view assets_dir, std::string_view full_path) -&gt; std::string</td></tr>
 <tr class="memdesc:a38cb94f7643cf998a3af8dd7c35f9e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a URI relative to the assets path. Only relevant for desktop platforms.  <br /></td></tr>
 <tr class="separator:a38cb94f7643cf998a3af8dd7c35f9e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -332,6 +338,68 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Path to parent directory if found, else empty string. </dd></dl>
+
+</div>
+</div>
+<a id="ae8ae73e790df7ce317ab5f7c7da6d24f" name="ae8ae73e790df7ce317ab5f7c7da6d24f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8ae73e790df7ce317ab5f7c7da6d24f">&#9670;&#160;</a></span>write_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::file::write_bytes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbave_1_1CString.html">CString</a></td>          <td class="paramname"><span class="paramname"><em>path</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::span&lt; std::byte const &gt;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;) -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write bytes to a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Path to write to. </td></tr>
+    <tr><td class="paramname">data</td><td>Bytes to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success. </dd></dl>
+
+</div>
+</div>
+<a id="a0e01981c0e64f01e315f7432e78f3c1c" name="a0e01981c0e64f01e315f7432e78f3c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e01981c0e64f01e315f7432e78f3c1c">&#9670;&#160;</a></span>write_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::file::write_string </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbave_1_1CString.html">CString</a></td>          <td class="paramname"><span class="paramname"><em>path</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;) -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write string to a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Path to write to. </td></tr>
+    <tr><td class="paramname">text</td><td>String to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success. </dd></dl>
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bave: Class Members - Functions</title>
+<title>bave: lib/include/bave/persistor.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -66,7 +66,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('functions_func_f.html',''); initResizable(); });
+$(function(){initNavTree('persistor_8hpp.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,28 +91,39 @@ $(function(){initNavTree('functions_func_f.html',''); initResizable(); });
 </div>
 </div>
 
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
+  <div class="headertitle"><div class="title">persistor.hpp File Reference</div></div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
-
-<h3><a id="index_f" name="index_f"></a>- f -</h3><ul>
-<li>FileLoader()&#160;:&#160;<a class="el" href="classbave_1_1FileLoader.html#ab0c7de8bcdb4b315f9516fff35e6b0c6">bave::FileLoader</a></li>
-<li>find_tile()&#160;:&#160;<a class="el" href="structbave_1_1TileSheet.html#a3e850d1f1bd965ac2bb86e3d8a45ecf9">bave::TileSheet</a></li>
-<li>finish_render()&#160;:&#160;<a class="el" href="classbave_1_1Renderer.html#a4580fe043ef53b3ea9ec41d0226875be">bave::Renderer</a></li>
-<li>fit_space()&#160;:&#160;<a class="el" href="structbave_1_1ExtentScaler.html#a8de50a204983209ff456da2a4008dba3">bave::ExtentScaler</a></li>
-<li>FixedString()&#160;:&#160;<a class="el" href="classbave_1_1FixedString.html#ade3364cdc35f0e4a53bc9c09c0ad8c62">bave::FixedString&lt; Capacity &gt;</a></li>
-<li>flag()&#160;:&#160;<a class="el" href="classbave_1_1clap_1_1Options.html#ade924cd547d8796eebd9ba00ef6bb5cb">bave::clap::Options</a></li>
-<li>flatten()&#160;:&#160;<a class="el" href="structbave_1_1Index2D.html#a1bfcd07cc34a2ffc59f7673d49c9b06e">bave::Index2D</a></li>
-<li>Font()&#160;:&#160;<a class="el" href="classbave_1_1Font.html#afa5d95579191ea0a04be31da11c3d252">bave::Font</a></li>
-<li>from()&#160;:&#160;<a class="el" href="structbave_1_1Geometry.html#a3f4a95b7bdfe7bb79679ca50192bb86a">bave::Geometry</a>, <a class="el" href="structbave_1_1Rgba.html#ac58ab4b225609ed8b399e47ba055a5ba">bave::Rgba</a>, <a class="el" href="structbave_1_1Version.html#afa4f5f9a1a1f0696b87efc5c1f79aace">bave::Version</a></li>
-<li>from_lbrt()&#160;:&#160;<a class="el" href="structbave_1_1Rect.html#ac82b7046115f3c8752d16dd64fcb6a35">bave::Rect&lt; Type &gt;</a></li>
-<li>from_size()&#160;:&#160;<a class="el" href="structbave_1_1Rect.html#a28a5cb50baabd26a79d26895c747187b">bave::Rect&lt; Type &gt;</a></li>
-<li>full_path()&#160;:&#160;<a class="el" href="classbave_1_1Persistor.html#a50d70e329a26b7384cc04b95e1c9238d">bave::Persistor</a></li>
-</ul>
+<div class="textblock"><code>#include &lt;<a class="el" href="logger_8hpp_source.html">bave/logger.hpp</a>&gt;</code><br />
+<code>#include &lt;span&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+</div>
+<p><a href="persistor_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbave_1_1Persistor.html">bave::Persistor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data reader/writer to platform's persistent storage.  <a href="classbave_1_1Persistor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacedj" id="r_namespacedj"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedj.html">dj</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacebave" id="r_namespacebave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebave.html">bave</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_5a30104352ef4255dc24354b02eb2d20.html">include</a></li><li class="navelem"><a class="el" href="dir_489d1a072b312cf10858def2cb5d29d4.html">bave</a></li><li class="navelem"><a class="el" href="persistor_8hpp.html">persistor.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
   </ul>
 </div>

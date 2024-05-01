@@ -17,5 +17,6 @@ var dir_489d1a072b312cf10858def2cb5d29d4 =
     [ "driver.hpp", "driver_8hpp.html", "driver_8hpp" ],
     [ "loader.hpp", "loader_8hpp.html", "loader_8hpp" ],
     [ "logger.hpp", "logger_8hpp.html", "logger_8hpp" ],
+    [ "persistor.hpp", "persistor_8hpp.html", "persistor_8hpp" ],
     [ "platform.hpp", "platform_8hpp.html", "platform_8hpp" ]
 ];

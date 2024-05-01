@@ -185,6 +185,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a688c9947b18230149fe4477142bd69bc" id="r_a688c9947b18230149fe4477142bd69bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688c9947b18230149fe4477142bd69bc">wait_render_device_idle</a> ()</td></tr>
 <tr class="memdesc:a688c9947b18230149fe4477142bd69bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until <a class="el" href="classbave_1_1RenderDevice.html" title="Vulkan rendering device.">RenderDevice</a> is idle.  <br /></td></tr>
 <tr class="separator:a688c9947b18230149fe4477142bd69bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f4349306818879404a04587a7292591" id="r_a3f4349306818879404a04587a7292591"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f4349306818879404a04587a7292591">get_persistent_dir</a> () const -&gt; std::string_view</td></tr>
+<tr class="memdesc:a3f4349306818879404a04587a7292591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain the platform-dependent persistent storage directory.  <br /></td></tr>
+<tr class="separator:a3f4349306818879404a04587a7292591"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab536c48e26cc90ff60757e00b71adecf" id="r_ab536c48e26cc90ff60757e00b71adecf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab536c48e26cc90ff60757e00b71adecf">get_data_store</a> () const -&gt; <a class="el" href="classbave_1_1DataStore.html">DataStore</a> const &amp;</td></tr>
 <tr class="separator:ab536c48e26cc90ff60757e00b71adecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee234d1039f4985f12548721372c778f" id="r_aee234d1039f4985f12548721372c778f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee234d1039f4985f12548721372c778f">get_render_device</a> () const -&gt; <a class="el" href="classbave_1_1RenderDevice.html">RenderDevice</a> &amp;</td></tr>
@@ -787,6 +790,34 @@ Protected Attributes</h2></td></tr>
 <p>Get the most recently used gamepad. </p>
 <dl class="section return"><dt>Returns</dt><dd>Const reference to <a class="el" href="structbave_1_1Gamepad.html" title="Read-only state of a gamepad.">Gamepad</a>.</dd></dl>
 <p>Currently gamepads are only processed on desktop. </p>
+
+</div>
+</div>
+<a id="a3f4349306818879404a04587a7292591" name="a3f4349306818879404a04587a7292591"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f4349306818879404a04587a7292591">&#9670;&#160;</a></span>get_persistent_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::App::get_persistent_dir </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const -&gt; std::string_view </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Obtain the platform-dependent persistent storage directory. </p>
+<dl class="section return"><dt>Returns</dt><dd>Path to persistent storage directory (read/write). </dd></dl>
 
 </div>
 </div>

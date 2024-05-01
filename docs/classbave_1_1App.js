@@ -27,6 +27,7 @@ var classbave_1_1App =
     [ "get_gesture_recognizer", "classbave_1_1App.html#ae328781c62b5dac6f362a0ae6fe7b080", null ],
     [ "get_key_state", "classbave_1_1App.html#a3e9f3bb2996e2649cc735859a261615f", null ],
     [ "get_most_recent_gamepad", "classbave_1_1App.html#afa925bac6152d6a35200c5a4c96fe863", null ],
+    [ "get_persistent_dir", "classbave_1_1App.html#a3f4349306818879404a04587a7292591", null ],
     [ "get_pipeline_cache", "classbave_1_1App.html#a88ce9f288f67b7b56e40788ea577921e", null ],
     [ "get_render_device", "classbave_1_1App.html#aee234d1039f4985f12548721372c778f", null ],
     [ "get_renderer", "classbave_1_1App.html#afadce2faec9476874a97a2615e4b4c4a", null ],
