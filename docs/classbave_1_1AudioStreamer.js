@@ -8,7 +8,7 @@ var classbave_1_1AudioStreamer =
     [ "play", "classbave_1_1AudioStreamer.html#acabfc05cc77886abb581db10d73a3070", null ],
     [ "resume", "classbave_1_1AudioStreamer.html#a8e7ecf98929480b8ccce6b1297e6ebdd", null ],
     [ "seek", "classbave_1_1AudioStreamer.html#aee713b4327c262b982e321a214c66cac", null ],
-    [ "stop", "classbave_1_1AudioStreamer.html#ace5f799d1801a586606c29ac0a114310", null ],
+    [ "stop", "classbave_1_1AudioStreamer.html#ac581b8d3813f6bbc7a28312be0de2fc3", null ],
     [ "tick", "classbave_1_1AudioStreamer.html#a00758132c349d3ae2a701fd2ef62c92c", null ],
     [ "gain", "classbave_1_1AudioStreamer.html#af24edd2371ed4a783445b8c8174ed49a", null ]
 ];

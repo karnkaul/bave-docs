@@ -39,14 +39,13 @@ var searchData=
   ['shader_36',['Shader',['../classbave_1_1Shader.html#ad21a84d0f6cc05cb429f254b92a54695',1,'bave::Shader']]],
   ['shape_37',['Shape',['../classbave_1_1Shape.html#a8239863a90501437741a6c9e6483fa2e',1,'bave::Shape']]],
   ['short_5foptions_38',['short_options',['../structbave_1_1clap_1_1Parser.html#a39b37b41231100ad219071518feceadf',1,'bave::clap::Parser']]],
-  ['should_5fclose_39',['should_close',['../classbave_1_1Driver.html#a418570c5dd7d3be570bb95997d0479f3',1,'bave::Driver']]],
-  ['should_5fquit_40',['should_quit',['../namespacebave_1_1clap.html#ac0b040bef5d5c8de32abd26a703a23fd',1,'bave::clap']]],
-  ['shutdown_41',['shutdown',['../classbave_1_1App.html#aeb0aff66175a0faaa1c272dfa3513b45',1,'bave::App']]],
-  ['size_42',['Size',['../structbave_1_1NineQuad_1_1Size.html#a2e0b158aea8ef3e7571af4bbdd2fb313',1,'bave::NineQuad::Size::Size(glm::vec2 const size=Quad::size_v)'],['../structbave_1_1NineQuad_1_1Size.html#a67e4e1a5227e645fb58061fffd51d8eb',1,'bave::NineQuad::Size::Size(glm::vec2 const reference, glm::vec2 const current)']]],
-  ['size_43',['size',['../classbave_1_1FixedString.html#a07f15130ff11dd6da5dc94b76784994c',1,'bave::FixedString::size()'],['../structbave_1_1Rect.html#ab1988df8975212d38cabea54d3a64dcd',1,'bave::Rect::size()']]],
-  ['spriteanim_44',['SpriteAnim',['../classbave_1_1SpriteAnim.html#a12f79f493c6a5d8af2d3a5d9568313d8',1,'bave::SpriteAnim']]],
-  ['start_5fnext_5fframe_45',['start_next_frame',['../classbave_1_1App.html#a79576c9af42ee590d3f09eeb3fe2f1cf',1,'bave::App']]],
-  ['start_5frender_46',['start_render',['../classbave_1_1Renderer.html#a9d3c2b1e5bb4deb849fe6d6b94d79d7e',1,'bave::Renderer']]],
-  ['stop_47',['stop',['../classbave_1_1AudioStreamer.html#ace5f799d1801a586606c29ac0a114310',1,'bave::AudioStreamer']]],
-  ['submit_5fand_5fpresent_48',['submit_and_present',['../classbave_1_1RenderDevice.html#aa009303ffb1579a8166320c22c945e24',1,'bave::RenderDevice']]]
+  ['should_5fquit_39',['should_quit',['../namespacebave_1_1clap.html#ac0b040bef5d5c8de32abd26a703a23fd',1,'bave::clap']]],
+  ['shutdown_40',['shutdown',['../classbave_1_1App.html#aeb0aff66175a0faaa1c272dfa3513b45',1,'bave::App']]],
+  ['size_41',['Size',['../structbave_1_1NineQuad_1_1Size.html#a2e0b158aea8ef3e7571af4bbdd2fb313',1,'bave::NineQuad::Size::Size(glm::vec2 const size=Quad::size_v)'],['../structbave_1_1NineQuad_1_1Size.html#a67e4e1a5227e645fb58061fffd51d8eb',1,'bave::NineQuad::Size::Size(glm::vec2 const reference, glm::vec2 const current)']]],
+  ['size_42',['size',['../classbave_1_1FixedString.html#a07f15130ff11dd6da5dc94b76784994c',1,'bave::FixedString::size()'],['../structbave_1_1Rect.html#ab1988df8975212d38cabea54d3a64dcd',1,'bave::Rect::size()']]],
+  ['spriteanim_43',['SpriteAnim',['../classbave_1_1SpriteAnim.html#a12f79f493c6a5d8af2d3a5d9568313d8',1,'bave::SpriteAnim']]],
+  ['start_5fnext_5fframe_44',['start_next_frame',['../classbave_1_1App.html#a79576c9af42ee590d3f09eeb3fe2f1cf',1,'bave::App']]],
+  ['start_5frender_45',['start_render',['../classbave_1_1Renderer.html#a9d3c2b1e5bb4deb849fe6d6b94d79d7e',1,'bave::Renderer']]],
+  ['stop_46',['stop',['../classbave_1_1AudioStreamer.html#ac581b8d3813f6bbc7a28312be0de2fc3',1,'bave::AudioStreamer']]],
+  ['submit_5fand_5fpresent_47',['submit_and_present',['../classbave_1_1RenderDevice.html#aa009303ffb1579a8166320c22c945e24',1,'bave::RenderDevice']]]
 ];

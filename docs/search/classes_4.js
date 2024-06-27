@@ -9,5 +9,6 @@ var searchData=
   ['enumflags_3c_20mod_20_3e_6',['EnumFlags&lt; Mod &gt;',['../classbave_1_1EnumFlags.html',1,'bave']]],
   ['enumflags_3c_20modifier_20_3e_7',['EnumFlags&lt; Modifier &gt;',['../classbave_1_1EnumFlags.html',1,'bave']]],
   ['error_8',['Error',['../classbave_1_1Error.html',1,'bave']]],
-  ['extentscaler_9',['ExtentScaler',['../structbave_1_1ExtentScaler.html',1,'bave']]]
+  ['eventsink_9',['EventSink',['../classbave_1_1EventSink.html',1,'bave']]],
+  ['extentscaler_10',['ExtentScaler',['../structbave_1_1ExtentScaler.html',1,'bave']]]
 ];

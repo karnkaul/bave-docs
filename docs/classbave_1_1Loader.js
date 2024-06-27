@@ -9,6 +9,7 @@ var classbave_1_1Loader =
     [ "load_json", "classbave_1_1Loader.html#a4550bc9b8d3e2d701a7b5a57d2812b4b", null ],
     [ "load_json_asset", "classbave_1_1Loader.html#af5ef2e6ea9a02cf47b83593a02326650", null ],
     [ "load_json_asset", "classbave_1_1Loader.html#a47c6c66d3ca27173f1e84c4054c9c444", null ],
+    [ "load_particle_emitter", "classbave_1_1Loader.html#a5835a100b5f4c041c4ee95ae52db49a1", null ],
     [ "load_texture", "classbave_1_1Loader.html#a65b0b3a92f1d5eed555eb47ab52004dc", null ],
     [ "load_texture_9slice", "classbave_1_1Loader.html#a7dff4c09aeb674e1b1b4d0e0b749996e", null ],
     [ "load_texture_atlas", "classbave_1_1Loader.html#ac5579e17d59ef49c57cc753982043bbd", null ]

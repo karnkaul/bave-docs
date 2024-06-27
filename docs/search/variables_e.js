@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parented_5finstances_0',['parented_instances',['../classbave_1_1Drawable.html#a978804cc139677d8df14d2b54e9e4191',1,'bave::Drawable']]],
+  ['parented_5finstances_0',['parented_instances',['../classbave_1_1Instanced.html#aef3708d4d647ac8bb042b284ce87efbd',1,'bave::Instanced']]],
   ['patch_1',['patch',['../structbave_1_1Version.html#ac09a080d439526f3f982dd722cb581fd',1,'bave::Version']]],
   ['persistent_5fdir_2',['persistent_dir',['../structbave_1_1DesktopApp_1_1CreateInfo.html#aa266a2c7f4b0a4812fb18432fa15f3b1',1,'bave::DesktopApp::CreateInfo']]],
   ['pixmap_3',['pixmap',['../structbave_1_1Pixmap_1_1Atlas.html#ab95a7d5a51d73cf944202f2005f7583e',1,'bave::Pixmap::Atlas']]],

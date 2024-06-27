@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sampler_0',['sampler',['../structbave_1_1CombinedImageSampler.html#a49ab89c1b0caf233d5c68434a3340ab3',1,'bave::CombinedImageSampler::sampler'],['../classbave_1_1Texture.html#ab294672d317733d6da64aebead0e5ab3',1,'bave::Texture::sampler']]],
+  ['sampler_0',['sampler',['../structbave_1_1SamplerImage.html#aa05d906e42dbf9c4c93656ebdb1fe0d7',1,'bave::SamplerImage::sampler'],['../classbave_1_1Texture.html#ab294672d317733d6da64aebead0e5ab3',1,'bave::Texture::sampler']]],
   ['scale_1',['scale',['../structbave_1_1ParticleConfig.html#ac7b3dc3f1fd745548aef7dbacb5655d2',1,'bave::ParticleConfig::scale'],['../structbave_1_1Transform.html#aba00d75e4ad1e3aa4824c0bac34fe377',1,'bave::Transform::scale']]],
   ['scale_5flimit_5fv_2',['scale_limit_v',['../classbave_1_1Font.html#a5c936f03a145ff035ab1f3122b951696',1,'bave::Font']]],
   ['scale_5fv_3',['scale_v',['../classbave_1_1Font.html#ae1b4c9e0c1d3b1a060eac3d35143a48f',1,'bave::Font']]],
@@ -13,5 +13,6 @@ var searchData=
   ['source_10',['source',['../structbave_1_1ExtentScaler.html#a8d0bec9aa7a89f66d43fbaf435dbea47',1,'bave::ExtentScaler::source'],['../structbave_1_1Projector.html#a7abb8489a29e88ff159571770fee17fd',1,'bave::Projector::source']]],
   ['spec_11',['spec',['../structbave_1_1clap_1_1Parser.html#afb977b64aa3fd2d258ca771e17e628d6',1,'bave::clap::Parser']]],
   ['speed_12',['speed',['../structbave_1_1ParticleConfig.html#a468d41b44c6c2c6e8faa6d7eb45fd82d',1,'bave::ParticleConfig']]],
-  ['swapchain_5fcolour_5fspace_13',['swapchain_colour_space',['../structbave_1_1RenderDeviceCreateInfo.html#aa7c238f94dcb89130446853b7215546e',1,'bave::RenderDeviceCreateInfo']]]
+  ['splash_13',['splash',['../structbave_1_1DesktopApp_1_1CreateInfo.html#a0442a61dd428b5225162cf7f03ed96b5',1,'bave::DesktopApp::CreateInfo']]],
+  ['swapchain_5fcolour_5fspace_14',['swapchain_colour_space',['../structbave_1_1RenderDeviceCreateInfo.html#aa7c238f94dcb89130446853b7215546e',1,'bave::RenderDeviceCreateInfo']]]
 ];

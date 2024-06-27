@@ -17,8 +17,9 @@ var searchData=
   ['polypinned_14',['PolyPinned',['../classbave_1_1PolyPinned.html#ad54c1bdf2fad63c168c2ac2344a04120',1,'bave::PolyPinned::PolyPinned(PolyPinned const &amp;)=delete'],['../classbave_1_1PolyPinned.html#af2beeb262aa14405aedbb5e4a6b28a84',1,'bave::PolyPinned::PolyPinned(PolyPinned &amp;&amp;)=delete'],['../classbave_1_1PolyPinned.html#ad934cd892ea8b76bbc9e6d8a3f9bedbf',1,'bave::PolyPinned::PolyPinned()=default']]],
   ['positional_15',['positional',['../classbave_1_1clap_1_1Options.html#ad90b35d287b0dff7e6025bd8ca50d5da',1,'bave::clap::Options']]],
   ['pre_5fwarm_16',['pre_warm',['../classbave_1_1ParticleEmitter.html#a4bcae5e5b51b0398e3fb977a8c44d773',1,'bave::ParticleEmitter::pre_warm()'],['../classbave_1_1ParticleSystem.html#a28f81602eae4bb97acc95c775ab8a4aa',1,'bave::ParticleSystem::pre_warm()']]],
-  ['project_17',['project',['../structbave_1_1Projector.html#a9be16a202eda5cfbfc5fbe969829a240',1,'bave::Projector']]],
-  ['project_5fto_18',['project_to',['../classbave_1_1RenderDevice.html#ac0442f8a2509e1068295c4718a910139',1,'bave::RenderDevice']]],
-  ['push_5fdrop_19',['push_drop',['../classbave_1_1App.html#aa3e6d10556c44cc2edbe1e0b972e47e8',1,'bave::App']]],
-  ['push_5fevent_20',['push_event',['../classbave_1_1App.html#a58b23af0b43451696554187a3a6eb77a',1,'bave::App']]]
+  ['prevent_5fclose_17',['prevent_close',['../classbave_1_1Driver.html#abab0ffbbfdfdb8bd5a62da69ef2588b3',1,'bave::Driver']]],
+  ['project_18',['project',['../structbave_1_1Projector.html#a9be16a202eda5cfbfc5fbe969829a240',1,'bave::Projector']]],
+  ['project_5fto_19',['project_to',['../classbave_1_1RenderDevice.html#ac0442f8a2509e1068295c4718a910139',1,'bave::RenderDevice']]],
+  ['push_5fdrop_20',['push_drop',['../classbave_1_1App.html#aa3e6d10556c44cc2edbe1e0b972e47e8',1,'bave::App']]],
+  ['push_5fevent_21',['push_event',['../classbave_1_1App.html#a58b23af0b43451696554187a3a6eb77a',1,'bave::App']]]
 ];

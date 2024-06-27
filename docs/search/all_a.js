@@ -2,8 +2,8 @@ var searchData=
 [
   ['acquire_5fnext_5fimage_0',['acquire_next_image',['../classbave_1_1RenderDevice.html#a27e6509c3b9b0e5e42735d3fa8723525',1,'bave::RenderDevice']]],
   ['acquireresult_1',['AcquireResult',['../classbave_1_1RenderDevice.html#abdadb8912d697db23d718035727e0af9',1,'bave::RenderDevice']]],
-  ['action_2',['action',['../structbave_1_1KeyInput.html#ab343df9b047d87ca1c9e0798d32c7314',1,'bave::KeyInput::action'],['../structbave_1_1PointerTap.html#a42e71a9acb17e4f7442387ab858ca2d1',1,'bave::PointerTap::action']]],
-  ['action_3',['Action',['../namespacebave.html#a0a29f10481cee37a76afab5db8c4e8a9',1,'bave']]],
+  ['action_2',['Action',['../namespacebave.html#a0a29f10481cee37a76afab5db8c4e8a9',1,'bave']]],
+  ['action_3',['action',['../structbave_1_1KeyInput.html#ab343df9b047d87ca1c9e0798d32c7314',1,'bave::KeyInput::action'],['../structbave_1_1PointerTap.html#a42e71a9acb17e4f7442387ab858ca2d1',1,'bave::PointerTap::action']]],
   ['action_2ehpp_4',['action.hpp',['../action_8hpp.html',1,'']]],
   ['active_5fparticles_5',['active_particles',['../classbave_1_1ParticleEmitter.html#a43b004527c72a6b48e750ebb22124b36',1,'bave::ParticleEmitter']]],
   ['add_6',['add',['../classbave_1_1Pixmap_1_1Builder.html#a4de2c8f0f3bc1bb23a4fb00ec4b9e60f',1,'bave::Pixmap::Builder']]],

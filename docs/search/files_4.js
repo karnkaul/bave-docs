@@ -5,5 +5,6 @@ var searchData=
   ['enum_5ft_2ehpp_2',['enum_t.hpp',['../enum__t_8hpp.html',1,'']]],
   ['error_2ehpp_3',['error.hpp',['../error_8hpp.html',1,'']]],
   ['event_2ehpp_4',['event.hpp',['../event_8hpp.html',1,'']]],
-  ['extent_5fscaler_2ehpp_5',['extent_scaler.hpp',['../extent__scaler_8hpp.html',1,'']]]
+  ['event_5fsink_2ehpp_5',['event_sink.hpp',['../event__sink_8hpp.html',1,'']]],
+  ['extent_5fscaler_2ehpp_6',['extent_scaler.hpp',['../extent__scaler_8hpp.html',1,'']]]
 ];

@@ -24,7 +24,6 @@ var hierarchy =
     [ "bave::Pixmap::Builder", "classbave_1_1Pixmap_1_1Builder.html", null ],
     [ "bave::CharInput", "structbave_1_1CharInput.html", null ],
     [ "bave::Circle", "structbave_1_1Circle.html", null ],
-    [ "bave::CombinedImageSampler", "structbave_1_1CombinedImageSampler.html", null ],
     [ "bave::DesktopApp::CreateInfo", "structbave_1_1DesktopApp_1_1CreateInfo.html", null ],
     [ "bave::CString", "classbave_1_1CString.html", null ],
     [ "bave::DataLoaderBuilder", "classbave_1_1DataLoaderBuilder.html", null ],
@@ -99,7 +98,6 @@ var hierarchy =
             [ "bave::CustomShape", "classbave_1_1CustomShape.html", null ],
             [ "bave::Shape< ShapeT >", "classbave_1_1Shape.html", [
               [ "bave::Sprite", "classbave_1_1Sprite.html", [
-                [ "bave::ParticleEmitter", "classbave_1_1ParticleEmitter.html", null ],
                 [ "bave::SpriteAnim", "classbave_1_1SpriteAnim.html", null ]
               ] ],
               [ "bave::Sprite9Slice", "classbave_1_1Sprite9Slice.html", null ]
@@ -109,6 +107,10 @@ var hierarchy =
         ] ],
         [ "bave::ParticleSystem", "classbave_1_1ParticleSystem.html", null ]
       ] ],
+      [ "bave::IEventSink", "classbave_1_1IEventSink.html", [
+        [ "bave::Driver", "classbave_1_1Driver.html", null ],
+        [ "bave::EventSink", "classbave_1_1EventSink.html", null ]
+      ] ],
       [ "bave::ImInputText", "classbave_1_1ImInputText.html", [
         [ "bave::ImInputTextMultiLine", "classbave_1_1ImInputTextMultiLine.html", null ]
       ] ]
@@ -117,8 +119,7 @@ var hierarchy =
       [ "bave::App", "classbave_1_1App.html", [
         [ "bave::AndroidApp", "classbave_1_1AndroidApp.html", null ],
         [ "bave::DesktopApp", "classbave_1_1DesktopApp.html", null ]
-      ] ],
-      [ "bave::Driver", "classbave_1_1Driver.html", null ]
+      ] ]
     ] ],
     [ "bave::Projector", "structbave_1_1Projector.html", null ],
     [ "bave::Quad", "structbave_1_1Quad.html", [
@@ -133,7 +134,9 @@ var hierarchy =
     [ "bave::Rect< int >", "structbave_1_1Rect.html", null ],
     [ "bave::RenderDevice", "classbave_1_1RenderDevice.html", null ],
     [ "bave::RenderDeviceCreateInfo", "structbave_1_1RenderDeviceCreateInfo.html", null ],
-    [ "bave::RenderInstance", "structbave_1_1RenderInstance.html", null ],
+    [ "bave::RenderInstance", "structbave_1_1RenderInstance.html", [
+      [ "bave::Drawable", "classbave_1_1Drawable.html", null ]
+    ] ],
     [ "bave::RenderPrimitive", "structbave_1_1RenderPrimitive.html", null ],
     [ "bave::RenderView", "structbave_1_1RenderView.html", null ],
     [ "bave::Rgba", "structbave_1_1Rgba.html", null ],
@@ -141,6 +144,7 @@ var hierarchy =
       [ "bave::Error", "classbave_1_1Error.html", null ]
     ] ],
     [ "bave::Texture::Sampler", "structbave_1_1Texture_1_1Sampler.html", null ],
+    [ "bave::SamplerImage", "structbave_1_1SamplerImage.html", null ],
     [ "bave::ScopedResource< Type, Deleter >", "classbave_1_1ScopedResource.html", null ],
     [ "bave::ScopedResource< Glfw, bave::DesktopApp::Glfw::Deleter >", "classbave_1_1ScopedResource.html", null ],
     [ "bave::ScopedResource< LogFile, bave::DesktopApp::LogFile::Deleter >", "classbave_1_1ScopedResource.html", null ],
@@ -150,6 +154,9 @@ var hierarchy =
     [ "bave::NineQuad::Size", "structbave_1_1NineQuad_1_1Size.html", null ],
     [ "bave::StringHash", "structbave_1_1StringHash.html", null ],
     [ "bave::Renderer::Frame::Sync", "structbave_1_1Renderer_1_1Frame_1_1Sync.html", null ],
+    [ "T...", null, [
+      [ "bave::Visitor< T >", "structbave_1_1Visitor.html", null ]
+    ] ],
     [ "bave::Texture", "classbave_1_1Texture.html", [
       [ "bave::Texture9Slice", "classbave_1_1Texture9Slice.html", null ],
       [ "bave::TextureAtlas", "classbave_1_1TextureAtlas.html", null ],
@@ -160,13 +167,16 @@ var hierarchy =
     [ "bave::TileSheet", "structbave_1_1TileSheet.html", null ],
     [ "bave::Timer", "classbave_1_1Timer.html", null ],
     [ "bave::Transform", "structbave_1_1Transform.html", null ],
+    [ "Type", null, [
+      [ "bave::Instanced< Sprite >", "classbave_1_1Instanced.html", [
+        [ "bave::ParticleEmitter", "classbave_1_1ParticleEmitter.html", null ]
+      ] ],
+      [ "bave::Instanced< Type >", "classbave_1_1Instanced.html", null ]
+    ] ],
     [ "bave::Version", "structbave_1_1Version.html", null ],
     [ "bave::Vertex", "structbave_1_1Vertex.html", null ],
     [ "bave::VertexArray", "structbave_1_1VertexArray.html", null ],
     [ "bave::Windowed", "structbave_1_1Windowed.html", null ],
     [ "bave::WindowResize", "structbave_1_1WindowResize.html", null ],
-    [ "bave::ZPlane", "structbave_1_1ZPlane.html", null ],
-    [ "bave::T", null, [
-      [ "bave::Visitor< T >", "structbave_1_1Visitor.html", null ]
-    ] ]
+    [ "bave::ZPlane", "structbave_1_1ZPlane.html", null ]
 ];
