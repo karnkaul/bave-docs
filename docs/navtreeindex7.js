@@ -1,5 +1,10 @@
 var NAVTREEINDEX7 =
 {
+"namespacebave.html#a42ac599e25fb0efa1e57698ec5da559da7ea7f801892a6358b5aeb4579bc6942d":[2,0,0,134,0],
+"namespacebave.html#a42ac599e25fb0efa1e57698ec5da559da89a0c434a3bd0a826ede27f7eada2af3":[2,0,0,134,4],
+"namespacebave.html#a42ac599e25fb0efa1e57698ec5da559da98ce873df53900dd5454baba574ecb06":[2,0,0,134,6],
+"namespacebave.html#a43ebdec65de340b63bfa89a465ecfea0":[2,0,0,123],
+"namespacebave.html#a44b5af69e8ec72d949f4d4c84da79c7a":[2,0,0,164],
 "namespacebave.html#a4520ad35b629b0215a85cb3bdf102c47":[2,0,0,118],
 "namespacebave.html#a4a2c4cdbb25ee11893de6d9a7d7bef50":[2,0,0,186],
 "namespacebave.html#a4ce8b395c13a0192b9166a4d546273cf":[2,0,0,185],
@@ -244,10 +249,5 @@ var NAVTREEINDEX7 =
 "structbave_1_1BitmapView.html#a32bad603ec2195e58a9a34e7b0a8580f":[4,0,0,10,1],
 "structbave_1_1BitmapView.html#a727947f7887a0a333e3937f932eadc41":[2,0,0,13,0],
 "structbave_1_1BitmapView.html#a727947f7887a0a333e3937f932eadc41":[4,0,0,10,0],
-"structbave_1_1BorderlessFullscreen.html":[2,0,0,14],
-"structbave_1_1BorderlessFullscreen.html":[4,0,0,11],
-"structbave_1_1CharInput.html":[2,0,0,15],
-"structbave_1_1CharInput.html":[4,0,0,12],
-"structbave_1_1CharInput.html#acb82933b07f2128246c1aa12041b497b":[2,0,0,15,0],
-"structbave_1_1CharInput.html#acb82933b07f2128246c1aa12041b497b":[4,0,0,12,0]
+"structbave_1_1BorderlessFullscreen.html":[2,0,0,14]
 };

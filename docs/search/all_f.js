@@ -3,7 +3,7 @@ var searchData=
   ['far_0',['far',['../structbave_1_1ZPlane.html#a8114957e31eb6fb5d0b4c52b78f4c88f',1,'bave::ZPlane']]],
   ['feature_1',['Feature',['../classbave_1_1App.html#ac8027866b01439f95caa6ff992b1d19e',1,'bave::App']]],
   ['featureflags_2',['FeatureFlags',['../classbave_1_1App.html#ab94c9be12de76c7dab24b82ec5ad64d0',1,'bave::App']]],
-  ['features_3',['Features',['../md_lib_2docs_2changelog.html#autotoc_md23',1,'']]],
+  ['features_3',['Features',['../md_lib_2docs_2changelog.html#autotoc_md24',1,'']]],
   ['file_5fio_2ehpp_4',['file_io.hpp',['../file__io_8hpp.html',1,'']]],
   ['file_5floader_2ehpp_5',['file_loader.hpp',['../file__loader_8hpp.html',1,'']]],
   ['fileloader_6',['FileLoader',['../classbave_1_1FileLoader.html',1,'bave::FileLoader'],['../classbave_1_1FileLoader.html#ab0c7de8bcdb4b315f9516fff35e6b0c6',1,'bave::FileLoader::FileLoader()']]],

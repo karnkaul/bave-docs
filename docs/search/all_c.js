@@ -7,7 +7,7 @@ var searchData=
   ['centre_4',['centre',['../structbave_1_1Rect.html#ace47382998baf61c5e293a2958869b86',1,'bave::Rect']]],
   ['changelog_5',['Changelog',['../md_lib_2docs_2changelog.html',1,'']]],
   ['changelog_2emd_6',['changelog.md',['../changelog_8md.html',1,'']]],
-  ['changes_7',['Changes',['../md_lib_2docs_2changelog.html#autotoc_md24',1,'']]],
+  ['changes_7',['Changes',['../md_lib_2docs_2changelog.html#autotoc_md25',1,'']]],
   ['channels_8',['channels',['../structbave_1_1Rgba.html#a348f54214aaa15c8a2aaa03b5d9d46ca',1,'bave::Rgba']]],
   ['charinput_9',['CharInput',['../structbave_1_1CharInput.html',1,'bave']]],
   ['circle_10',['Circle',['../structbave_1_1Circle.html',1,'bave']]],

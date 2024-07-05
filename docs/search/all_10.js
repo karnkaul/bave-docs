@@ -47,7 +47,7 @@ var searchData=
   ['get_5ffont_5fatlas_44',['get_font_atlas',['../classbave_1_1Font.html#ae4e8b685dde63d140922ce48bc8e0891',1,'bave::Font']]],
   ['get_5ffont_5flibrary_45',['get_font_library',['../classbave_1_1RenderDevice.html#a77072a9caa33ca56e61d2b3a2792733d',1,'bave::RenderDevice']]],
   ['get_5fframe_5findex_46',['get_frame_index',['../classbave_1_1RenderDevice.html#a25e6fb2005585fff6f58c2f603af463e',1,'bave::RenderDevice::get_frame_index()'],['../classbave_1_1Renderer.html#a6ea9337b819a14d0d1d39b7543c629b9',1,'bave::Renderer::get_frame_index()']]],
-  ['get_5fframebuffer_5fsize_47',['get_framebuffer_size',['../classbave_1_1App.html#a56957b5166a64ec9a854421465e311b0',1,'bave::App']]],
+  ['get_5fframebuffer_5fsize_47',['get_framebuffer_size',['../classbave_1_1App.html#a56957b5166a64ec9a854421465e311b0',1,'bave::App::get_framebuffer_size()'],['../classbave_1_1RenderDevice.html#a34f80bdf71d24e38a2d1d522224eaf77',1,'bave::RenderDevice::get_framebuffer_size()']]],
   ['get_5fgamepad_48',['get_gamepad',['../classbave_1_1App.html#ae9b67dc031e00b3f2c14090dbe6ab211',1,'bave::App']]],
   ['get_5fgamepads_49',['get_gamepads',['../classbave_1_1App.html#a6ef631a833bdc4fc24a883a2889b4cae',1,'bave::App']]],
   ['get_5fgeometry_50',['get_geometry',['../classbave_1_1Drawable.html#ad1c99d7325315faf44823bec47a00d0c',1,'bave::Drawable']]],

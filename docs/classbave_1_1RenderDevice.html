@@ -147,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa44918294231cc7946b4fba54ed69d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb9bcc7135d8f906e2004005f64f05b2" id="r_aeb9bcc7135d8f906e2004005f64f05b2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb9bcc7135d8f906e2004005f64f05b2">get_swapchain_extent</a> () const -&gt; vk::Extent2D</td></tr>
 <tr class="separator:aeb9bcc7135d8f906e2004005f64f05b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f80bdf71d24e38a2d1d522224eaf77" id="r_a34f80bdf71d24e38a2d1d522224eaf77"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34f80bdf71d24e38a2d1d522224eaf77">get_framebuffer_size</a> () const -&gt; glm::vec2</td></tr>
+<tr class="separator:a34f80bdf71d24e38a2d1d522224eaf77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4819016c311eb25ed0ed11a463225fb8" id="r_a4819016c311eb25ed0ed11a463225fb8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4819016c311eb25ed0ed11a463225fb8">get_line_width_limits</a> () const -&gt; <a class="el" href="structbave_1_1InclusiveRange.html">InclusiveRange</a>&lt; float &gt;</td></tr>
 <tr class="separator:a4819016c311eb25ed0ed11a463225fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a282a082b0afd0c444cdda6ffe745fa98" id="r_a282a082b0afd0c444cdda6ffe745fa98"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a282a082b0afd0c444cdda6ffe745fa98">get_sample_count</a> () const -&gt; vk::SampleCountFlagBits</td></tr>
@@ -157,8 +159,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad204091701c55bccc12219de27c4e791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adedc5002a097fd3a52368f812c48e358" id="r_adedc5002a097fd3a52368f812c48e358"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adedc5002a097fd3a52368f812c48e358">get_viewport_scaler</a> () const -&gt; <a class="el" href="structbave_1_1ExtentScaler.html">ExtentScaler</a></td></tr>
 <tr class="separator:adedc5002a097fd3a52368f812c48e358"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0442f8a2509e1068295c4718a910139" id="r_ac0442f8a2509e1068295c4718a910139"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0442f8a2509e1068295c4718a910139">project_to</a> (glm::vec2 target_space, glm::vec2 point) const -&gt; glm::vec2</td></tr>
-<tr class="separator:ac0442f8a2509e1068295c4718a910139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabca5be629933eaaad3b09b093e2bb82" id="r_aabca5be629933eaaad3b09b093e2bb82"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabca5be629933eaaad3b09b093e2bb82">project_to</a> (glm::vec2 target_space, glm::vec2 fb_point) const -&gt; glm::vec2</td></tr>
+<tr class="separator:aabca5be629933eaaad3b09b093e2bb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f6c26739d6226a3387d264f11d8dd6" id="r_a82f6c26739d6226a3387d264f11d8dd6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82f6c26739d6226a3387d264f11d8dd6">unproject_to</a> (<a class="el" href="structbave_1_1RenderView.html">RenderView</a> const &amp;view, glm::vec2 fb_point) const -&gt; glm::vec2</td></tr>
+<tr class="separator:a82f6c26739d6226a3387d264f11d8dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a3b2ff5173fea3137864656c003f740" id="r_a4a3b2ff5173fea3137864656c003f740"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a3b2ff5173fea3137864656c003f740">wait_for</a> (vk::Fence fence, std::uint64_t timeout=<a class="el" href="#a8f5fd2a240878f16278a390f60ec267b">max_timeout_v</a>) const -&gt; bool</td></tr>
 <tr class="separator:a4a3b2ff5173fea3137864656c003f740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a718389bac79524678725b12f916c8957" id="r_a718389bac79524678725b12f916c8957"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718389bac79524678725b12f916c8957">reset_fence</a> (vk::Fence fence, std::optional&lt; std::uint64_t &gt; wait_timeout) const -&gt; bool</td></tr>
@@ -352,12 +356,12 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">auto bave::RenderDevice::get_default_view </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt;  <a class="el" href="structbave_1_1RenderView.html">RenderView</a></td>
+          <td> const -&gt; <a class="el" href="structbave_1_1RenderView.html">RenderView</a> </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -453,6 +457,31 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const -&gt; detail::FrameIndex </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34f80bdf71d24e38a2d1d522224eaf77" name="a34f80bdf71d24e38a2d1d522224eaf77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34f80bdf71d24e38a2d1d522224eaf77">&#9670;&#160;</a></span>get_framebuffer_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::RenderDevice::get_framebuffer_size </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt; glm::vec2 </td>
         </tr>
       </table>
   </td>
@@ -727,20 +756,20 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">auto bave::RenderDevice::get_viewport_scaler </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt;  <a class="el" href="structbave_1_1ExtentScaler.html">ExtentScaler</a></td>
+          <td> const -&gt; <a class="el" href="structbave_1_1ExtentScaler.html">ExtentScaler</a> </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ac0442f8a2509e1068295c4718a910139" name="ac0442f8a2509e1068295c4718a910139"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0442f8a2509e1068295c4718a910139">&#9670;&#160;</a></span>project_to()</h2>
+<a id="aabca5be629933eaaad3b09b093e2bb82" name="aabca5be629933eaaad3b09b093e2bb82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabca5be629933eaaad3b09b093e2bb82">&#9670;&#160;</a></span>project_to()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -756,7 +785,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">glm::vec2</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;) const -&gt;  glm::vec2</td>
+          <td class="paramtype">glm::vec2</td>          <td class="paramname"><span class="paramname"><em>fb_point</em></span>&#160;) const -&gt;  glm::vec2</td>
         </tr>
       </table>
   </td>
@@ -866,6 +895,35 @@ Static Public Attributes</h2></td></tr>
           <td class="paramtype">vk::Semaphore</td>          <td class="paramname"><span class="paramname"><em>present_wait</em></span>&#160;) -&gt;  bool</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82f6c26739d6226a3387d264f11d8dd6" name="a82f6c26739d6226a3387d264f11d8dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82f6c26739d6226a3387d264f11d8dd6">&#9670;&#160;</a></span>unproject_to()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bave::RenderDevice::unproject_to </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbave_1_1RenderView.html">RenderView</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>view</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec2</td>          <td class="paramname"><span class="paramname"><em>fb_point</em></span>&#160;) const -&gt;  glm::vec2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
