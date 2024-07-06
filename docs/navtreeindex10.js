@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"structbave_1_1Version.html":[4,0,0,99],
+"structbave_1_1Version.html#a5fe7224bf5017d31e8ab2d30d107f4d6":[2,0,0,102,2],
 "structbave_1_1Version.html#a5fe7224bf5017d31e8ab2d30d107f4d6":[4,0,0,99,2],
 "structbave_1_1Version.html#a825d0a73fd1f4c0ecf354bc2a3eea620":[2,0,0,102,1],
 "structbave_1_1Version.html#a825d0a73fd1f4c0ecf354bc2a3eea620":[4,0,0,99,1],

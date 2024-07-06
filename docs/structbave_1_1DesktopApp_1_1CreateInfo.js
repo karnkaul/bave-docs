@@ -1,6 +1,7 @@
 var structbave_1_1DesktopApp_1_1CreateInfo =
 [
     [ "data_loader", "structbave_1_1DesktopApp_1_1CreateInfo.html#a91b7dc53018693587d770d756212ef99", null ],
+    [ "log_filename", "structbave_1_1DesktopApp_1_1CreateInfo.html#a54e3d0d0ff13165400ede9e37d2a448f", null ],
     [ "mode", "structbave_1_1DesktopApp_1_1CreateInfo.html#ae569119110e7c08751ebcd72039e115a", null ],
     [ "msaa", "structbave_1_1DesktopApp_1_1CreateInfo.html#a460f866415f6ee1c7a33dbf36527ab4d", null ],
     [ "persistent_dir", "structbave_1_1DesktopApp_1_1CreateInfo.html#aa266a2c7f4b0a4812fb18432fa15f3b1", null ],

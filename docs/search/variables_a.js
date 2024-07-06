@@ -8,5 +8,6 @@ var searchData=
   ['linear_5',['linear',['../structbave_1_1ParticleConfig.html#aa42b2b750e27ce2d8e0c553e69208e25',1,'bave::ParticleConfig']]],
   ['lo_6',['lo',['../structbave_1_1InclusiveRange.html#a28ee04e8b5dccd97fd2a814239dd5072',1,'bave::InclusiveRange']]],
   ['lock_5faspect_5fratio_7',['lock_aspect_ratio',['../structbave_1_1Windowed.html#a8f65638e326a94243aaa2e61ec6777ae',1,'bave::Windowed']]],
-  ['lt_8',['lt',['../structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee',1,'bave::Rect']]]
+  ['log_5ffilename_8',['log_filename',['../structbave_1_1DesktopApp_1_1CreateInfo.html#a54e3d0d0ff13165400ede9e37d2a448f',1,'bave::DesktopApp::CreateInfo']]],
+  ['lt_9',['lt',['../structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee',1,'bave::Rect']]]
 ];

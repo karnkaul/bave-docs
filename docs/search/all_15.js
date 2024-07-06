@@ -27,9 +27,10 @@ var searchData=
   ['loader_2ehpp_24',['loader.hpp',['../loader_8hpp.html',1,'']]],
   ['lock_5faspect_5fratio_25',['lock_aspect_ratio',['../structbave_1_1Windowed.html#a8f65638e326a94243aaa2e61ec6777ae',1,'bave::Windowed']]],
   ['log_26',['log',['../structbave_1_1Logger.html#aa4b415fce1f10a2bc9fcd4582f10d74f',1,'bave::Logger']]],
-  ['log_5fmessage_27',['log_message',['../namespacebave_1_1log.html#adc1b43988671b861dd49e803a79fe384',1,'bave::log::log_message()'],['../namespacebave_1_1log_1_1internal.html#ac2db21917b90a84805bce19410d3fa8c',1,'bave::log::internal::log_message()']]],
-  ['logger_28',['Logger',['../structbave_1_1Logger.html',1,'bave']]],
-  ['logger_2ehpp_29',['logger.hpp',['../logger_8hpp.html',1,'']]],
-  ['long_5foption_30',['long_option',['../structbave_1_1clap_1_1Parser.html#a306e7ade3ebdb93491f74318c09dddc6',1,'bave::clap::Parser']]],
-  ['lt_31',['lt',['../structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee',1,'bave::Rect']]]
+  ['log_5ffilename_27',['log_filename',['../structbave_1_1DesktopApp_1_1CreateInfo.html#a54e3d0d0ff13165400ede9e37d2a448f',1,'bave::DesktopApp::CreateInfo']]],
+  ['log_5fmessage_28',['log_message',['../namespacebave_1_1log.html#adc1b43988671b861dd49e803a79fe384',1,'bave::log::log_message()'],['../namespacebave_1_1log_1_1internal.html#ac2db21917b90a84805bce19410d3fa8c',1,'bave::log::internal::log_message()']]],
+  ['logger_29',['Logger',['../structbave_1_1Logger.html',1,'bave']]],
+  ['logger_2ehpp_30',['logger.hpp',['../logger_8hpp.html',1,'']]],
+  ['long_5foption_31',['long_option',['../structbave_1_1clap_1_1Parser.html#a306e7ade3ebdb93491f74318c09dddc6',1,'bave::clap::Parser']]],
+  ['lt_32',['lt',['../structbave_1_1Rect.html#ab39914596410a7d24424ea6b93c7cbee',1,'bave::Rect']]]
 ];
